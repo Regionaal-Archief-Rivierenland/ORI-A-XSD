@@ -278,7 +278,7 @@
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="\d+\w*"/>
+                        <xs:pattern value="\d+[A-Za-z]*"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -288,7 +288,7 @@
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="\d+\w*"/>
+                        <xs:pattern value="\d+[A-Za-z]*"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
