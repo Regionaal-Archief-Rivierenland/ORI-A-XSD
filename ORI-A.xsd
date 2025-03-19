@@ -3,11 +3,6 @@
     <xs:element name="ORI-A">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="mediabron" type="mediabronGegevens" minOccurs="1" maxOccurs="unbounded">
-                    <xs:annotation>
-                        <xs:documentation>Gegevens over de transcriptie, video-opname of audio-opname van de vergadering, zoals het bestandstype en eventuele ondertitelbestanden.</xs:documentation>
-                    </xs:annotation>
-                </xs:element>
                 <xs:element name="vergadering" type="vergaderingGegevens" minOccurs="1" maxOccurs="1">
                     <xs:annotation>
                         <xs:documentation>Gegevens over de vergadering, zoals bijhorende stukken. Een vergadering kan uit een of meer deelvergaderingen bestaan.</xs:documentation>
@@ -16,6 +11,11 @@
                 <xs:element name="agendapunt" type="agendapuntGegevens" minOccurs="1" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Gegevens over een agendapunt wat tijdens de vergadering behandeld is, zoals bijhorende stukken. Een agendapunt kan uit een of meer subagendapunten bestaan.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="mediabron" type="mediabronGegevens" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Gegevens over de transcriptie, video-opname of audio-opname van de vergadering, zoals het bestandstype en eventuele ondertitelbestanden.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="stemming" type="stemmingGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -282,7 +282,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="agendapuntVolgnummer" minOccurs="0" maxOccurs="1">
+            <xs:element name="agendapuntVolgnummer" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, en mag eventueel gevolgd worden door een reeks letters.</xs:documentation>
                 </xs:annotation>
@@ -317,7 +317,7 @@
                     <xs:documentation>De weergave van het agendapuntvolgnummer op de agenda.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="agendapuntTitel" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="agendapuntTitel" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Titel of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
@@ -342,7 +342,7 @@
                     <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de vergadering waarin het agendapunt behandeld werd.</xs:documentation>
                 </xs:annotation>
