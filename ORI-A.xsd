@@ -62,25 +62,33 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="begripGegevens">
+		<xs:sequence>
+			<xs:element name="begripLabel" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De tekstweergave die aan het begrip is toegekend in de begrippenlijst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="begripCode" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De code die aan het begrip is toegekend in de begrippenlijst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+            <!-- dit is de way; en dan gewoon zorgen dat bij elke begrippenlijst een ID komt te staan, zoals deze https://identifier.overheid.nl/tooi/set/ccw_plooi_documentsoorten/6 -->
+			<xs:element name="begripBegrippenlijst" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een verwijzing naar de begrippenlijst waar het begrip verklaard wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is normaliter een URL; de naam is meestal de titel van de begrippenlijst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
     <xs:complexType name="informatieobjectGegevens">
         <xs:sequence>
-            <xs:element name="informatieobjectType" minOccurs="0" maxOccurs="1">
+            <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Het type van het informatieobject, zoals gedefinieerd in een begrippenlijst. Dit kan een zelfgemaakte lijst zijn, of de bestaande lijst 'ORI-A: Begrippenlijst informatieobject types'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voorstel"/>
-                        <xs:enumeration value="Motie"/>
-                        <xs:enumeration value="Amendement"/>
-                        <xs:enumeration value="Besluitsvormingsstuk"/>
-                        <xs:enumeration value="Toezegging"/>
-                        <xs:enumeration value="Mededeling"/>
-                        <xs:enumeration value="Vraag"/>
-                        <xs:enumeration value="Antwoord"/>
-                        <xs:enumeration value="Ingekomen stuk"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="verwijzingInformatieobject" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -167,19 +175,10 @@
                     <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderingsType" minOccurs="1" maxOccurs="1">
+            <xs:element name="vergaderingsType" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort vergadering.</xs:documentation>
+                    <xs:documentation>Het soort vergadering, zoals gedefinieerd in een begrippenlijst. Dit kan een zelfgemaakte lijst zijn, of de bestaande lijst 'ORI-A: Begrippenlijst vergaderings types'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Raadsvergadering"/>
-                        <xs:enumeration value="Commissievergadering"/>
-                        <xs:enumeration value="Statenvergadering"/>
-                        <xs:enumeration value="Algemene bestuursvergadering"/>
-                        <xs:enumeration value="Presidium"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -445,6 +444,7 @@
                 <xs:annotation>
                     <xs:documentation>De wijze waarop gestemd is.</xs:documentation>
                 </xs:annotation>
+                <!-- twijfel geval -->
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Hoofdelijk"/>
@@ -530,6 +530,7 @@
                 <xs:annotation>
                     <xs:documentation>Het resultaat van het besluit.</xs:documentation>
                 </xs:annotation>
+                <!-- twijfel geval -->
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Unaniem aangenomen"/>
@@ -555,17 +556,10 @@
                     <xs:documentation>Naam van het dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="dagelijksBestuurType" minOccurs="1" maxOccurs="1">
+            <xs:element name="dagelijksBestuurType" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
+                    <xs:documentation>Het soort dagelijks bestuur, zoals gedefinieerd in een begrippenlijst. Dit kan een zelfgemaakte lijst zijn, of de bestaande lijst 'ORI-A: Begrippenlijst dagelijks bestuur types'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="College"/>
-                        <xs:enumeration value="Gedeputeerde Staten"/>
-                        <xs:enumeration value="Dagelijks bestuur"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="bestuurslaag" type="bestuurslaagGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -618,31 +612,10 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="functie" minOccurs="0" maxOccurs="1">
+            <xs:element name="functie" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De functie van de persoon.</xs:documentation>
+                    <xs:documentation>De functie van de persoon, zoals gedefinieerd in een begrippenlijst. Dit kan een zelfgemaakte lijst zijn, of de bestaande lijst 'ORI-A: Begrippenlijst functies natuurlijk persoon'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Burgemeester"/>
-                        <xs:enumeration value="Wethouder"/>
-                        <xs:enumeration value="Raadslid"/>
-                        <xs:enumeration value="Burgerlid"/>
-                        <xs:enumeration value="Griffier"/>
-                        <xs:enumeration value="Gemeentesecretaris"/>
-                        <xs:enumeration value="Commissaris van de Koning"/>
-                        <xs:enumeration value="Gedeputeerde"/>
-                        <xs:enumeration value="Statenlid"/>
-                        <xs:enumeration value="Provinciesecretaris"/>
-                        <xs:enumeration value="Dijkgraaf"/>
-                        <xs:enumeration value="Dagelijks bestuurslid"/>
-                        <xs:enumeration value="Algemeen bestuurslid"/>
-                        <xs:enumeration value="Secretarisdirecteur"/>
-                        <xs:enumeration value="Ambtenaar/medewerker"/>
-                        <xs:enumeration value="Adviseur of deskundige"/>
-                        <xs:enumeration value="Overig"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="naam" type="naamGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -827,22 +800,8 @@
             </xs:element>
             <xs:element name="rolnaam" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was.</xs:documentation>
+                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was, zoals gedefinieerd in een begrippenlijst. Dit kan een zelfgemaakte lijst zijn, of de bestaande lijst 'ORI-A: rolnamen aanwezige deelnemer.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voorzitter"/>
-                        <xs:enumeration value="Vice-voorzitter"/>
-                        <xs:enumeration value="Raadslid"/>
-                        <xs:enumeration value="Statenlid"/>
-                        <xs:enumeration value="Dagelijks bestuurslid"/>
-                        <xs:enumeration value="Algemeen bestuurslid"/>
-                        <xs:enumeration value="Inspreker"/>
-                        <xs:enumeration value="Portefeuillehouder"/>
-                        <xs:enumeration value="Griffier"/>
-                        <xs:enumeration value="Overig"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="organisatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
