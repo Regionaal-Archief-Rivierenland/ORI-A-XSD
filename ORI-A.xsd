@@ -152,7 +152,7 @@
                     <xs:documentation>Uniek identificatie kenmerk van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="naam" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De naam van de vergadering.</xs:documentation>
                 </xs:annotation>
@@ -167,7 +167,7 @@
                     <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderingsType" minOccurs="1" maxOccurs="1">
+            <xs:element name="vergaderingsType" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort vergadering.</xs:documentation>
                 </xs:annotation>
@@ -203,7 +203,7 @@
                     <xs:documentation>Geplande aanvangsdatum van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderdatum" type="xs:date" minOccurs="0" maxOccurs="1">
+            <xs:element name="vergaderdatum" type="xs:date" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De datum waarop de vergadering daadwerkelijk gehouden werd.</xs:documentation>
                 </xs:annotation>
@@ -332,7 +332,7 @@
                     <xs:documentation>Geeft aan of het agendapunt is behandeld tijdens de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatorBesloten" type="xs:boolean" minOccurs="1" maxOccurs="1">
+            <xs:element name="indicatorBesloten" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt besloten werd behandeld.</xs:documentation>
                 </xs:annotation>
@@ -371,7 +371,11 @@
                     <xs:documentation>Uniek identificatiekenmerk van het spreekfragment.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="aanvangSpreekfragment" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+            <!-- nu verplicht, want anders, zo was de redenatie is er geen info meer in dit element.
+                 Dat is misschien niet waar, tho. Je hebt atm nog steeds een koppeling met een agendapunt,
+                 dus dit element geeft dan aan "X sprak tijdens agendapunt Y". Dit is niet per se "waardeloos"
+            -->
+            <xs:element name="aanvangSpreekfragment" type="xs:dateTime" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Datum en tijdstip waarop het spreekfragment begon.</xs:documentation>
                 </xs:annotation>
@@ -422,7 +426,7 @@
                     <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de video-opname het spreekfragment eindigt. Dit kan óf een tijdstempel zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment eindigt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isVastgelegdIn" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="isVastgelegdIn" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de mediabron waarin het spreekfragment is vastgelegd.</xs:documentation>
                 </xs:annotation>
