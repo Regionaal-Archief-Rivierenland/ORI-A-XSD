@@ -29,4 +29,4 @@ Bovendien bestaat er een [grafische representatie van het informatiemodel.](docs
 
 ## Licentie & attributie
 
-Het ORI-A metagegevensschema en bijbehorende documentatie zijn gelicentieerd onder de [EUPL](https://eupl.eu/1.2/nl/). Daarnaast bevat dit project onderdelen die gebaseerd zijn op het MDTO metagegevensschema. MDTO is een product van het Nationaal Archief, en wordt vrijgegeven onder [een CC BY-SA licentie](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+Het ORI-A metagegevensschema en bijbehorende documentatie zijn gelicentieerd onder de [EUPL](https://eupl.eu/1.2/nl/). Daarnaast bevat dit project geremixte onderdelen van het MDTO metagegevensschema. MDTO is een product van het Nationaal Archief, en wordt vrijgegeven onder [een CC BY-SA licentie](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
