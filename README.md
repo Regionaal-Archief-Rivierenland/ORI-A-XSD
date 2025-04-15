@@ -16,7 +16,7 @@ De ORI-A XSD is momenteel in bèta, en [kan hier gedownload worden](https://gith
 
 De documentatie van de XSD is een work-in-progress. De betekenis van de verschillende (sub)elementen kan op dit moment achterhaald worden uit de waardes binnen de `<xs:documentation>` tags.
 
-Bovendien bestaat er een [grafische representatie van het informatiemodel.](docs/ORI-diagram.pdf)
+Bovendien bestaat er een [grafische representatie van het informatiemodel.](docs/ORI-A-diagram.pdf)
 
 ## Werkgroep deelnemers
 
