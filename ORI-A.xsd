@@ -75,7 +75,7 @@
 				</xs:annotation>
 			</xs:element>
             <!-- dit is de way; en dan gewoon zorgen dat bij elke begrippenlijst een ID komt te staan, zoals deze https://identifier.overheid.nl/tooi/set/ccw_plooi_documentsoorten/6 -->
-			<xs:element name="begripBegrippenlijst" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+			<xs:element name="begrippenlijstVerwijzing" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>Een verwijzing naar de begrippenlijst waar het begrip verklaard wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is normaliter een URL; de naam is meestal de titel van de begrippenlijst.</xs:documentation>
 				</xs:annotation>
