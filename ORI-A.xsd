@@ -751,7 +751,7 @@
     </xs:complexType>
     <xs:complexType name="fractieGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de fractie.</xs:documentation>
                 </xs:annotation>
