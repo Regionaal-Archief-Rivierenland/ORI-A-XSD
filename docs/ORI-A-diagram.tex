@@ -134,16 +134,16 @@
           \attrib{\textbf{ID}}{string}{} \\
           \attrib{Agendapunt omschrijving}{string}{[0..1]} \\
           \attrib{Gepland agendapuntvolgnummer}{string}{[0..1]} \\
-          \attrib{Agendapuntvolgnummer}{string}{[0..1]} \\
+          \attrib{\textbf{Agendapuntvolgnummer}}{string}{} \\
           \attrib{Geplande starttijd}{datum + tijd}{[0..1]} \\
           \attrib{Geplande eindtijd}{datum + tijd}{[0..1]} \\
           \attrib{Starttijd}{datum + tijd}{[0..1]} \\
           \attrib{Eindtijd}{datum + tijd}{[0..1]} \\
           \attrib{Agendapunt kenmerk}{string}{[0..1]} \\
-          \attrib{Agendapunt titel}{string}{[0..1]} \\
+          \attrib{\textbf{Agendapunt titel}}{string}{} \\
           \attrib{Indicatie hamerstuk}{boolean}{[0..1]} \\
           \attrib{Indicator behandeld}{boolean}{[0..1]} \\
-          \attrib{\textbf{Indicator besloten}}{boolean}{} \\
+          \attrib{Indicator besloten}{boolean}{[0..1]} \\
           \attrib{Bestuurslaag}{bestuurslaagGegevens}{[0..1]}
         };
 
@@ -153,14 +153,14 @@
           \objectheader{Objecttype}{Vergadering}
 
           \attrib{\textbf{ID}}{string}{} \\
-          \attrib{Naam}{string}{[0..1]} \\
+          \attrib{\textbf{Naam}}{string}{} \\
           \attrib{Vergadertoelichting}{string}{[0..1]} \\
           \attrib{Georganiseerd door gremium}{gremiumGegevens}{[0..1]} \\
-          \attrib{\textbf{Vergaderingstype}}{\enumeratietype{vergaderingstype}}{} \\
+          \attrib{Vergaderingstype}{\enumeratietype{vergaderingstype}}{[0..1]} \\
           \attrib{Locatie}{string}{[0..1]} \\
           \attrib{Status}{\enumeratietype{status}}{[0..1]} \\
           \attrib{Geplande vergaderdatum}{datum}{[0..1]} \\
-          \attrib{Vergaderdatum}{datum}{[0..1]} \\
+          \attrib{\textbf{Vergaderdatum}}{datum}{} \\
           \attrib{Geplande aanvang vergadering}{datum + tijd}{[0..1]} \\
           \attrib{Gepland einde vergadering}{datum + tijd}{[0..1]} \\
           \attrib{Aanvang vergadering}{datum + tijd}{[0..1]} \\
@@ -174,7 +174,7 @@
           \objectheader{Objecttype}{Aanwezige deelnemer}
 
           \attrib{ID}{string}{[0..1]} \\
-          \attrib{\textbf{Rolnaam}}{\enumeratietype{rolnaam}}{} \\
+          \attrib{Rolnaam}{\enumeratietype{rolnaam}}{[0..1]} \\
           \attrib{Organisatie}{string}{[0..1]} \\
           \attrib{Deelnemerspositie}{string}{[0..1]} \\
           \attrib{Aanvang aanwezigheid}{datum + tijd}{[0..1]} \\
@@ -197,7 +197,7 @@
         {
           \objectheader{Objecttype}{Fractie}
 
-          \attrib{ID}{string}{[0..1]} \\
+          \attrib{\textbf{ID}}{string}{} \\
           \attrib{\textbf{Fractienaam}}{string}{}\\
           \attrib{Bestuurslaag}{bestuurslaagGegevens}{[0..1]}
         };
@@ -221,8 +221,8 @@
           \objectheader{Objecttype}{Dagelijks bestuur}
 
           \attrib{\textbf{ID}}{string}{} \\
-          \attrib{\textbf{Dagelijks bestuur naam}}{string}{} \\ 
-          \attrib{\textbf{Dagelijks bestuur type}}{\enumeratietype{dagelijksBestuurType}}{} \\
+          \attrib{\textbf{Dagelijks bestuur naam}}{string}{} \\
+          \attrib{Dagelijks bestuur type}{\enumeratietype{dagelijksBestuurType}}{[0..1]} \\
           \attrib{\textbf{Bestuurslaag}}{bestuurslaagGegevens}{}
         };
 
@@ -272,10 +272,10 @@
           \attrib{\textbf{Omschrijving nevenfunctie}}{string}{} \\
           \attrib{Naam organisatie nevenfunctie}{string}{[0..1]} \\
           \attrib{Aantal uren per maand}{integer}{[0..1]} \\
-          \attrib{\textbf{Indicator bezoldigd}}{boolean}{} \\
+          \attrib{Indicator bezoldigd}{boolean}{[0..1]} \\
           \attrib{Indicator nevenfunctie vanwege lidmaatschap}{boolean}{[0..1]} \\
           \attrib{Datum melding}{datum}{[0..1]} \\
-          \attrib{\textbf{Datum aanvang nevenfunctie}}{datum}{} \\
+          \attrib{Datum aanvang nevenfunctie}{datum}{[0..1]} \\
           \attrib{Datum einde nevenfunctie}{datum}{[0..1]}
         };
 
@@ -286,7 +286,7 @@
           \attrib{ID}{string}{[0..1]} \\
           \attrib{Datum begin fractielidmaatschap}{datum}{[0..1]} \\
           \attrib{Datum einde fractielidmaatschap}{datum}{[0..1]} \\
-          \attrib{\textbf{Indicate voorzitter}}{boolean}{}
+          \attrib{Indicate voorzitter}{boolean}{[0..1]}
         };
 
    \node (dagelijksbestuurlidmaatschap) [ORI relatieklasse, align=center, below = 6.45cm of fractielidmaatschap]
@@ -304,7 +304,7 @@
 
           \attrib{\textbf{ID}}{string}{} \\
           \attrib{Mimetype}{string}{[0..1]} \\
-          \attrib{\textbf{Mediabron type}}{\enumeratietype{mediabronType}}{} \\
+          \attrib{Mediabron type}{\enumeratietype{mediabronType}}{[0..1]} \\
           \attrib{URL}{URI}{[0..1]}
         };
         
@@ -324,7 +324,7 @@
           \objectheader{Gegevensgroeptype}{Stemming over personen}
 
           \attrib{\textbf{Naam kandidaat}}{string}{} \\
-          \attrib{\textbf{Aantal uitgebrachte stemmen}}{integer}{}
+          \attrib{Aantal uitgebrachte stemmen}{integer}{[0..1]}
         };
 
    \node (vergaderstuk) [ORI relatieklasse, above right = -4.6cm and 7.2cm of agendapunt, align=center]
@@ -490,7 +490,7 @@
   ($(bumpstart) - (0,3.3cm)$) -|
   node [pos=0.17, above] {heeft behandelend ambtenaar}
   node [pos=0.17, below] {\umltype{Relatiesoort}}
-  node [kardinaliteit, pos=1, right, yshift=-\kyshiftbeg, xshift=\kxshiftbeg] {\oldstylenums{0..1}}
+  node [kardinaliteit, pos=1, right, yshift=-\kyshiftbeg, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ($(natuurlijkpersoon.south) + (3.9cm, 0)$);
   
   %% mediabron -> mdto (is vastgelegd in)
@@ -593,7 +593,7 @@
 
   %% spreekfragment -> mediabron
   \draw[relatiepijl] (spreekfragment.west) -|
-  node [kardinaliteit, pos=0, above, xshift=-\kxshiftbeg] {\oldstylenums{1..*}}
+  node [kardinaliteit, pos=0, above, xshift=-\kxshiftbeg] {\oldstylenums{0..*}}
   node [kardinaliteit, pos=1, right, yshift=\kyshiftend] {\oldstylenums{0..1}}
   node [above, pos=0.27] {is vastgelegd in}
   node [below, pos=0.27] {\umltype{Relatiesoort}}
