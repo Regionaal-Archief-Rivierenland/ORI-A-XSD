@@ -20,7 +20,7 @@
                 </xs:element>
                 <xs:element name="stemming" type="stemmingGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een stemming. Een stemming heeft altijd betrekking op een bepaald agendapunt, maar het is daarnaast ook mogelijk om over personen te stemmen, zoals bij een benoeming van een raadslid. Iemands stemkeuze tijdens een bepaalde stemming hoort thuis onder `aanwezigeDeelnemer`.</xs:documentation>
+                        <xs:documentation>Gegevens over een stemming. Een stemming heeft altijd betrekking op een bepaald agendapunt, maar het is daarnaast ook mogelijk om over personen te stemmen, zoals bij een benoeming van een raadslid. Iemands stemkeuze tijdens een bepaalde stemming hoort onder `aanwezigeDeelnemer`.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="fractie" type="fractieGegevens" minOccurs="0" maxOccurs="unbounded">
