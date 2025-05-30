@@ -198,7 +198,7 @@
             </xs:element>
             <xs:element name="raadpleeglocatieOnline" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Actuele link naar een online raadpleeglocatie waar de vergadering in zijn geheel wordt getoond, bijvoorbeeld de publicatieomgeving van een raadsinformatiesysteem.</xs:documentation>
+                    <xs:documentation>Actuele link naar een online raadpleeglocatie waar de vergadering in zijn geheel wordt getoond, zoals de publicatieomgeving van een raadsinformatiesysteem.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="status" minOccurs="0" maxOccurs="1">
