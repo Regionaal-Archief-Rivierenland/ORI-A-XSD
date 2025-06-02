@@ -35,12 +35,12 @@
                 </xs:element>
                 <xs:element name="natuurlijkPersoon" type="natuurlijkPersoonGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens met contextuele informatie over een persoon, zoals diens naam en fractielidmaatschap.</xs:documentation>
+                        <xs:documentation>Gegevens over een persoon die een rol speelde in de vergadering, maar niet zelf aanwezig was. Dit kan bijvoorbeeld een ondertekenaar of indiender van een stuk zijn. Persoonsgegevens over aanwezigen komen onder 'aanwezigeDeelnemer'.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="aanwezigeDeelnemer" type="aanwezigeDeelnemerGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een persoon die daadwerkelijk bij de vergadering aanwezig was, zoals de momenten waarop hij insprak.</xs:documentation>
+                        <xs:documentation>Gegevens over een persoon die daadwerkelijk bij de vergadering aanwezig was, zoals diens stemgedrag, inspreek momenten, en meer algemene persoonsgevens.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
             </xs:sequence>
@@ -879,14 +879,14 @@
                     <xs:documentation>Datum en tijdstip waarna de deelnemer de vergadering verliet.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isNatuurlijkPersoon" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Verwijzing naar de natuurlijk persoon die als de deelnemer optreedt.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="neemtDeelAanVergadering" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de (deel)vergadering waar de deelnemer aanwezig was.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="isNatuurlijkPersoon" type="natuurlijkPersoonGegevens" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Gegevens over de persoon die deelnemer als optreedt, zoals diens naam en fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="neemtDeelAanStemming" type="stemGegevens" minOccurs="0" maxOccurs="unbounded">
