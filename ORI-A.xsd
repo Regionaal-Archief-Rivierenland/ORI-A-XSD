@@ -289,21 +289,21 @@
             </xs:element>
             <xs:element name="geplandAgendapuntVolgnummer" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het geplande agendapunt volgnummer. Begint met een of meer cijfers, en wordt eventueel gevolgd door een reeks letters.</xs:documentation>
+                    <xs:documentation>Het geplande agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="\d+[A-Za-z]*"/>
+                        <xs:pattern value="\d+.*"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
             <xs:element name="agendapuntVolgnummer" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, en wordt eventueel gevolgd door een reeks letters.</xs:documentation>
+                    <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:pattern value="\d+[A-Za-z]*"/>
+                        <xs:pattern value="\d+.*"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
