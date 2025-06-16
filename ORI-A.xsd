@@ -40,7 +40,7 @@
                 </xs:element>
                 <xs:element name="aanwezigeDeelnemer" type="aanwezigeDeelnemerGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een persoon die daadwerkelijk bij de vergadering aanwezig was, zoals diens stemgedrag, inspreek momenten, en meer algemene persoonsgevens.</xs:documentation>
+                        <xs:documentation>Gegevens over een persoon die daadwerkelijk bij de vergadering aanwezig was, zoals diens stemgedrag, inspreek momenten, en meer algemene persoonsgegevens.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
             </xs:sequence>
