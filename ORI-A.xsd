@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://ori-a.nl" targetNamespace="https://ori-a.nl" xmlns:ori-a="https://ori-a.nl" elementFormDefault="qualified" version="v0.0.9">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://ori-a.nl" targetNamespace="https://ori-a.nl" xmlns:ori-a="https://ori-a.nl" elementFormDefault="qualified" version="v0.0.11">
     <xs:element name="ORI-A">
         <xs:complexType>
             <xs:sequence>
