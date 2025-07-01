@@ -10,7 +10,7 @@
                 </xs:element>
                 <xs:element name="agendapunt" type="agendapuntGegevens" minOccurs="1" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een agendapunt wat tijdens de vergadering behandeld is, zoals bijhorende stukken. Een agendapunt kan uit een of meer subagendapunten bestaan.</xs:documentation>
+                        <xs:documentation>Gegevens over een agendapunt wat tijdens de vergadering behandeld is, zoals het volgnummer en bijbehorende stukken. Een agendapunt kan uit een of meer subagendapunten bestaan.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="mediabron" type="mediabronGegevens" minOccurs="0" maxOccurs="unbounded">
