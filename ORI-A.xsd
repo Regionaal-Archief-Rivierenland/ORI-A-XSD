@@ -337,17 +337,17 @@
                     <xs:documentation>Titel of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatieHamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="hamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt een hamerstuk was.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatorBehandeld" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="behandeld" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt is behandeld tijdens de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatorBesloten" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="besloten" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt besloten werd behandeld.</xs:documentation>
                 </xs:annotation>
@@ -727,12 +727,12 @@
                     <xs:documentation>Aantal uren per maand dat besteed wordt aan de nevenfunctie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatorBezoldigd" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="bezoldigd" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of de nevenfunctie wordt uitgevoerd tegen betaling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatorNevenfunctieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="nevenfunctieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of de nevenfunctie wordt vervuld vanwege een lidmaatschap van de Raad of de Staten.</xs:documentation>
                 </xs:annotation>
@@ -795,7 +795,7 @@
                     <xs:documentation>Datum waarop iemands fractielidmaatschap eindigde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="indicatieVoorzitter" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="voorzitter" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of iemand fractievoorzitter is.</xs:documentation>
                 </xs:annotation>
