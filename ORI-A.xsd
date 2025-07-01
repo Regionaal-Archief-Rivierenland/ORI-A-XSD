@@ -357,7 +357,7 @@
                     <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de vergadering waarin het agendapunt behandeld werd.</xs:documentation>
                 </xs:annotation>
