@@ -297,7 +297,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="agendapuntVolgnummer" minOccurs="1" maxOccurs="1">
+            <xs:element name="agendapuntVolgnummer" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
