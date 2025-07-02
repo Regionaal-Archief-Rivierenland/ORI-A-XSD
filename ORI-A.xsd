@@ -413,7 +413,6 @@
             </xs:element>
             <xs:element name="positieNotulen" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <!-- TODO: vragen naar een voorbeeld waarde? Leon: Misschien paginanummer? -->
                     <xs:documentation>De positie van het spreekfragment in de notulen, bijvoorbeeld `pagina 8`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
