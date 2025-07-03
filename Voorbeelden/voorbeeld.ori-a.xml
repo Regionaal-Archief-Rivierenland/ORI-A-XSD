@@ -64,7 +64,7 @@
         </heeftAlsBijlage>
     </agendapunt>
     <agendapunt>
-        <ID>2028a00aaa2a8aaa00a2aab6bdaef</ID>
+        <ID>202282aa200aa08200a2821eb50cf</ID>
         <agendapuntVolgnummer>23</agendapuntVolgnummer>
         <starttijd>2023-11-30T20:59:40</starttijd>
         <agendapuntTitel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</agendapuntTitel>
@@ -91,7 +91,6 @@
             </verwijzingInformatieobject>
         </heeftBetrekkingOpBesluitvormingsstuk>
     </stemming>
-
     <stemming>
         <ID>A.23.0082.02</ID>
         <stemmingType>Regulier</stemmingType>
@@ -169,20 +168,20 @@
     <aanwezigeDeelnemer>
         <isNatuurlijkPersoon>
             <ID>Persoon-0</ID>
+            <functie>Burgemeester</functie>
             <naam>
-                <achternaam>Vlugt</achternaam>
-                <volledigeNaam>Peter van der Vlugt</volledigeNaam>
+                <achternaam>Velden</achternaam>
+                <volledigeNaam>Peter van der Velden</volledigeNaam>
             </naam>
             <isLidVanDagelijksBestuur>
-                <heeftBetrekkingOp>
+                <verwijzingDagelijksbestuur>
                     <verwijzingID>College van B&amp;W-gm0546</verwijzingID>
-                    <verwijzingNaam>College van B&amp;W</verwijzingNaam>
-                </heeftBetrekkingOp>
+                </verwijzingDagelijksbestuur>
             </isLidVanDagelijksBestuur>
         </isNatuurlijkPersoon>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1401</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1402</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>1345</videoTijdsaanduidingAanvang>
+            <videoTijdsaanduidingEinde>1346</videoTijdsaanduidingEinde>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -392,6 +391,7 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-1</ID>
             <functie>Raadslid</functie>
@@ -401,17 +401,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>PS-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>PS-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>3677</videoTijdsaanduidingAanvang>
@@ -422,6 +427,7 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-2</ID>
             <functie>Raadslid</functie>
@@ -431,20 +437,26 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>GL-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-3</ID>
             <functie>Raadslid</functie>
@@ -454,20 +466,26 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>VVD-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>VVD-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-4</ID>
             <functie>Raadslid</functie>
@@ -477,20 +495,26 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>CU-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>CU-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-5</ID>
             <functie>Raadslid</functie>
@@ -500,20 +524,26 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>D66-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-6</ID>
             <functie>Raadslid</functie>
@@ -523,20 +553,26 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>SP-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>SP-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-7</ID>
             <functie>Raadslid</functie>
@@ -546,17 +582,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>GL-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>1401</videoTijdsaanduidingAanvang>
@@ -637,6 +678,7 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-8</ID>
             <functie>Raadslid</functie>
@@ -646,17 +688,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>D66-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>3378</videoTijdsaanduidingAanvang>
@@ -667,6 +714,7 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-9</ID>
             <functie>Raadslid</functie>
@@ -676,17 +724,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdA-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>PvdA-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>1656</videoTijdsaanduidingAanvang>
@@ -704,6 +757,7 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-10</ID>
             <functie>Raadslid</functie>
@@ -713,17 +767,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>CDA-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>CDA-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>1716</videoTijdsaanduidingAanvang>
@@ -742,11 +801,14 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>College van B&amp;W-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>College van B&amp;W-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
+        <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-12</ID>
             <functie>Raadslid</functie>
@@ -756,17 +818,22 @@
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
+                <verwijzingFractie>
+                    <verwijzingID>GL-gm0546</verwijzingID>
+                </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
+            <gegevenOpStemming>
+                <verwijzingID>A.23.0082.02</verwijzingID>
+            </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>3433</videoTijdsaanduidingAanvang>
@@ -775,675 +842,5 @@
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-13</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Schouder</achternaam>
-                <volledigeNaam>Marleen Schouder</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-14</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Delpher</achternaam>
-                <volledigeNaam>Laura Delpher</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-15</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Jonghof</achternaam>
-                <volledigeNaam>IJsbrand Jonghof</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-16</ID>
-            <naam>
-                <achternaam>Ijzer</achternaam>
-                <volledigeNaam>Arie Ijzer</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>VVD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-17</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Lekkerweer</achternaam>
-                <volledigeNaam>Sebastiaan Lekkerweer</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>CDA-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-18</ID>
-            <naam>
-                <achternaam>South</achternaam>
-                <volledigeNaam>Ashley South</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>College van B&amp;W-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-19</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Oud</achternaam>
-                <volledigeNaam>Marc Oud</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>PvdA-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-20</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Wijn</achternaam>
-                <volledigeNaam>Elianne Wijn</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>SVL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-21</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Kalin</achternaam>
-                <volledigeNaam>Ahmet Kalin</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-22</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Lems</achternaam>
-                <volledigeNaam>Bo Lems</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdA-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-23</ID>
-            <naam>
-                <achternaam>Jensens</achternaam>
-                <volledigeNaam>Abdelhaq Jensens</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>College van B&amp;W-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-24</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Smith</achternaam>
-                <volledigeNaam>Malcolm Smith</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-25</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Gökalp</achternaam>
-                <volledigeNaam>Famke Gökalp</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PS-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-26</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Gerts</achternaam>
-                <volledigeNaam>Martine van Gerts</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>PvdD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-27</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Boek</achternaam>
-                <volledigeNaam>Tom Boek</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>VVD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-28</ID>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Ondiep</achternaam>
-                <volledigeNaam>Sander van Ondiep</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>true</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <rolNaam>Raadslid</rolNaam>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-29</ID>
-            <naam>
-                <achternaam>Oosterhout</achternaam>
-                <volledigeNaam>Yvonne van Oosterhout</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>College van B&amp;W-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-30</ID>
-            <naam>
-                <achternaam>Breestraat</achternaam>
-                <volledigeNaam>Emma van Breestraat</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-31</ID>
-            <naam>
-                <achternaam>Woud</achternaam>
-                <volledigeNaam>Alyssa Woud</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>VVD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-32</ID>
-            <naam>
-                <achternaam>Helms</achternaam>
-                <volledigeNaam>Thomas van Helms</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>SP-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-33</ID>
-            <naam>
-                <achternaam>Leiden</achternaam>
-                <volledigeNaam>Gerald van Leiden</volledigeNaam>
-            </naam>
-        </isNatuurlijkPersoon>
-        <rolNaam>Griffier</rolNaam>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-34</ID>
-            <naam>
-                <achternaam>Slink</achternaam>
-                <volledigeNaam>Anna-Marie Slink</volledigeNaam>
-            </naam>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-35</ID>
-            <naam>
-                <achternaam>Beimer</achternaam>
-                <volledigeNaam>Linda Beimer</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-36</ID>
-            <naam>
-                <achternaam>West</achternaam>
-                <volledigeNaam>Prescillia van West</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-37</ID>
-            <naam>
-                <achternaam>Rep</achternaam>
-                <volledigeNaam>Iris du Rep</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-38</ID>
-            <naam>
-                <achternaam>Pan</achternaam>
-                <volledigeNaam>Rosie van Pan</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-39</ID>
-            <naam>
-                <achternaam>Lageboom</achternaam>
-                <volledigeNaam>Tineke Lageboom</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>GL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-40</ID>
-            <naam>
-                <achternaam>Zee</achternaam>
-                <volledigeNaam>Esmee van Zee</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdA-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-41</ID>
-            <naam>
-                <achternaam>Buskermolen</achternaam>
-                <volledigeNaam>Mitchell Buskermolen</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>SVL-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-42</ID>
-            <naam>
-                <achternaam>Vliet</achternaam>
-                <volledigeNaam>Pim van Vliet</volledigeNaam>
-            </naam>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-43</ID>
-            <naam>
-                <achternaam>Spijker</achternaam>
-                <volledigeNaam>Fleur Spijker</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>College van B&amp;W-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-44</ID>
-            <naam>
-                <achternaam>Jansen</achternaam>
-                <volledigeNaam>Bert Jansen</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>D66-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-45</ID>
-            <naam>
-                <achternaam>Goed</achternaam>
-                <volledigeNaam>Eli de Goed</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PS-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>RV 23.0081</gegevenOpStemming>
-        </neemtDeelAanStemming>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>A.23.0082.02</gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-46</ID>
-            <naam>
-                <achternaam>Raat</achternaam>
-                <volledigeNaam>Lianne Raat</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>PvdD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-47</ID>
-            <naam>
-                <achternaam>Vliet</achternaam>
-                <volledigeNaam>Maaike van Vliet</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>false</voorzitter>
-                <heeftBetrekkingOp>VVD-gm0546</heeftBetrekkingOp>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
     </aanwezigeDeelnemer>
 </ORI-A>
