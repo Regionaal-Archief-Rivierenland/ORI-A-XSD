@@ -200,7 +200,7 @@
                     <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isVastgelegdMiddels" type="verwijzingGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="isVastgelegdMiddels" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een informatieobject waarin de (deel)vergadering is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
