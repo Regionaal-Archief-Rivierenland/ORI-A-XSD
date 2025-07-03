@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<informatieobject>
+		<identificatie>
+			<identificatieKenmerk>8088a20808a0280002a000280b25219e</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>Videotuul Gemeenteraad 30 november 2023</naam>
+		<classificatie>
+			<begripLabel>Videotuul</begripLabel>
+			<begripBegrippenlijst>
+				<verwijzingNaam>ORI-A Begrippenlijst Mediabron types</verwijzingNaam>
+				<verwijzingIdentificatie>
+					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#mediabron-types</identificatieKenmerk>
+					<identificatieBron>ORI-A</identificatieBron>
+				</verwijzingIdentificatie>
+			</begripBegrippenlijst>
+		</classificatie>
+		<waardering>
+			<begripLabel>Blijvend te bewaren</begripLabel>
+			<begripCode>B</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Begrippenlijst Waarderingen MDTO</verwijzingNaam>
+			</begripBegrippenlijst>
+		</waardering>
+		<heeftRepresentatie>
+			<verwijzingNaam>Videotuul_Gemeenteraad_30_november_2023.mp4</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>bestand-8088a20808a0280002a000280b25219e</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</heeftRepresentatie>
+		<heeftRepresentatie>
+			<verwijzingNaam>nl.vtt</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>bestand-8088a20808a0280002a000280b25219e-2</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</heeftRepresentatie>
+		<archiefvormer>
+			<verwijzingNaam>Gemeente Leiden</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>gm0546</identificatieKenmerk>
+				<identificatieBron>TOOI register gemeenten compleet</identificatieBron>
+			</verwijzingIdentificatie>
+		</archiefvormer>
+		<beperkingGebruik>
+			<beperkingGebruikType>
+				<begripLabel>Geen beperking</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst BeperkingGebruikType MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</beperkingGebruikType>
+		</beperkingGebruik>
+	</informatieobject>
+</MDTO>

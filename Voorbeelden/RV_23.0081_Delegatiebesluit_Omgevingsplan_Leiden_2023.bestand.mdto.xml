@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<bestand>
+		<identificatie>
+			<identificatieKenmerk>bestand-0222a20280888a00002a00f22242c</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>RV_23.0081_Delegatiebesluit_Omgevingsplan_Leiden_2023.pdf</naam>
+		<omvang>167229</omvang>
+		<bestandsformaat>
+			<begripLabel>Acrobat PDF 1.7 - Portable Document Format</begripLabel>
+			<begripCode>fmt/276</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+			</begripBegrippenlijst>
+		</bestandsformaat>
+		<checksum>
+			<checksumAlgoritme>
+				<begripLabel>SHA-256</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</checksumAlgoritme>
+			<checksumWaarde>05286b9faf2cbc2e6239507b0e63b242bcad19ece7b0495ba3304388db306f46</checksumWaarde>
+			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+		</checksum>
+		<isRepresentatieVan>
+			<verwijzingNaam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>0222a20280888a00002a00f22242c</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</isRepresentatieVan>
+	</bestand>
+</MDTO>

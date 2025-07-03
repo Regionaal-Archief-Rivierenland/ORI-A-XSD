@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<bestand>
+		<identificatie>
+			<identificatieKenmerk>bestand-a2a228082a200a88002a22f019b92</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>23-11-30_Transcript_Raadsvergadering_Leiden.pdf</naam>
+		<omvang>259106</omvang>
+		<bestandsformaat>
+			<begripLabel>Acrobat PDF 1.5 - Portable Document Format</begripLabel>
+			<begripCode>fmt/19</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+			</begripBegrippenlijst>
+		</bestandsformaat>
+		<checksum>
+			<checksumAlgoritme>
+				<begripLabel>SHA-256</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</checksumAlgoritme>
+			<checksumWaarde>c670a6fbab1687fea5d0940c3caf3cac1f5a938e0be7a1286bfd685835bf1ff4</checksumWaarde>
+			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+		</checksum>
+		<isRepresentatieVan>
+			<verwijzingNaam>23-11-30 Transcript Raadsvergadering Leiden</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>a2a228082a200a88002a22f019b92</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</isRepresentatieVan>
+	</bestand>
+</MDTO>

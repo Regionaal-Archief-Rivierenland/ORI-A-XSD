@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<informatieobject>
+		<identificatie>
+			<identificatieKenmerk>a2a228082a200a88002a22f019b92</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>23-11-30 Transcript Raadsvergadering Leiden</naam>
+		<waardering>
+			<begripLabel>Blijvend te bewaren</begripLabel>
+			<begripCode>B</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Begrippenlijst Waarderingen MDTO</verwijzingNaam>
+			</begripBegrippenlijst>
+		</waardering>
+		<heeftRepresentatie>
+			<verwijzingNaam>23-11-30_Transcript_Raadsvergadering_Leiden.pdf</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>bestand-a2a228082a200a88002a22f019b92</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</heeftRepresentatie>
+		<archiefvormer>
+			<verwijzingNaam>Gemeente Leiden</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>gm0546</identificatieKenmerk>
+				<identificatieBron>TOOI register gemeenten compleet</identificatieBron>
+			</verwijzingIdentificatie>
+		</archiefvormer>
+		<beperkingGebruik>
+			<beperkingGebruikType>
+				<begripLabel>Geen beperking</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst BeperkingGebruikType MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</beperkingGebruikType>
+		</beperkingGebruik>
+	</informatieobject>
+</MDTO>

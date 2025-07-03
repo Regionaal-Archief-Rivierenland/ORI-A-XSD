@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<bestand>
+		<identificatie>
+			<identificatieKenmerk>bestand-8088a20808a0280002a000280b25219e</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>Videotuul_Gemeenteraad_30_november_2023.mp4</naam>
+		<omvang>66078780</omvang>
+		<bestandsformaat>
+			<begripLabel>MPEG-4 Media File</begripLabel>
+			<begripCode>fmt/199</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+			</begripBegrippenlijst>
+		</bestandsformaat>
+		<checksum>
+			<checksumAlgoritme>
+				<begripLabel>SHA-256</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</checksumAlgoritme>
+			<checksumWaarde>def9e9ac4c97d7e797fb1afa0aa9298a1c49442a7b1e3a8d4af8ffd94974c140</checksumWaarde>
+			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+		</checksum>
+		<URLBestand>https://streamings.streamovations.nl/leiden/8088a20808a0280002a000280b25219e/download</URLBestand>
+		<isRepresentatieVan>
+			<verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>8088a20808a0280002a000280b25219e</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</isRepresentatieVan>
+	</bestand>
+</MDTO>
