@@ -13,11 +13,6 @@
                         <xs:documentation>Gegevens over een agendapunt wat tijdens de vergadering behandeld is, zoals het volgnummer en bijbehorende stukken. Een agendapunt kan uit een of meer subagendapunten bestaan.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="mediabron" type="mediabronGegevens" minOccurs="0" maxOccurs="unbounded">
-                    <xs:annotation>
-                        <xs:documentation>Gegevens over de transcriptie, video-opname of audio-opname van de vergadering, zoals het bestandstype en eventuele ondertitelbestanden.</xs:documentation>
-                    </xs:annotation>
-                </xs:element>
                 <xs:element name="stemming" type="stemmingGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Gegevens over een stemming, zoals het agendapunt of de persoon waarover gestemd is. Iemands stemkeuze tijdens een bepaalde stemming hoort onder `aanwezigeDeelnemer`.</xs:documentation>
@@ -107,54 +102,6 @@
         <xs:union memberTypes="xs:nonNegativeInteger xs:time"/>
     </xs:simpleType>
 
-    <!-- # Domein specifieke datatypes -->
-
-    <xs:complexType name="mediabronGegevens">
-        <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Uniek identificatiekenmerk van de mediabron.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="mimeType" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Het MIME type van het mediabron bestand, bijvoorbeeld `video/mp4`.</xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="\w+/[-+.\w]+"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="mediabronType" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Het soort mediabron.</xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Video"/>
-                        <xs:enumeration value="Audio"/>
-                        <xs:enumeration value="Transcriptie"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="URL" type="xs:anyURI" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Het webadres waar de mediabron geraadpleegd kan worden.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="isVastgelegdIn" type="informatieobjectGegevens" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Gegevens over het informatieobject waarin de mediabron is vastgelegd.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="heeftOndertitelbestand" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                    <xs:documentation>Gegevens over het informatieobject waarin het ondertitelbestand van de mediabron is vastgelegd.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
     <xs:complexType name="vergaderingGegevens">
         <xs:sequence>
             <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
@@ -255,7 +202,7 @@
             </xs:element>
             <xs:element name="isVastgelegdMiddels" type="verwijzingGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Verwijzing naar de mediabron waarin de (deel)vergadering is vastgelegd.</xs:documentation>
+                    <xs:documentation>Gegevens over een informatieobject waarin de (deel)vergadering is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isGenotuleerdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
@@ -436,9 +383,9 @@
                     <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de video-opname het spreekfragment eindigt. Dit kan óf een tijdstempel zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment eindigt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isVastgelegdIn" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="isVastgelegdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Verwijzing naar de mediabron waarin het spreekfragment is vastgelegd.</xs:documentation>
+                    <xs:documentation>Gegevens over het informatieobject waarin het spreekfragment is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="spreektTijdensAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
