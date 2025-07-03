@@ -337,7 +337,11 @@
   %% inner MDTO rectangle
   \node (mdto-inner) [rectangle, draw=mainblack, text=mainblack, ultra thick, right = 3.2cm of vergaderstuk, inner sep=40pt, fill=githubgrey, align=center]
         {
-          {\huge MDTO}
+          \begin{minipage}{4.0cm}
+          \centering
+          {\LARGE \fontseries{sb}\selectfont Informatieobject} \\[0.5ex]
+          {\Large MDTO/TMLO}
+        \end{minipage}
         };
 
   % Outer MDTO rectangle (this is what arrows should connect to)
