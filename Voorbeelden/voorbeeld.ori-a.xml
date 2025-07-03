@@ -40,6 +40,7 @@
         <agendapuntTitel>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</agendapuntTitel>
         <hamerstuk>false</hamerstuk>
         <besloten>false</besloten>
+        <behandeld>true</behandeld>
         <heeftAlsBijlage>
             <informatieobjectType>Voorstel</informatieobjectType>
             <verwijzingInformatieobject>
@@ -62,13 +63,11 @@
         <agendapuntTitel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</agendapuntTitel>
         <hamerstuk>false</hamerstuk>
         <besloten>false</besloten>
-        <heeftAlsBijlage>
-            <informatieobjectType>Voorstel</informatieobjectType>
-            <verwijzingInformatieobject>
-                <verwijzingID>aa888200082020a0002a0a580c340</verwijzingID>
-                <verwijzingNaam>A.23.0082 GL Primaat bij de Raad - Adviesrecht</verwijzingNaam>
-            </verwijzingInformatieobject>
-        </heeftAlsBijlage>
+        <behandeld>true</behandeld>
+        <heeftBehandelendAmbtenaar>
+            <verwijzingID>Persoon-11</verwijzingID>
+            <verwijzingNaam>Julius Terp</verwijzingNaam>
+        </heeftBehandelendAmbtenaar>
     </agendapunt>
 
     <!-- Stemmingen -->
@@ -76,7 +75,6 @@
         <ID>RV 23.0081</ID>
         <stemmingType>Regulier</stemmingType>
         <leidtTotBesluit>
-            <besluitToelichting>Dit besluit, gebaseerd op artikelen 2.8, 4.14 lid 5 van de Omgevingswet, Afdeling 10.1.2. (Delegatie) van de Algemene wet bestuursrecht en artikel 147 Gemeentewet, is van toepassing op het delegeren van de vaststelling delen van het Omgevingsplan naar het college van burgemeester en wethouders.</besluitToelichting>
             <besluitResultaat>Aangenomen</besluitResultaat>
         </leidtTotBesluit>
         <heeftBetrekkingOpAgendapunt>
@@ -157,8 +155,10 @@
         </isLidVanFractie>
     </persoonBuitenVergadering>
 
+    <!-- todo: add griffier? -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
+        <rolnaam>Voorzitter</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-0</ID>
             <functie>Burgemeester</functie>
@@ -593,8 +593,8 @@
             <ID>Persoon-8</ID>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Monteiro</achternaam>
-                <volledigeNaam>Antje Monteiro</volledigeNaam>
+                <achternaam>Jordan</achternaam>
+                <volledigeNaam>Antje Jordan</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
@@ -610,7 +610,7 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>00:33:53</videoTijdsaanduidingAanvang>
+            <videoTijdsaanduidingAanvang>00:33:55</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
