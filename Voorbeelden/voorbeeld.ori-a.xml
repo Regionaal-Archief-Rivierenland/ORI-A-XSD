@@ -34,6 +34,7 @@
     </vergadering>
 
     <!-- TODO: verwijder wat bijlages -->
+    <!-- Agendapunten -->
     <agendapunt>
         <ID>2028a00aaa2a8aaa00a2aab6bdaef</ID>
         <agendapuntVolgnummer>22</agendapuntVolgnummer>
@@ -141,10 +142,6 @@
         <fractienaam>PS</fractienaam>
     </fractie>
     <fractie>
-        <ID>SVL-gm0546</ID>
-        <fractienaam>SVL</fractienaam>
-    </fractie>
-    <fractie>
         <ID>CU-gm0546</ID>
         <fractienaam>CU</fractienaam>
     </fractie>
@@ -180,211 +177,181 @@
             </isLidVanDagelijksBestuur>
         </isNatuurlijkPersoon>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1345</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1346</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:00:00</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1485</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1497</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:02:20</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1498</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1499</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:02:33</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1655</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1656</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:05:10</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1674</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1682</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:05:29</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1691</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1708</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:05:46</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1745</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1761</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:06:40</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2082</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2083</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:12:17</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2097</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2097</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:12:32</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2153</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2154</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:13:28</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2190</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2191</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:14:05</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2246</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2246</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:15:01</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2290</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2290</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:15:45</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2408</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2412</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:17:43</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2439</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2439</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:18:14</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2481</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2483</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:18:56</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2496</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2500</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:19:11</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3152</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3196</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:30:07</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3211</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3256</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:31:06</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3266</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3267</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:32:01</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3316</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3319</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:32:51</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3321</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3340</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:32:56</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3360</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3368</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:33:35</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3389</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3400</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:34:04</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3404</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3404</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:34:19</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3405</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3433</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:34:20</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3531</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3564</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:36:26</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3565</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3580</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:37:00</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>202282aa200aa08200a2821eb50cf</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3649</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3677</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:38:24</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>202282aa200aa08200a2821eb50cf</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3712</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3725</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:39:27</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>202282aa200aa08200a2821eb50cf</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -419,8 +386,7 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3677</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3681</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:38:52</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>202282aa200aa08200a2821eb50cf</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -520,7 +486,7 @@
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Jong</achternaam>
-                <volledigeNaam>Julia de Jong</volledigeNaam>
+                <volledigeNaam>Julia de Groot</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
@@ -577,8 +543,8 @@
             <ID>Persoon-7</ID>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>SReps</achternaam>
-                <volledigeNaam>Ivo van SReps</volledigeNaam>
+                <achternaam>Spronsen</achternaam>
+                <volledigeNaam>Ivo van Spronsen</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
@@ -600,78 +566,67 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1401</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1401</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:00:56</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1519</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1655</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:02:54</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1662</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1663</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:05:17</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2084</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2092</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:12:19</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2154</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2165</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:13:29</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2247</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2266</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:15:02</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2492</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2496</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:19:07</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2506</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2507</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:19:21</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3268</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3315</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:32:03</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3456</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3460</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:35:11</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3606</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3606</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:37:41</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>202282aa200aa08200a2821eb50cf</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -706,8 +661,7 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3378</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3388</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:33:53</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -742,15 +696,13 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1656</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1662</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:05:11</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>2414</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>2439</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:17:49</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -785,8 +737,7 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>1716</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>1743</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:06:11</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
@@ -836,8 +787,7 @@
             </gegevenOpStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
-            <videoTijdsaanduidingAanvang>3433</videoTijdsaanduidingAanvang>
-            <videoTijdsaanduidingEinde>3436</videoTijdsaanduidingEinde>
+            <videoTijdsaanduidingAanvang>00:34:48</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
