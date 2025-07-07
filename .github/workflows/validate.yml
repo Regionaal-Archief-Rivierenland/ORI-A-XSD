@@ -19,8 +19,17 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Retrieve MDTO schema
+      - name: Cache MDTO schema
+        id: cache-mdto
+        uses: actions/cache@v4
+        with:
+          path: mdto.xsd
+          key: mdto-xsd-v1
+
+      - name: Download MDTO schema if needed
+        if: steps.cache-mdto.outputs.cache-hit != 'true'
         run: wget https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd -O mdto.xsd
+
 
       - name: Validate ORI-A XML files
         run: xmllint --noout --schema ORI-A.xsd Voorbeelden/*.ori-a.xml
