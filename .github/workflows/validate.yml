@@ -9,7 +9,6 @@ on:
 
 jobs:
   xmllint:
-    name: Validate XML Files
     runs-on: ubuntu-latest
 
     steps:
