@@ -28,4 +28,4 @@ jobs:
         run: xmllint --noout --schema ORI-A.xsd Voorbeelden/*.ori-a.xml
 
       - name: Validate MDTO XML files
-        run: xmllint --noout --schema ORI-A.xsd Voorbeelden/MDTO/*.mdto.xml
+        run: xmllint --noout --schema mdto.xsd Voorbeelden/MDTO/*.mdto.xml
