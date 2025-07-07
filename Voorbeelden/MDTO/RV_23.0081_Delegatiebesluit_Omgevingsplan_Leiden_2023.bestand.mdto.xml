@@ -6,7 +6,7 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>RV_23.0081_Delegatiebesluit_Omgevingsplan_Leiden_2023.pdf</naam>
-		<omvang>167229</omvang>
+		<omvang>99309</omvang>
 		<bestandsformaat>
 			<begripLabel>Acrobat PDF 1.7 - Portable Document Format</begripLabel>
 			<begripCode>fmt/276</begripCode>
@@ -21,8 +21,8 @@
 					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
 				</begripBegrippenlijst>
 			</checksumAlgoritme>
-			<checksumWaarde>05286b9faf2cbc2e6239507b0e63b242bcad19ece7b0495ba3304388db306f46</checksumWaarde>
-			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+			<checksumWaarde>a2d15d7f540945bcf81c6cc39fb2b7cd1fdd28e73ab14c04790a5cec652d9781</checksumWaarde>
+			<checksumDatum>2025-07-07T20:36:41</checksumDatum>
 		</checksum>
 		<isRepresentatieVan>
 			<verwijzingNaam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</verwijzingNaam>
