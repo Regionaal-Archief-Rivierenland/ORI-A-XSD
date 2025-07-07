@@ -145,6 +145,7 @@
         <ID>Persoon-13</ID>
         <naam>
             <achternaam>Vliet</achternaam>
+            <tussenvoegsel>van</tussenvoegsel>
             <volledigeNaam>Maaike van Vliet</volledigeNaam>
         </naam>
         <isLidVanFractie>
@@ -359,11 +360,12 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-1</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Bos</achternaam>
-                <volledigeNaam>Thijs Bos</volledigeNaam>
-            </naam>
+                <achternaam>Vos</achternaam>
+                <volledigeNaam>Thijs Vos</volledigeNaam>
+            </naam>            
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
                 <verwijzingFractie>
@@ -388,10 +390,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-2</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Jansen</achternaam>
-                <volledigeNaam>Rembrandt Jansen</volledigeNaam>
+                <achternaam>Rowaan</achternaam>
+                <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
@@ -411,11 +414,12 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-3</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Crommers</achternaam>
+                <achternaam>Crom</achternaam>
                 <tussenvoegsel>de</tussenvoegsel>
-                <volledigeNaam>Maarten de Crommers</volledigeNaam>
+                <volledigeNaam>Maarten de Crom</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
@@ -435,10 +439,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-4</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Bol</achternaam>
-                <volledigeNaam>Pieter Bol</volledigeNaam>
+                <achternaam>Krol</achternaam>
+                <volledigeNaam>Pieter Krol</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
@@ -458,6 +463,7 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-5</ID>
+            <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Jong</achternaam>
@@ -482,10 +488,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-6</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Meeuwen</achternaam>
-                <volledigeNaam>Antoine Meeuwen</volledigeNaam>
+                <achternaam>Theeuwen</achternaam>
+                <volledigeNaam>Antoine Theeuwen</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
@@ -505,6 +512,7 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-7</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Spronsen</achternaam>
@@ -595,6 +603,7 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-8</ID>
+            <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Jordan</achternaam>
@@ -624,10 +633,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-9</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Motten</achternaam>
-                <volledigeNaam>Martijn Motten</volledigeNaam>
+                <achternaam>Otten</achternaam>
+                <volledigeNaam>Martijn Otten</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
@@ -659,10 +669,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-10</ID>
+            <geslachtsaanduiding>Tobias</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Sanders</achternaam>
-                <volledigeNaam>Tobias Sanders</volledigeNaam>
+                <achternaam>Sandoval Garcia</achternaam>
+                <volledigeNaam>Tobias Sandoval Garcia</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
@@ -687,10 +698,11 @@
     <aanwezigeDeelnemer>
         <isNatuurlijkPersoon>
             <ID>Persoon-11</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Wethouder</functie>
             <naam>
-                <achternaam>Terp</achternaam>
-                <volledigeNaam>Julius Terp</volledigeNaam>
+                <achternaam>Terpstra</achternaam>
+                <volledigeNaam>Julius Terpstra</volledigeNaam>
             </naam>
             <isLidVanDagelijksBestuur>
                 <verwijzingDagelijksBestuur>
@@ -703,10 +715,11 @@
         <rolnaam>Raadslid</rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-12</ID>
+            <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>Raadslid</functie>
             <naam>
-                <achternaam>Bos</achternaam>
-                <volledigeNaam>Alex Bos</volledigeNaam>
+                <achternaam>Friso</achternaam>
+                <volledigeNaam>Alex Friso</volledigeNaam>
             </naam>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
