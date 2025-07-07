@@ -54,9 +54,9 @@
 
 
 %% TODO
+%% add arrow from vergadering to MDTO
 %% - be consistent in ur use of baselineskips (and amounts)
 %% - moeten verplichte relaties ook dik gedrukt/anders getypeset
-%% - I think the arrow between vergadering and mediabron should be verplicht at least once
 %% - maybe bullets instead of plusses? Making a proper list also gives more flexibility
 %%    - all the more because the plusses serve little purposes
 
@@ -298,17 +298,6 @@
           \attrib{Datum eind dagelijks bestuur lidmaatschap}{datum}{[0..1]}
         };
 
-   \node (mediabron) [ORI object, align=center, above=3.2cm of vergadering]
-        {
-          \objectheader{Objecttype}{Mediabron}
-
-          \attrib{\textbf{ID}}{string}{} \\
-          \attrib{Mimetype}{string}{[0..1]} \\
-          \attrib{Mediabron type}{\enumeratietype{mediabronType}}{[0..1]} \\
-          \attrib{URL}{URI}{[0..1]}
-        };
-        
-
   \node (besluit) [ORI object, above right = 0.5cm and 1.8cm of stemming, align=center]
         {
           \objectheader{Objecttype}{Besluit}
@@ -497,22 +486,6 @@
   node [kardinaliteit, pos=1, right, yshift=-\kyshiftbeg, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ($(natuurlijkpersoon.south) + (3.9cm, 0)$);
   
-  %% mediabron -> mdto (is vastgelegd in)
-  \draw[relatiepijl] (mediabron) ($(mediabron.east)+(-0.0,0.2)$) -|
-  node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
-  node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{1}}
-  node [pos=0.21, above] {is vastgelegd in}
-  node [pos=0.21, below] {\umltype{Relatiesoort}}
-  ($(mdto.north)+(2.8cm,0)$);
-
-  %% mediabron -> mdto (ondertitel bestand)
-  \draw[relatiepijl] (mediabron) ($(mediabron.east)-(0.0,1.2)$) -|
-  node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
-  node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{0..*}}
-  node [pos=0.26, above] {heeft ondertitelbestand}
-  node [pos=0.26, below] {\umltype{Relatiesoort}}
-  ($(mdto.north)+(1cm, 0)$);
-
   %% fractie -> stemming
   \draw[relatiepijl] (fractie) --
   coordinate[pos=0.5] (tempcoordinate) %% define tmp halfway coord (for allignment reasons)
@@ -526,12 +499,6 @@
   ($(stemresultaatperfractie.east)-(0,0.3cm)$);
   
   
-  %% vergadering -> mediabron
-  \draw[relatiepijl] (vergadering)  --
-  node[kardinaliteit, pos=0, right, yshift=\kyshiftbeg] {0..1}
-  node[kardinaliteit, pos=1, right, yshift=-\kyshiftend] {0..*}
-  node [anchor=center, fill=white, pos=0.45] {is vastgelegd middels\\\umltype{Relatiesoort}} (mediabron);
-
   %% One could argue that this should just be another attribute
   %% vergadering -> vergadering
   \draw[relatiepijl] ($(vergadering.west)+(0,2.8)$) |-
@@ -595,14 +562,6 @@
   node [below, pos=1.05] {\umltype{Relatiesoort}}
   ($(dagelijksbestuurlidmaatschap.south) - (0, 1.8cm)$);
 
-  %% spreekfragment -> mediabron
-  \draw[relatiepijl] (spreekfragment.west) -|
-  node [kardinaliteit, pos=0, above, xshift=-\kxshiftbeg] {\oldstylenums{0..*}}
-  node [kardinaliteit, pos=1, right, yshift=\kyshiftend] {\oldstylenums{0..1}}
-  node [above, pos=0.27] {is vastgelegd in}
-  node [below, pos=0.27] {\umltype{Relatiesoort}}
-  (mediabron.north);
-
   %% enumeraties
 
   \newcommand{\enumeration}[2]{
@@ -665,10 +624,6 @@
         }
       } &
       \makecell[tl]{%
-        \enumeration{mediabronType}{
-          \keuze{Video}\sep\keuze{Audio}\sep\keuze{Transcriptie}
-        } \\
-        \seprule
         \enumeration{resultaatMondelingeStemming}{
           \keuze{Voor}\sep\keuze{Tegen}\sep\keuze{Gelijk}
         } \\
