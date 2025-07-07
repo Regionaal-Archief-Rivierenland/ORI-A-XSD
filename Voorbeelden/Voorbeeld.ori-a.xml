@@ -39,8 +39,8 @@
         <starttijd>2023-11-30T20:22:26</starttijd>
         <agendapuntTitel>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</agendapuntTitel>
         <hamerstuk>false</hamerstuk>
-        <besloten>false</besloten>
         <behandeld>true</behandeld>
+        <besloten>false</besloten>
         <heeftAlsBijlage>
             <informatieobjectType>Voorstel</informatieobjectType>
             <verwijzingInformatieobject>
@@ -62,8 +62,8 @@
         <starttijd>2023-11-30T20:59:40</starttijd>
         <agendapuntTitel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</agendapuntTitel>
         <hamerstuk>false</hamerstuk>
-        <besloten>false</besloten>
         <behandeld>true</behandeld>
+        <besloten>false</besloten>
         <heeftBehandelendAmbtenaar>
             <verwijzingID>Persoon-11</verwijzingID>
             <verwijzingNaam>Julius Terp</verwijzingNaam>
