@@ -1,0 +1,31 @@
+name: Validate XML Examples
+
+# run tests whenever main gets a commit or PR
+on:
+  push:
+    branches: [ main, citest ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  xmllint:
+    name: Validate XML Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install xmllint
+        run: sudo apt-get install -y libxml2-utils
+
+      - name: Retrieve MDTO schema
+        run: wget https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd -O mdto.xsd
+
+      - name: Validate ORI-A XML files
+        run: xmllint --noout --schema ORI-A.xsd Voorbeelden/*.ori-a.xml
+
+      - name: Validate MDTO XML files
+        run: xmllint --noout --schema ORI-A.xsd Voorbeelden/MDTO/*.mdto.xml
