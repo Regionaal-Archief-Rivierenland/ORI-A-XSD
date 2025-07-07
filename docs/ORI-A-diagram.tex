@@ -298,7 +298,7 @@
           \attrib{Datum eind dagelijks bestuur lidmaatschap}{datum}{[0..1]}
         };
 
-  \node (besluit) [ORI object, above right = 0.5cm and 1.8cm of stemming, align=center]
+  \node (besluit) [ORI object, above right = 0.5cm and 0.9cm of stemming, align=center]
         {
           \objectheader{Objecttype}{Besluit}
 
@@ -308,7 +308,7 @@
           \attrib{\textbf{Besluit resultaat}}{\enumeratietype{besluitResultaat}}{}
         };
 
-  \node (stemmingOverPersonenGegevens) [ORI object, below right = 5.3cm and -10cm of besluit, align=center, draw=gray!86]
+  \node (stemmingOverPersonenGegevens) [ORI object, below right = 5.3cm and -9.2cm of besluit, align=center, draw=gray!86]
         {
           \objectheader{Gegevensgroeptype}{Stemming over personen}
 
@@ -316,21 +316,17 @@
           \attrib{Aantal uitgebrachte stemmen}{integer}{[0..1]}
         };
 
-   \node (vergaderstuk) [ORI relatieklasse, above right = -4.6cm and 7.2cm of agendapunt, align=center]
+   \node (informatieobject) [ORI relatieklasse, above right = -4.6cm and 7.2cm of agendapunt, align=center]
         {
-          \objectheader{Relatieklasse}{Vergaderstuk}
+          \objectheader{Relatieklasse}{Informatieobject}
 
-          \attrib{Vergaderstuk type}{\enumeratietype{vergaderstukType}}{[0..1]}
+          \attrib{Informatieobject type}{begripGegevens}{[0..1]}
         };
 
   %% inner MDTO rectangle
-  \node (mdto-inner) [rectangle, draw=mainblack, text=mainblack, ultra thick, right = 3.2cm of vergaderstuk, inner sep=40pt, fill=githubgrey, align=center]
+  \node (mdto-inner) [rectangle, draw=mainblack, text=mainblack, ultra thick, right = 3.2cm of informatieobject, inner sep=40pt, fill=githubgrey, align=center]
         {
-          \begin{minipage}{4.0cm}
-          \centering
-          {\LARGE \fontseries{sb}\selectfont Informatieobject} \\[0.5ex]
-          {\Large MDTO/TMLO}
-        \end{minipage}
+          {\LARGE \fontseries{sb}\selectfont MDTO\,/\,TMLO}
         };
 
   % Outer MDTO rectangle (this is what arrows should connect to)
@@ -393,12 +389,12 @@
   \draw[relatiepijl] ($(stemming.east) + (0, 0.0cm)$) -|
   node [kardinaliteit, pos=0, above, xshift=\kxshiftbeg]  {\oldstylenums{0..*}}
   node [kardinaliteit, pos=1, right, yshift=-\kyshiftend]  {\oldstylenums{0..*}}
-  node [pos=0.330, above] {heeft betrekking op}
-  node [pos=0.330, below] {\umltype{Relatiesoort}}
-  coordinate[pos=0.330] (tempcoordinate) % coordinate along the line
+  node [pos=0.302, above] {heeft betrekking op}
+  node [pos=0.302, below] {\umltype{Relatiesoort}}
+  coordinate[pos=0.302] (tempcoordinate) % coordinate along the line
   (mdto.south);
-  %% draw dashed line to vergaderstuk
-  \coordinate (lineendnorth) at (tempcoordinate|-vergaderstuk.south);
+  %% draw dashed line to informatieobject
+  \coordinate (lineendnorth) at (tempcoordinate|-informatieobject.south);
   \draw[dashedpijl] ($(tempcoordinate) + (0, 0.5cm)$) -- (lineendnorth);
 
   %% deelnemer -> vergadering
@@ -458,12 +454,12 @@
   ($(agendapunt.east) - (0, 2.5cm)$) --
   node [kardinaliteit, pos=0, above, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ++(2cm,0) -| ($(mdto.south) - (2cm, 0cm)$)
-  coordinate[pos=0.27] (tempcoordinate)
+  coordinate[pos=0.25] (tempcoordinate)
   node [kardinaliteit, pos=1, right, yshift=-\kyshiftend] {\oldstylenums{0..*}}
-  node [pos=0.27, above] {heeft als bijlage}
-  node [pos=0.27, below] {\umltype{Relatiesoort}};
+  node [pos=0.25, above] {heeft als bijlage}
+  node [pos=0.25, below] {\umltype{Relatiesoort}};
   % Draw the dashed line
-  \coordinate (lineendnorth) at (tempcoordinate|-vergaderstuk.south);
+  \coordinate (lineendnorth) at (tempcoordinate|-informatieobject.south);
   \draw[dashedpijl] ($(tempcoordinate) + (0, 0.52cm)$) -- (lineendnorth);
   %% agendapunt -> natuurlijkpersoon
   %% halfwaypoint stem and stemming
@@ -513,13 +509,13 @@
   node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ($(vergadering.east)+(11, 5.5)$) -| 
   node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{0..*}}
-  node [anchor=center, above, pos=0.33] {heeft als bijlage}
-  node [anchor=center, below, pos=0.33] {\umltype{Relatiesoort}}
-  coordinate[pos=0.33] (tempcoordinate) %% define tmp halfway coord
+  node [anchor=center, above, pos=0.335] {heeft als bijlage}
+  node [anchor=center, below, pos=0.335] {\umltype{Relatiesoort}}
+  coordinate[pos=0.335] (tempcoordinate) %% define tmp halfway coord
   ($(mdto.north)+(-2.8cm,0)$);
 
   % Draw the dashed line
-  \coordinate (lineendsouth) at (tempcoordinate|-vergaderstuk.north);
+  \coordinate (lineendsouth) at (tempcoordinate|-informatieobject.north);
   \draw[dashedpijl] ($(tempcoordinate) + (0, -0.5cm)$) -- (lineendsouth);
   
   %% vergadering -> mdto (notulen)
@@ -648,7 +644,7 @@
           \sep\keuze{Algemene bestuursvergadering}\sep\keuze{Presidium}
         } \\
         \seprule
-        \enumeration{vergaderstukType}{
+        \enumeration{informatieobjectType}{
           \keuze{Voorstel}\sep\keuze{Mededeling}\sep\keuze{Amendement}\sep\keuze{Besluitsvormingsstuk}
           \sep\keuze{Toezegging}\sep\keuze{Motie}\sep\keuze{Vraag}\sep\keuze{Antwoord}\sep\keuze{Ingekomen stuk}
         }
