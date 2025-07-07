@@ -164,6 +164,7 @@
             <functie>Burgemeester</functie>
             <naam>
                 <achternaam>Velden</achternaam>
+                <tussenvoegsel>van der</tussenvoegsel>
                 <volledigeNaam>Peter van der Velden</volledigeNaam>
             </naam>
             <isLidVanDagelijksBestuur>
@@ -413,6 +414,7 @@
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Crommers</achternaam>
+                <tussenvoegsel>de</tussenvoegsel>
                 <volledigeNaam>Maarten de Crommers</volledigeNaam>
             </naam>
             <isLidVanFractie>
@@ -459,6 +461,7 @@
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Jong</achternaam>
+                <tussenvoegsel>de</tussenvoegsel>
                 <volledigeNaam>Julia de Groot</volledigeNaam>
             </naam>
             <isLidVanFractie>
@@ -505,6 +508,7 @@
             <functie>Raadslid</functie>
             <naam>
                 <achternaam>Spronsen</achternaam>
+                <tussenvoegsel>van</tussenvoegsel>
                 <volledigeNaam>Ivo van Spronsen</volledigeNaam>
             </naam>
             <isLidVanFractie>
