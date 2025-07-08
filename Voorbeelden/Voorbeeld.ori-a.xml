@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ORI-A xmlns="https://ori-a.nl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ori-a.nl https://github.com/Regionaal-Archief-Rivierenland/ORI-A-XSD/releases/download/v0.0.11/ORI-A.xsd">
+<ORI-A xmlns="https://ori-a.nl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ori-a.nl https://github.com/Regionaal-Archief-Rivierenland/ORI-A-XSD/releases/download/v0.0.13/ORI-A.xsd">
     <vergadering>
         <ID>20a280a8a8a88220008208822f6b6b02</ID>
         <naam>Gemeenteraad 30 november 2023</naam>
@@ -20,9 +20,9 @@
         <isVastgelegdMiddels>
             <informatieobjectType>
                 <begripLabel>Video</begripLabel>
-                <begrippenlijstVerwijzing>
+                <verwijzingBegrippenlijst>
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
-                </begrippenlijstVerwijzing>
+                </verwijzingBegrippenlijst>
             </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>8088a20808a0280002a000280b25219e</verwijzingID>
@@ -32,9 +32,9 @@
         <isGenotuleerdIn>
             <informatieobjectType>
                 <begripLabel>Transcriptie</begripLabel>
-                <begrippenlijstVerwijzing>
+                <verwijzingBegrippenlijst>
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
-                </begrippenlijstVerwijzing>
+                </verwijzingBegrippenlijst>
             </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>a2a228082a200a88002a22f019b92</verwijzingID>
