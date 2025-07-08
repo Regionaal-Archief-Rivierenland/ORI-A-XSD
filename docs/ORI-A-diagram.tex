@@ -54,9 +54,9 @@
 
 
 %% TODO
+%% add arrow from vergadering to MDTO
 %% - be consistent in ur use of baselineskips (and amounts)
 %% - moeten verplichte relaties ook dik gedrukt/anders getypeset
-%% - I think the arrow between vergadering and mediabron should be verplicht at least once
 %% - maybe bullets instead of plusses? Making a proper list also gives more flexibility
 %%    - all the more because the plusses serve little purposes
 
@@ -140,10 +140,10 @@
           \attrib{Starttijd}{datum + tijd}{[0..1]} \\
           \attrib{Eindtijd}{datum + tijd}{[0..1]} \\
           \attrib{Agendapunt kenmerk}{string}{[0..1]} \\
-          \attrib{Agendapunt titel}{string}{[0..1]} \\
-          \attrib{Indicatie hamerstuk}{boolean}{[0..1]} \\
-          \attrib{Indicator behandeld}{boolean}{[0..1]} \\
-          \attrib{\textbf{Indicator besloten}}{boolean}{} \\
+          \attrib{\textbf{Agendapunt titel}}{string}{} \\
+          \attrib{hamerstuk}{boolean}{[0..1]} \\
+          \attrib{behandeld}{boolean}{[0..1]} \\
+          \attrib{besloten}{boolean}{[0..1]} \\
           \attrib{Bestuurslaag}{bestuurslaagGegevens}{[0..1]}
         };
 
@@ -153,14 +153,14 @@
           \objectheader{Objecttype}{Vergadering}
 
           \attrib{\textbf{ID}}{string}{} \\
-          \attrib{Naam}{string}{[0..1]} \\
+          \attrib{\textbf{Naam}}{string}{} \\
           \attrib{Vergadertoelichting}{string}{[0..1]} \\
           \attrib{Georganiseerd door gremium}{gremiumGegevens}{[0..1]} \\
-          \attrib{\textbf{Vergaderingstype}}{\enumeratietype{vergaderingstype}}{} \\
+          \attrib{Vergaderingstype}{\enumeratietype{vergaderingstype}}{[0..1]} \\
           \attrib{Locatie}{string}{[0..1]} \\
           \attrib{Status}{\enumeratietype{status}}{[0..1]} \\
           \attrib{Geplande vergaderdatum}{datum}{[0..1]} \\
-          \attrib{Vergaderdatum}{datum}{[0..1]} \\
+          \attrib{\textbf{Vergaderdatum}}{datum}{} \\
           \attrib{Geplande aanvang vergadering}{datum + tijd}{[0..1]} \\
           \attrib{Gepland einde vergadering}{datum + tijd}{[0..1]} \\
           \attrib{Aanvang vergadering}{datum + tijd}{[0..1]} \\
@@ -174,7 +174,7 @@
           \objectheader{Objecttype}{Aanwezige deelnemer}
 
           \attrib{ID}{string}{[0..1]} \\
-          \attrib{\textbf{Rolnaam}}{\enumeratietype{rolnaam}}{} \\
+          \attrib{Rolnaam}{\enumeratietype{rolnaam}}{[0..1]} \\
           \attrib{Organisatie}{string}{[0..1]} \\
           \attrib{Deelnemerspositie}{string}{[0..1]} \\
           \attrib{Aanvang aanwezigheid}{datum + tijd}{[0..1]} \\
@@ -197,7 +197,7 @@
         {
           \objectheader{Objecttype}{Fractie}
 
-          \attrib{ID}{string}{[0..1]} \\
+          \attrib{\textbf{ID}}{string}{} \\
           \attrib{\textbf{Fractienaam}}{string}{}\\
           \attrib{Bestuurslaag}{bestuurslaagGegevens}{[0..1]}
         };
@@ -221,8 +221,8 @@
           \objectheader{Objecttype}{Dagelijks bestuur}
 
           \attrib{\textbf{ID}}{string}{} \\
-          \attrib{\textbf{Dagelijks bestuur naam}}{string}{} \\ 
-          \attrib{\textbf{Dagelijks bestuur type}}{\enumeratietype{dagelijksBestuurType}}{} \\
+          \attrib{\textbf{Dagelijks bestuur naam}}{string}{} \\
+          \attrib{Dagelijks bestuur type}{\enumeratietype{dagelijksBestuurType}}{[0..1]} \\
           \attrib{\textbf{Bestuurslaag}}{bestuurslaagGegevens}{}
         };
 
@@ -272,10 +272,10 @@
           \attrib{\textbf{Omschrijving nevenfunctie}}{string}{} \\
           \attrib{Naam organisatie nevenfunctie}{string}{[0..1]} \\
           \attrib{Aantal uren per maand}{integer}{[0..1]} \\
-          \attrib{\textbf{Indicator bezoldigd}}{boolean}{} \\
-          \attrib{Indicator nevenfunctie vanwege lidmaatschap}{boolean}{[0..1]} \\
+          \attrib{bezoldigd}{boolean}{[0..1]} \\
+          \attrib{nevenfunctie vanwege lidmaatschap}{boolean}{[0..1]} \\
           \attrib{Datum melding}{datum}{[0..1]} \\
-          \attrib{\textbf{Datum aanvang nevenfunctie}}{datum}{} \\
+          \attrib{Datum aanvang nevenfunctie}{datum}{[0..1]} \\
           \attrib{Datum einde nevenfunctie}{datum}{[0..1]}
         };
 
@@ -286,7 +286,7 @@
           \attrib{ID}{string}{[0..1]} \\
           \attrib{Datum begin fractielidmaatschap}{datum}{[0..1]} \\
           \attrib{Datum einde fractielidmaatschap}{datum}{[0..1]} \\
-          \attrib{\textbf{Indicate voorzitter}}{boolean}{}
+          \attrib{voorzitter}{boolean}{[0..1]}
         };
 
    \node (dagelijksbestuurlidmaatschap) [ORI relatieklasse, align=center, below = 6.45cm of fractielidmaatschap]
@@ -298,18 +298,7 @@
           \attrib{Datum eind dagelijks bestuur lidmaatschap}{datum}{[0..1]}
         };
 
-   \node (mediabron) [ORI object, align=center, above=3.2cm of vergadering]
-        {
-          \objectheader{Objecttype}{Mediabron}
-
-          \attrib{\textbf{ID}}{string}{} \\
-          \attrib{Mimetype}{string}{[0..1]} \\
-          \attrib{\textbf{Mediabron type}}{\enumeratietype{mediabronType}}{} \\
-          \attrib{URL}{URI}{[0..1]}
-        };
-        
-
-  \node (besluit) [ORI object, above right = 0.5cm and 1.8cm of stemming, align=center]
+  \node (besluit) [ORI object, above right = 0.5cm and 0.9cm of stemming, align=center]
         {
           \objectheader{Objecttype}{Besluit}
 
@@ -319,25 +308,25 @@
           \attrib{\textbf{Besluit resultaat}}{\enumeratietype{besluitResultaat}}{}
         };
 
-  \node (stemmingOverPersonenGegevens) [ORI object, below right = 5.3cm and -10cm of besluit, align=center, draw=gray!86]
+  \node (stemmingOverPersonenGegevens) [ORI object, below right = 5.3cm and -9.2cm of besluit, align=center, draw=gray!86]
         {
           \objectheader{Gegevensgroeptype}{Stemming over personen}
 
           \attrib{\textbf{Naam kandidaat}}{string}{} \\
-          \attrib{\textbf{Aantal uitgebrachte stemmen}}{integer}{}
+          \attrib{Aantal uitgebrachte stemmen}{integer}{[0..1]}
         };
 
-   \node (vergaderstuk) [ORI relatieklasse, above right = -4.6cm and 7.2cm of agendapunt, align=center]
+   \node (informatieobject) [ORI relatieklasse, above right = -4.6cm and 7.2cm of agendapunt, align=center]
         {
-          \objectheader{Relatieklasse}{Vergaderstuk}
+          \objectheader{Relatieklasse}{Informatieobject}
 
-          \attrib{Vergaderstuk type}{\enumeratietype{vergaderstukType}}{[0..1]}
+          \attrib{Informatieobject type}{begripGegevens}{[0..1]}
         };
 
   %% inner MDTO rectangle
-  \node (mdto-inner) [rectangle, draw=mainblack, text=mainblack, ultra thick, right = 3.2cm of vergaderstuk, inner sep=40pt, fill=githubgrey, align=center]
+  \node (mdto-inner) [rectangle, draw=mainblack, text=mainblack, ultra thick, right = 3.2cm of informatieobject, inner sep=40pt, fill=githubgrey, align=center]
         {
-          {\huge MDTO}
+          {\LARGE \fontseries{sb}\selectfont MDTO\,/\,TMLO}
         };
 
   % Outer MDTO rectangle (this is what arrows should connect to)
@@ -400,12 +389,12 @@
   \draw[relatiepijl] ($(stemming.east) + (0, 0.0cm)$) -|
   node [kardinaliteit, pos=0, above, xshift=\kxshiftbeg]  {\oldstylenums{0..*}}
   node [kardinaliteit, pos=1, right, yshift=-\kyshiftend]  {\oldstylenums{0..*}}
-  node [pos=0.330, above] {heeft betrekking op}
-  node [pos=0.330, below] {\umltype{Relatiesoort}}
-  coordinate[pos=0.330] (tempcoordinate) % coordinate along the line
+  node [pos=0.302, above] {heeft betrekking op}
+  node [pos=0.302, below] {\umltype{Relatiesoort}}
+  coordinate[pos=0.302] (tempcoordinate) % coordinate along the line
   (mdto.south);
-  %% draw dashed line to vergaderstuk
-  \coordinate (lineendnorth) at (tempcoordinate|-vergaderstuk.south);
+  %% draw dashed line to informatieobject
+  \coordinate (lineendnorth) at (tempcoordinate|-informatieobject.south);
   \draw[dashedpijl] ($(tempcoordinate) + (0, 0.5cm)$) -- (lineendnorth);
 
   %% deelnemer -> vergadering
@@ -465,12 +454,12 @@
   ($(agendapunt.east) - (0, 2.5cm)$) --
   node [kardinaliteit, pos=0, above, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ++(2cm,0) -| ($(mdto.south) - (2cm, 0cm)$)
-  coordinate[pos=0.27] (tempcoordinate)
+  coordinate[pos=0.25] (tempcoordinate)
   node [kardinaliteit, pos=1, right, yshift=-\kyshiftend] {\oldstylenums{0..*}}
-  node [pos=0.27, above] {heeft als bijlage}
-  node [pos=0.27, below] {\umltype{Relatiesoort}};
+  node [pos=0.25, above] {heeft als bijlage}
+  node [pos=0.25, below] {\umltype{Relatiesoort}};
   % Draw the dashed line
-  \coordinate (lineendnorth) at (tempcoordinate|-vergaderstuk.south);
+  \coordinate (lineendnorth) at (tempcoordinate|-informatieobject.south);
   \draw[dashedpijl] ($(tempcoordinate) + (0, 0.52cm)$) -- (lineendnorth);
   %% agendapunt -> natuurlijkpersoon
   %% halfwaypoint stem and stemming
@@ -490,25 +479,9 @@
   ($(bumpstart) - (0,3.3cm)$) -|
   node [pos=0.17, above] {heeft behandelend ambtenaar}
   node [pos=0.17, below] {\umltype{Relatiesoort}}
-  node [kardinaliteit, pos=1, right, yshift=-\kyshiftbeg, xshift=\kxshiftbeg] {\oldstylenums{0..1}}
+  node [kardinaliteit, pos=1, right, yshift=-\kyshiftbeg, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ($(natuurlijkpersoon.south) + (3.9cm, 0)$);
   
-  %% mediabron -> mdto (is vastgelegd in)
-  \draw[relatiepijl] (mediabron) ($(mediabron.east)+(-0.0,0.2)$) -|
-  node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
-  node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{1}}
-  node [pos=0.21, above] {is vastgelegd in}
-  node [pos=0.21, below] {\umltype{Relatiesoort}}
-  ($(mdto.north)+(2.8cm,0)$);
-
-  %% mediabron -> mdto (ondertitel bestand)
-  \draw[relatiepijl] (mediabron) ($(mediabron.east)-(0.0,1.2)$) -|
-  node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
-  node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{0..*}}
-  node [pos=0.26, above] {heeft ondertitelbestand}
-  node [pos=0.26, below] {\umltype{Relatiesoort}}
-  ($(mdto.north)+(1cm, 0)$);
-
   %% fractie -> stemming
   \draw[relatiepijl] (fractie) --
   coordinate[pos=0.5] (tempcoordinate) %% define tmp halfway coord (for allignment reasons)
@@ -522,12 +495,6 @@
   ($(stemresultaatperfractie.east)-(0,0.3cm)$);
   
   
-  %% vergadering -> mediabron
-  \draw[relatiepijl] (vergadering)  --
-  node[kardinaliteit, pos=0, right, yshift=\kyshiftbeg] {0..1}
-  node[kardinaliteit, pos=1, right, yshift=-\kyshiftend] {0..*}
-  node [anchor=center, fill=white, pos=0.45] {is vastgelegd middels\\\umltype{Relatiesoort}} (mediabron);
-
   %% One could argue that this should just be another attribute
   %% vergadering -> vergadering
   \draw[relatiepijl] ($(vergadering.west)+(0,2.8)$) |-
@@ -542,13 +509,13 @@
   node [kardinaliteit, above, pos=0, xshift=\kxshiftbeg] {\oldstylenums{0..*}}
   ($(vergadering.east)+(11, 5.5)$) -| 
   node [kardinaliteit, right, pos=1, yshift=\kyshiftend] {\oldstylenums{0..*}}
-  node [anchor=center, above, pos=0.33] {heeft als bijlage}
-  node [anchor=center, below, pos=0.33] {\umltype{Relatiesoort}}
-  coordinate[pos=0.33] (tempcoordinate) %% define tmp halfway coord
+  node [anchor=center, above, pos=0.335] {heeft als bijlage}
+  node [anchor=center, below, pos=0.335] {\umltype{Relatiesoort}}
+  coordinate[pos=0.335] (tempcoordinate) %% define tmp halfway coord
   ($(mdto.north)+(-2.8cm,0)$);
 
   % Draw the dashed line
-  \coordinate (lineendsouth) at (tempcoordinate|-vergaderstuk.north);
+  \coordinate (lineendsouth) at (tempcoordinate|-informatieobject.north);
   \draw[dashedpijl] ($(tempcoordinate) + (0, -0.5cm)$) -- (lineendsouth);
   
   %% vergadering -> mdto (notulen)
@@ -590,14 +557,6 @@
   node [above, fill=white, pos=1.05] {is lid van}
   node [below, pos=1.05] {\umltype{Relatiesoort}}
   ($(dagelijksbestuurlidmaatschap.south) - (0, 1.8cm)$);
-
-  %% spreekfragment -> mediabron
-  \draw[relatiepijl] (spreekfragment.west) -|
-  node [kardinaliteit, pos=0, above, xshift=-\kxshiftbeg] {\oldstylenums{1..*}}
-  node [kardinaliteit, pos=1, right, yshift=\kyshiftend] {\oldstylenums{0..1}}
-  node [above, pos=0.27] {is vastgelegd in}
-  node [below, pos=0.27] {\umltype{Relatiesoort}}
-  (mediabron.north);
 
   %% enumeraties
 
@@ -661,10 +620,6 @@
         }
       } &
       \makecell[tl]{%
-        \enumeration{mediabronType}{
-          \keuze{Video}\sep\keuze{Audio}\sep\keuze{Transcriptie}
-        } \\
-        \seprule
         \enumeration{resultaatMondelingeStemming}{
           \keuze{Voor}\sep\keuze{Tegen}\sep\keuze{Gelijk}
         } \\
@@ -689,7 +644,7 @@
           \sep\keuze{Algemene bestuursvergadering}\sep\keuze{Presidium}
         } \\
         \seprule
-        \enumeration{vergaderstukType}{
+        \enumeration{informatieobjectType}{
           \keuze{Voorstel}\sep\keuze{Mededeling}\sep\keuze{Amendement}\sep\keuze{Besluitsvormingsstuk}
           \sep\keuze{Toezegging}\sep\keuze{Motie}\sep\keuze{Vraag}\sep\keuze{Antwoord}\sep\keuze{Ingekomen stuk}
         }

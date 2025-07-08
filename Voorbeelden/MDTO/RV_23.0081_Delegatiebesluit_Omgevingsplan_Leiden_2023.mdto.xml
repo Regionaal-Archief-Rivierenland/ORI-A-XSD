@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<informatieobject>
+		<identificatie>
+			<identificatieKenmerk>0222a20280888a00002a00f22242c</identificatieKenmerk>
+			<identificatieBron>Parlaeus</identificatieBron>
+		</identificatie>
+		<naam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</naam>
+		<classificatie>
+			<begripLabel>Voorstel</begripLabel>
+			<begripBegrippenlijst>
+				<verwijzingNaam>ORI-A Begrippenlijsten Vergaderstuktypes</verwijzingNaam>
+				<verwijzingIdentificatie>
+					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#vergaderstuktypes</identificatieKenmerk>
+					<identificatieBron>ORI-A</identificatieBron>
+				</verwijzingIdentificatie>
+			</begripBegrippenlijst>
+		</classificatie>
+		<waardering>
+			<begripLabel>Blijvend te bewaren</begripLabel>
+			<begripCode>B</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>Begrippenlijst Waarderingen MDTO</verwijzingNaam>
+			</begripBegrippenlijst>
+		</waardering>
+		<heeftRepresentatie>
+			<verwijzingNaam>RV_23.0081_Delegatiebesluit_Omgevingsplan_Leiden_2023.pdf</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>bestand-0222a20280888a00002a00f22242c</identificatieKenmerk>
+				<identificatieBron>Parlaeus</identificatieBron>
+			</verwijzingIdentificatie>
+		</heeftRepresentatie>
+		<archiefvormer>
+			<verwijzingNaam>Gemeente Leiden</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>gm0546</identificatieKenmerk>
+				<identificatieBron>TOOI register gemeenten compleet</identificatieBron>
+			</verwijzingIdentificatie>
+		</archiefvormer>
+		<betrokkene>
+			<betrokkeneTypeRelatie>
+				<begripLabel>Indiener</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>ORI-A Begrippenlijsten Betrokkene-vergaderstuk relaties</verwijzingNaam>
+					<verwijzingIdentificatie>
+						<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#betrokkene-vergaderstuk-relaties</identificatieKenmerk>
+						<identificatieBron>ORI-A</identificatieBron>
+					</verwijzingIdentificatie>
+				</begripBegrippenlijst>
+			</betrokkeneTypeRelatie>
+			<betrokkeneActor>
+				<verwijzingNaam>Maaike van Vliet</verwijzingNaam>
+				<verwijzingIdentificatie>
+					<identificatieKenmerk>Persoon-13</identificatieKenmerk>
+					<identificatieBron>Parlaeus</identificatieBron>
+				</verwijzingIdentificatie>
+			</betrokkeneActor>
+		</betrokkene>
+		<beperkingGebruik>
+			<beperkingGebruikType>
+				<begripLabel>Geen beperking</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst BeperkingGebruikType MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</beperkingGebruikType>
+		</beperkingGebruik>
+	</informatieobject>
+</MDTO>
