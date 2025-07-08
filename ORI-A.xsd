@@ -86,25 +86,13 @@
 			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
+
     <xs:complexType name="informatieobjectGegevens">
         <xs:sequence>
-            <xs:element name="informatieobjectType" minOccurs="0" maxOccurs="1">
+            <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt. Bij voorkeur wordt hier een waarde uit de begrippenlijsten 'ORI-A vergaderstuktypes' of 'ORI-A mediabron types' gebruikt.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voorstel"/>
-                        <xs:enumeration value="Motie"/>
-                        <xs:enumeration value="Amendement"/>
-                        <xs:enumeration value="Besluitsvormingsstuk"/>
-                        <xs:enumeration value="Toezegging"/>
-                        <xs:enumeration value="Mededeling"/>
-                        <xs:enumeration value="Vraag"/>
-                        <xs:enumeration value="Antwoord"/>
-                        <xs:enumeration value="Ingekomen stuk"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="verwijzingInformatieobject" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -221,7 +209,7 @@
             </xs:element>
             <xs:element name="isVastgelegdMiddels" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over een informatieobject waarin de (deel)vergadering is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over een informatieobject waarin de (deel)vergadering is opgenomen. Deze opname kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isGenotuleerdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">

@@ -17,14 +17,25 @@
                 <gemeentenaam>Gemeente Leiden</gemeentenaam>
             </gemeente>
         </bestuurslaag>
-        <!-- todo: voeg type toe via begrippenlijst -->
         <isVastgelegdMiddels>
+            <informatieobjectType>
+                <begripLabel>Video</begripLabel>
+                <begrippenlijstVerwijzing>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
+                </begrippenlijstVerwijzing>
+            </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>8088a20808a0280002a000280b25219e</verwijzingID>
                 <verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
             </verwijzingInformatieobject>
         </isVastgelegdMiddels>
         <isGenotuleerdIn>
+            <informatieobjectType>
+                <begripLabel>Transcriptie</begripLabel>
+                <begrippenlijstVerwijzing>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
+                </begrippenlijstVerwijzing>
+            </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>a2a228082a200a88002a22f019b92</verwijzingID>
                 <verwijzingNaam>23-11-30 Transcript Raadsvergadering Leiden</verwijzingNaam>
@@ -42,14 +53,26 @@
         <behandeld>true</behandeld>
         <besloten>false</besloten>
         <heeftAlsBijlage>
-            <informatieobjectType>Voorstel</informatieobjectType>
+            <informatieobjectType>
+                <begripLabel>Voorstel</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>0222a20280888a00002a00f22242c</verwijzingID>
                 <verwijzingNaam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</verwijzingNaam>
             </verwijzingInformatieobject>
         </heeftAlsBijlage>
         <heeftAlsBijlage>
-            <informatieobjectType>Amendement</informatieobjectType>
+            <informatieobjectType>
+                <begripLabel>Amendement</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>a8882a2a0a002a82002a82f804b4a</verwijzingID>
                 <verwijzingNaam>A.23.0081.02 INGETROKKEN GL Schrappen delegatie karakteristieke panden</verwijzingNaam>
