@@ -67,6 +67,25 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="begripGegevens">
+		<xs:sequence>
+			<xs:element name="begripLabel" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Het label dat aan het begrip is toegekend in de begrippenlijst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="begripCode" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>De code die aan het begrip is toegekend in de begrippenlijst.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="verwijzingBegrippenlijst" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Een verwijzing naar de begrippenlijst waarin het begrip beschreven wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is meestal een URL, en de gewenste naam de titel van de begrippenlijst (bijv. 'ORI-A Vergaderstuktypes').</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
     <xs:complexType name="informatieobjectGegevens">
         <xs:sequence>
             <xs:element name="informatieobjectType" minOccurs="0" maxOccurs="1">
