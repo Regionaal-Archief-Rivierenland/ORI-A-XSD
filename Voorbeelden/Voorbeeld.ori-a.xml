@@ -105,7 +105,13 @@
             <verwijzingNaam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</verwijzingNaam>
         </heeftBetrekkingOpAgendapunt>
         <heeftBetrekkingOpBesluitvormingsstuk>
-            <informatieobjectType>Voorstel</informatieobjectType>
+            <informatieobjectType>
+                <begripLabel>Voorstel</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </informatieobjectType>
             <verwijzingInformatieobject>
                 <verwijzingID>0222a20280888a00002a00f22242c</verwijzingID>
                 <verwijzingNaam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</verwijzingNaam>
