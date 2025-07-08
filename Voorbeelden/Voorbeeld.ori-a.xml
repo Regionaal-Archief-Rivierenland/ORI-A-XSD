@@ -157,6 +157,7 @@
     </persoonBuitenVergadering>
 
     <!-- todo: add griffier? -->
+    <!-- todo: move voorzitter to bottom of list? -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
         <rolnaam>Voorzitter</rolnaam>
