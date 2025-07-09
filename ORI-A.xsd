@@ -202,9 +202,9 @@
                     <xs:documentation>Datum en tijdstip waarop de vergadering voor het laatst gepubliceerd of gewijzigd is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="bestuurslaagGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden. Deze gegevens komen doorgaans uit de TOOI waardenlijsten 'Register gemeenten compleet', 'Register provincies compleet' of 'Register waterschappen compleet'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isVastgelegdMiddels" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -306,9 +306,9 @@
                     <xs:documentation>Geeft aan of het agendapunt besloten werd behandeld.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="bestuurslaagGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Deze gegevens komen doorgaans uit de TOOI waardenlijsten 'Register gemeenten compleet', 'Register provincies compleet' of 'Register waterschappen compleet'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
@@ -535,9 +535,9 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="bestuurslaag" type="bestuurslaagGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur. Deze gegevens komen doorgaans uit de TOOI waardenlijsten 'Register gemeenten compleet', 'Register provincies compleet' of 'Register waterschappen compleet'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
@@ -719,9 +719,9 @@
                     <xs:documentation>De naam van de fractie, zoals `D66` of `VVD`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="bestuurslaagGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De bestuurslaag waarop de fractie functioneert. Deze laag kan een gemeente, provincie of waterschap zijn.</xs:documentation>
+                    <xs:documentation>De bestuurslaag waarop de fractie functioneert. Deze gegevens komen doorgaans uit de TOOI waardenlijsten 'Register gemeenten compleet', 'Register provincies compleet' of 'Register waterschappen compleet'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="fractieNeemtDeelAanStemming" type="stemresultaatPerFractieGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -894,99 +894,5 @@
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="gemeenteGegevens">
-        <xs:sequence>
-            <xs:element name="gemeentecode" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>
-                        De code van de gemeente uit de TOOI begrippenlijst 'Register gemeenten compleet'.
-                        Dit is een viercijferige code, eventueel voorafgegaan door het voorvoegsel 'gm',
-                        zoals `gm0518` voor de gemeente Den Haag. Voor de volledige lijst, 
-                        zie https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4
-                    </xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="(GM|gm)?\d{4}"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="gemeentenaam" type="xs:string" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>De naam van de gemeente.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="waterschapGegevens">
-        <xs:sequence>
-            <xs:element name="waterschapcode" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>
-                        De code van het waterschap uit de TOOI begrippenlijst 'Register waterschappen compleet'.
-                        Dit is een viercijferige code, eventueel voorafgegaan door het voorvoegsel 'ws', 
-                        zoals `ws0652` voor waterschap Brabantse Delta. Voor de volledige lijst, 
-                        zie https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet/2
-                    </xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="(ws|WS)?\d{4}"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="waterschapnaam" type="xs:string" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>De naam van het waterschap.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="provincieGegevens">
-        <xs:sequence>
-            <xs:element name="provinciecode" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>
-                        De code van de provincie uit de TOOI begrippenlijst 'Register provincies compleet'.
-                        Dit is een tweecijferige code, eventueel voorafgegaan door het voorvoegsel 'pv',
-                        zoals `pv20` voor de provincie Groningen. Voor de volledige lijst,
-                        zie https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet/1
-                    </xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="(pv|PV)?\d{2}"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="provincienaam" type="xs:string" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>De naam van de provincie.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="bestuurslaagGegevens">
-        <xs:annotation>
-            <xs:documentation>Geeft de relevante bestuurslaag aan, middels een keuze uit drie gegevensgroepen.</xs:documentation>
-        </xs:annotation>
-        <xs:choice>
-            <xs:element name="gemeente" type="gemeenteGegevens" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Gegevens die een gemeente uniek identificeren.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="waterschap" type="waterschapGegevens" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Gegevens die een waterschap uniek identificeren.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="provincie" type="provincieGegevens" minOccurs="1" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Gegevens die een provincie uniek identificeren.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-        </xs:choice>
     </xs:complexType>
 </xs:schema>

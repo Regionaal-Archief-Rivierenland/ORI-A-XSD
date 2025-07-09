@@ -13,10 +13,12 @@
         <eindeVergadering>2023-11-30T23:00:00</eindeVergadering>
         <publicatiedatum>2023-12-15T14:12:15</publicatiedatum>
         <bestuurslaag>
-            <gemeente>
-                <gemeentecode>gm0546</gemeentecode>
-                <gemeentenaam>Gemeente Leiden</gemeentenaam>
-            </gemeente>
+            <begripLabel>Gemeente Leiden</begripLabel>
+            <begripCode>gm0546</begripCode>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4</verwijzingID>
+                <verwijzingNaam>Register gemeenten compleet</verwijzingNaam>
+            </verwijzingBegrippenlijst>
         </bestuurslaag>
         <isVastgelegdMiddels>
             <informatieobjectType>
@@ -163,10 +165,12 @@
         <dagelijksBestuurNaam>College van B&amp;W</dagelijksBestuurNaam>
         <dagelijksBestuurType>College</dagelijksBestuurType>
         <bestuurslaag>
-            <gemeente>
-                <gemeentecode>gm0546</gemeentecode>
-                <gemeentenaam>Gemeente Leiden</gemeentenaam>
-            </gemeente>
+            <begripLabel>Gemeente Leiden</begripLabel>
+            <begripCode>gm0546</begripCode>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4</verwijzingID>
+                <verwijzingNaam>Register gemeenten compleet</verwijzingNaam>
+            </verwijzingBegrippenlijst>
         </bestuurslaag>
     </dagelijksBestuur>
 
