@@ -37,6 +37,13 @@
 				<identificatieBron>Parlaeus</identificatieBron>
 			</verwijzingIdentificatie>
 		</heeftRepresentatie>
+        <aanvullendeMetagegevens>
+            <verwijzingNaam>Voorbeeld.ori-a.xml</verwijzingNaam>
+            <verwijzingIdentificatie>
+                <identificatieKenmerk>20a280a8a8a88220008208822f6b6b02</identificatieKenmerk>
+                <identificatieBron>Parlaeus</identificatieBron>
+            </verwijzingIdentificatie>
+        </aanvullendeMetagegevens>
 		<archiefvormer>
 			<verwijzingNaam>Gemeente Leiden</verwijzingNaam>
 			<verwijzingIdentificatie>
