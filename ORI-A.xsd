@@ -79,7 +79,7 @@
 					<xs:documentation>De code die aan het begrip is toegekend in de begrippenlijst.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="verwijzingBegrippenlijst" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+			<xs:element name="begrippenlijstVerwijzing" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>Een verwijzing naar de begrippenlijst waarin het begrip beschreven wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is meestal een URL, en de gewenste naam de titel van de begrippenlijst (bijv. 'ORI-A Vergaderstuktypes').</xs:documentation>
 				</xs:annotation>
@@ -94,7 +94,7 @@
                     <xs:documentation>Het soort informatieobject waarnaar verwezen wordt. Bij voorkeur wordt hier een waarde uit de begrippenlijsten 'ORI-A vergaderstuktypes' of 'ORI-A mediabron types' gebruikt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="verwijzingInformatieobject" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="informatieobjectVerwijzing" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar een elders gedefinieerd informatieobject.</xs:documentation>
                 </xs:annotation>
@@ -559,7 +559,7 @@
                     <xs:documentation>Datum waarop iemands lidmaatschap van het dagelijkse bestuur eindigde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="verwijzingDagelijksBestuur" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="dagelijksbestuurVerwijzing" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar het dagelijks bestuur waar het lidmaatschap betrekking op heeft.</xs:documentation>
                 </xs:annotation>
@@ -753,7 +753,7 @@
                     <xs:documentation>Geeft aan of iemand fractievoorzitter is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="verwijzingFractie" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="fractieVerwijzing" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de fractie waar het lidmaatschap betrekking op heeft.</xs:documentation>
                 </xs:annotation>
