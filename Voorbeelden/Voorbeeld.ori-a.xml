@@ -427,6 +427,11 @@
                 <achternaam>Rowaan</achternaam>
                 <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
             </naam>
+            <nevenfunctie>
+                <omschrijvingNevenfunctie>Projectmanager Sociale Zaken en Werkgelegenheid</omschrijvingNevenfunctie>
+                <naamOrganisatieNevenfunctie>Gemeente Den Haag</naamOrganisatieNevenfunctie>
+                <bezoldigd>true</bezoldigd>
+            </nevenfunctie>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
                 <verwijzingFractie>
@@ -550,6 +555,10 @@
                 <tussenvoegsel>van</tussenvoegsel>
                 <volledigeNaam>Ivo van Spronsen</volledigeNaam>
             </naam>
+            <nevenfunctie>
+                <omschrijvingNevenfunctie>Voorzitter RozeLinks</omschrijvingNevenfunctie>
+                <bezoldigd>false</bezoldigd>
+            </nevenfunctie>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
                 <verwijzingFractie>
@@ -640,6 +649,11 @@
                 <achternaam>Jordan</achternaam>
                 <volledigeNaam>Antje Jordan</volledigeNaam>
             </naam>
+            <nevenfunctie>
+                <omschrijvingNevenfunctie>Transitiemanager</omschrijvingNevenfunctie>
+                <naamOrganisatieNevenfunctie>Provincie Zuid-Holland</naamOrganisatieNevenfunctie>
+                <bezoldigd>true</bezoldigd>
+            </nevenfunctie>
             <isLidVanFractie>
                 <voorzitter>false</voorzitter>
                 <verwijzingFractie>
