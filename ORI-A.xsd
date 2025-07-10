@@ -617,7 +617,7 @@
                     <xs:documentation>Gegevens over de naam van de persoon, zoals diens voor- en achternaam.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="nevenfunctie" type="nevenfunctieGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="nevenfunctie" type="nevenfunctieGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over eventuele nevenfuncties van de persoon, zoals of het om een betaalde functie gaat.</xs:documentation>
                 </xs:annotation>
