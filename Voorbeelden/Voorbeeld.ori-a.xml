@@ -401,6 +401,11 @@
                 <achternaam>Vos</achternaam>
                 <volledigeNaam>Thijs Vos</volledigeNaam>
             </naam>
+            <nevenfunctie>
+                <omschrijvingNevenfunctie>Promovendus</omschrijvingNevenfunctie>
+                <naamOrganisatieNevenfunctie>Universiteit Leiden</naamOrganisatieNevenfunctie>
+                <bezoldigd>true</bezoldigd>
+            </nevenfunctie>
             <isLidVanFractie>
                 <voorzitter>true</voorzitter>
                 <verwijzingFractie>
