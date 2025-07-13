@@ -9,7 +9,7 @@
 		<classificatie>
 			<begripLabel>Voorstel</begripLabel>
 			<begripBegrippenlijst>
-				<verwijzingNaam>ORI-A Begrippenlijsten Vergaderstuktypes</verwijzingNaam>
+				<verwijzingNaam>ORI-A Begrippenlijst Vergaderstuktypes</verwijzingNaam>
 				<verwijzingIdentificatie>
 					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#vergaderstuktypes</identificatieKenmerk>
 					<identificatieBron>ORI-A</identificatieBron>
@@ -41,7 +41,7 @@
 			<betrokkeneTypeRelatie>
 				<begripLabel>Indiener</begripLabel>
 				<begripBegrippenlijst>
-					<verwijzingNaam>ORI-A Begrippenlijsten Betrokkene-vergaderstuk relaties</verwijzingNaam>
+					<verwijzingNaam>ORI-A Begrippenlijst Betrokkene-vergaderstuk relaties</verwijzingNaam>
 					<verwijzingIdentificatie>
 						<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#betrokkene-vergaderstuk-relaties</identificatieKenmerk>
 						<identificatieBron>ORI-A</identificatieBron>
