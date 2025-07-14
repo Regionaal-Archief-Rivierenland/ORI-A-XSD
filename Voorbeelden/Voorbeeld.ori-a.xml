@@ -49,9 +49,9 @@
     <!-- Agendapunten -->
     <agendapunt>
         <ID>2028a00aaa2a8aaa00a2aab6bdaef</ID>
-        <agendapuntVolgnummer>22</agendapuntVolgnummer>
+        <volgnummer>22</volgnummer>
         <starttijd>2023-11-30T20:22:26</starttijd>
-        <agendapuntTitel>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</agendapuntTitel>
+        <titel>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</titel>
         <hamerstuk>false</hamerstuk>
         <behandeld>true</behandeld>
         <besloten>false</besloten>
@@ -84,9 +84,9 @@
     </agendapunt>
     <agendapunt>
         <ID>202282aa200aa08200a2821eb50cf</ID>
-        <agendapuntVolgnummer>23</agendapuntVolgnummer>
+        <volgnummer>23</volgnummer>
         <starttijd>2023-11-30T20:59:40</starttijd>
-        <agendapuntTitel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</agendapuntTitel>
+        <titel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</titel>
         <hamerstuk>false</hamerstuk>
         <behandeld>true</behandeld>
         <besloten>false</besloten>
