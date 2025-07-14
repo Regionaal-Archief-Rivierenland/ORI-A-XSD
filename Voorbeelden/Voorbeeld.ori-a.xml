@@ -190,7 +190,6 @@
         </isLidVanFractie>
     </persoonBuitenVergadering>
 
-    <!-- todo: add griffier? -->
     <!-- todo: move voorzitter to bottom of list? -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
@@ -794,5 +793,16 @@
                 <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
             </spreektTijdensAgendapunt>
         </spreektTijdensSpreekfragment>
+    </aanwezigeDeelnemer>
+    <aanwezigeDeelnemer>
+        <rolnaam>Griffier</rolnaam>
+        <isNatuurlijkPersoon>
+            <ID>Persoon-14</ID>
+            <naam>
+                <achternaam>Leiden</achternaam>
+                <tussenvoegsel>van</tussenvoegsel>
+                <volledigeNaam>Gerald van Leiden</volledigeNaam>
+            </naam>
+        </isNatuurlijkPersoon>
     </aanwezigeDeelnemer>
 </ORI-A>
