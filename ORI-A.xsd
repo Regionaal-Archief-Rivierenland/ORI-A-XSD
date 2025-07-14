@@ -51,17 +51,17 @@
 
     <xs:complexType name="verwijzingGegevens">
         <xs:annotation>
-            <xs:documentation>Gegevens om vanuit een object naar een ander te verwijzen.</xs:documentation>
+            <xs:documentation>Gegevens om vanuit een entiteit naar een ander te verwijzen.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="verwijzingID" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het ID van het object waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Het ID van het entiteit waarnaar verwezen wordt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="verwijzingNaam" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Een voor menselijke lezers bedoelde naam van het object waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Een voor menselijke lezers bedoelde naam van het entiteit waarnaar verwezen wordt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
