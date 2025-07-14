@@ -236,12 +236,12 @@
                     <xs:documentation>Uniek identificatiekenmerk van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="agendapuntOmschrijving" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="omschrijving" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Toelichting of nadere omschrijving van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="geplandAgendapuntVolgnummer" minOccurs="0" maxOccurs="1">
+            <xs:element name="geplandVolgnummer" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het geplande agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
@@ -251,7 +251,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="agendapuntVolgnummer" minOccurs="0" maxOccurs="1">
+            <xs:element name="volgnummer" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
@@ -281,12 +281,12 @@
                     <xs:documentation>Datum en tijdstip waarop het agendapunt daadwerkelijk werd afgesloten.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="agendapuntKenmerk" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="kenmerk" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De weergave van het agendapuntvolgnummer op de agenda.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="agendapuntTitel" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="titel" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Titel of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
