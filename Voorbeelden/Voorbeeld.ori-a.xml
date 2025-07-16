@@ -401,8 +401,8 @@
                 <volledigeNaam>Thijs Vos</volledigeNaam>
             </naam>
             <nevenfunctie>
-                <omschrijvingNevenfunctie>Promovendus</omschrijvingNevenfunctie>
-                <naamOrganisatieNevenfunctie>Universiteit Leiden</naamOrganisatieNevenfunctie>
+                <omschrijving>Promovendus</omschrijving>
+                <naamOrganisatie>Universiteit Leiden</naamOrganisatie>
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
@@ -436,8 +436,8 @@
                 <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
             </naam>
             <nevenfunctie>
-                <omschrijvingNevenfunctie>Projectmanager Sociale Zaken en Werkgelegenheid</omschrijvingNevenfunctie>
-                <naamOrganisatieNevenfunctie>Gemeente Den Haag</naamOrganisatieNevenfunctie>
+                <omschrijving>Projectmanager Sociale Zaken en Werkgelegenheid</omschrijving>
+                <naamOrganisatie>Gemeente Den Haag</naamOrganisatie>
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
@@ -564,7 +564,7 @@
                 <volledigeNaam>Ivo van Spronsen</volledigeNaam>
             </naam>
             <nevenfunctie>
-                <omschrijvingNevenfunctie>Voorzitter RozeLinks</omschrijvingNevenfunctie>
+                <omschrijving>Voorzitter RozeLinks</omschrijving>
                 <bezoldigd>false</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
@@ -658,8 +658,8 @@
                 <volledigeNaam>Antje Jordan</volledigeNaam>
             </naam>
             <nevenfunctie>
-                <omschrijvingNevenfunctie>Transitiemanager</omschrijvingNevenfunctie>
-                <naamOrganisatieNevenfunctie>Provincie Zuid-Holland</naamOrganisatieNevenfunctie>
+                <omschrijving>Transitiemanager</omschrijving>
+                <naamOrganisatie>Provincie Zuid-Holland</naamOrganisatie>
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>

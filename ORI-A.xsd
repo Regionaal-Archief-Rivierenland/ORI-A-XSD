@@ -665,17 +665,17 @@
     </xs:complexType>
     <xs:complexType name="nevenfunctieGegevens">
         <xs:sequence>
-            <xs:element name="omschrijvingNevenfunctie" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="omschrijving" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Omschrijving van iemand's nevenfunctie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="naamOrganisatieNevenfunctie" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="naamOrganisatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De naam van de organisatie waarbinnen de nevenfunctie wordt uitgevoerd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="aantalUrenperMaand" type="xs:positiveInteger" minOccurs="0" maxOccurs="1">
+            <xs:element name="aantalUrenPerMaand" type="xs:positiveInteger" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Aantal uren per maand dat besteed wordt aan de nevenfunctie.</xs:documentation>
                 </xs:annotation>
@@ -685,7 +685,7 @@
                     <xs:documentation>Geeft aan of de nevenfunctie wordt uitgevoerd tegen betaling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="nevenfunctieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="functieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of de nevenfunctie wordt vervuld vanwege een lidmaatschap van de Raad of de Staten.</xs:documentation>
                 </xs:annotation>
@@ -695,12 +695,12 @@
                     <xs:documentation>Datum waarop de nevenfunctie gemeld is bij de griffie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="datumAanvangNevenfunctie" type="xs:date" minOccurs="0" maxOccurs="1">
+            <xs:element name="datumAanvang" type="xs:date" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Datum waarop iemand met de nevenfunctie begon.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="datumEindeNevenfunctie" type="xs:date" minOccurs="0" maxOccurs="1">
+            <xs:element name="datumEinde" type="xs:date" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Datum waarop iemands nevenfunctie wordt/is beëindigd.</xs:documentation>
                 </xs:annotation>

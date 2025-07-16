@@ -269,14 +269,14 @@
         {
           \objectheader{Gegevensgroeptype}{Nevenfunctie}
 
-          \attrib{\textbf{Omschrijving nevenfunctie}}{string}{} \\
-          \attrib{Naam organisatie nevenfunctie}{string}{[0..1]} \\
+          \attrib{\textbf{Omschrijving}}{string}{} \\
+          \attrib{Naam organisatie}{string}{[0..1]} \\
           \attrib{Aantal uren per maand}{integer}{[0..1]} \\
           \attrib{bezoldigd}{boolean}{[0..1]} \\
-          \attrib{nevenfunctie vanwege lidmaatschap}{boolean}{[0..1]} \\
+          \attrib{Functie vanwege lidmaatschap}{boolean}{[0..1]} \\
           \attrib{Datum melding}{datum}{[0..1]} \\
-          \attrib{Datum aanvang nevenfunctie}{datum}{[0..1]} \\
-          \attrib{Datum einde nevenfunctie}{datum}{[0..1]}
+          \attrib{Datum aanvang}{datum}{[0..1]} \\
+          \attrib{Datum einde}{datum}{[0..1]}
         };
 
    \node (fractielidmaatschap) [ORI relatieklasse, below = 4.0cm of deelnemer, align=center]
