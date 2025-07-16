@@ -190,7 +190,7 @@
     </persoonBuitenVergadering>
 
     <!-- todo: add griffier? -->
-    <!-- todo: move voorzitter to bottom of list? -->
+    <!-- todo: move voorzitter to bottom of list (or cut the beginning of the meeting) -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
         <rolnaam>Voorzitter</rolnaam>
