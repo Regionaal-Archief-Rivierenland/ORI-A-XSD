@@ -308,7 +308,7 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Deze gegevens komen doorgaans uit de TOOI waardenlijsten 'Register gemeenten compleet', 'Register provincies compleet' of 'Register waterschappen compleet'.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Bij voorkeur een waarde uit een TOOI waardenlijst, zoals 'Register gemeenten compleet'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
