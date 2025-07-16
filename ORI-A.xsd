@@ -890,7 +890,7 @@
             </xs:element>
             <xs:element name="gremiumNaam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Naam van het gremium.</xs:documentation>
+                    <xs:documentation>Naam van het gremium, zoals 'Commissie Stedelijke Ontwikkeling'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
