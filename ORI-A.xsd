@@ -118,7 +118,7 @@
             </xs:element>
             <xs:element name="naam" type="xs:string" minOccurs= "1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De naam van de vergadering, bijvoorbeeld 'Commissie Onderwijs en Samenleving'.</xs:documentation>
+                    <xs:documentation>De naam van de vergadering, zoals 'Commissie Onderwijs en Samenleving'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="vergaderToelichting" type="xs:string" minOccurs="0" maxOccurs="1">
