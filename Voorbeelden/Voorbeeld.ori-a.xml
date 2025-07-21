@@ -98,7 +98,7 @@
     <!-- Stemmingen -->
     <stemming>
         <ID>RV 23.0081</ID>
-        <stemmingType>Regulier</stemmingType>
+        <stemmingstype>Regulier</stemmingstype>
         <leidtTotBesluit>
             <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
             <besluitResultaat>Aangenomen</besluitResultaat>

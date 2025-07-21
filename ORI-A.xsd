@@ -409,7 +409,7 @@
                     <xs:documentation>Uniek identificatiekenmerk van de stemming.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="stemmingType" minOccurs="0" maxOccurs="1">
+            <xs:element name="stemmingstype" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De wijze waarop gestemd is.</xs:documentation>
                 </xs:annotation>
