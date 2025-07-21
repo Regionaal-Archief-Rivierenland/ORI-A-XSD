@@ -3,7 +3,7 @@
     <vergadering>
         <ID>20a280a8a8a88220008208822f6b6b02</ID>
         <naam>Gemeenteraad</naam>
-        <vergaderingsType>Raadsvergadering</vergaderingsType>
+        <vergaderingstype>Raadsvergadering</vergaderingstype>
         <locatie>Raadzaal Stadhuis</locatie>
         <raadpleeglocatieOnline>https://leiden.qualigraf.nl/app/public/agenda/0a202828028a220202828088a3d42d39/vod</raadpleeglocatieOnline>
         <status>Gehouden</status>
