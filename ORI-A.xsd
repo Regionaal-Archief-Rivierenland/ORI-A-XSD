@@ -738,7 +738,7 @@
                     </xs:appinfo>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="fractieNeemtDeelAanStemming" type="stemresultaatPerFractieGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="neemtDeelAanStemming" type="stemresultaatPerFractieGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over hoe de fractie als geheel tegenover een stemming stond, zoals of de aanwezigen leden unaniem voor, unaniem tegen, of juist verdeeld hebben gestemd.</xs:documentation>
                 </xs:annotation>
