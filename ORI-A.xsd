@@ -20,7 +20,7 @@
                 </xs:element>
                 <xs:element name="fractie" type="fractieGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een fractie, zoals het stemgedrag en de naam van de fractie.</xs:documentation>
+                        <xs:documentation>Gegevens over een fractie, zoals de naam en het stemgedrag van de fractie.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="dagelijksBestuur" type="dagelijksBestuurGegevens" minOccurs="0" maxOccurs="unbounded">
