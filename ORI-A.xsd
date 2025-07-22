@@ -722,20 +722,6 @@
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De bestuurslaag waarop de fractie functioneert.</xs:documentation>
-                    <xs:appinfo>
-                        <aangeradenBegrippenlijst>
-                            <naam>TOOI register gemeentes compleet</naam>
-                            <URL>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4</URL>
-                        </aangeradenBegrippenlijst>
-                        <aangeradenBegrippenlijst>
-                            <naam>TOOI register provincies compleet</naam>
-                            <URL>https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet/1</URL>
-                        </aangeradenBegrippenlijst>
-                        <aangeradenBegrippenlijst>
-                            <naam>TOOI register waterschappen compleet</naam>
-                            <URL>https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet/2</URL>
-                        </aangeradenBegrippenlijst>
-                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="neemtDeelAanStemming" type="stemresultaatPerFractieGegevens" minOccurs="0" maxOccurs="unbounded">
