@@ -6,7 +6,7 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>Videotuul_Gemeenteraad_30_november_2023.mp4</naam>
-		<omvang>66078780</omvang>
+		<omvang>58348088</omvang>
 		<bestandsformaat>
 			<begripLabel>MPEG-4 Media File</begripLabel>
 			<begripCode>fmt/199</begripCode>
@@ -21,8 +21,8 @@
 					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
 				</begripBegrippenlijst>
 			</checksumAlgoritme>
-			<checksumWaarde>def9e9ac4c97d7e797fb1afa0aa9298a1c49442a7b1e3a8d4af8ffd94974c140</checksumWaarde>
-			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+			<checksumWaarde>f91cbe3fbd24b18e81aae2298265defc047de230dcaa35a0c06ce811d0329e90</checksumWaarde>
+			<checksumDatum>2025-07-22T19:15:24</checksumDatum>
 		</checksum>
 		<URLBestand>https://streamings.streamovations.nl/leiden/8088a20808a0280002a000280b25219e/download</URLBestand>
 		<isRepresentatieVan>
