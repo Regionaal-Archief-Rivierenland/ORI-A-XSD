@@ -31,7 +31,7 @@
                 <verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
             </verwijzingInformatieobject>
         </isVastgelegdMiddels>
-        <isGenotuleerdIn>
+        <isVastgelegdMiddels>
             <informatieobjectType>
                 <begripLabel>Transcriptie</begripLabel>
                 <verwijzingBegrippenlijst>
@@ -42,7 +42,7 @@
                 <verwijzingID>a2a228082a200a88002a22f019b92</verwijzingID>
                 <verwijzingNaam>23-11-30 Transcript Raadsvergadering Leiden</verwijzingNaam>
             </verwijzingInformatieobject>
-        </isGenotuleerdIn>
+        </isVastgelegdMiddels>
     </vergadering>
 
     <!-- Agendapunten -->
