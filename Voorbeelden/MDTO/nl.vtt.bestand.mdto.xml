@@ -6,7 +6,7 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>nl.vtt</naam>
-		<omvang>275367</omvang>
+		<omvang>49179</omvang>
 		<bestandsformaat>
 			<begripLabel>Web Video Text Tracks (WebVTT) Format</begripLabel>
 			<begripCode>fmt/1454</begripCode>
@@ -21,8 +21,8 @@
 					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
 				</begripBegrippenlijst>
 			</checksumAlgoritme>
-			<checksumWaarde>7c03df4ab77587e64c1a28cd61a3a712d2a68ac4badb5aec4c5bf0f4cad165bb</checksumWaarde>
-			<checksumDatum>2025-07-03T17:29:49</checksumDatum>
+			<checksumWaarde>dcb2512ed787e65749f84f76252199644b45919d720d125592b0c2ca8f968de3</checksumWaarde>
+			<checksumDatum>2025-07-22T19:09:39</checksumDatum>
 		</checksum>
 		<isRepresentatieVan>
 			<verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
