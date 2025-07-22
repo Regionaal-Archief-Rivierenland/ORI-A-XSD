@@ -126,38 +126,72 @@
     <fractie>
         <ID>D66-gm0546</ID>
         <fractienaam>D66</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Verdeeld</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>GL-gm0546</ID>
         <fractienaam>GL</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Aangenomen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>VVD-gm0546</ID>
         <fractienaam>VVD</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Verworpen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>PvdA-gm0546</ID>
         <fractienaam>PvdA</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Aangenomen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>SP-gm0546</ID>
         <fractienaam>SP</fractienaam>
-    </fractie>
-    <fractie>
-        <ID>PvdD-gm0546</ID>
-        <fractienaam>PvdD</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Aangenomen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>PS-gm0546</ID>
         <fractienaam>PS</fractienaam>
-    </fractie>
-    <fractie>
-        <ID>CU-gm0546</ID>
-        <fractienaam>CU</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Aangenomen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
     <fractie>
         <ID>CDA-gm0546</ID>
         <fractienaam>CDA</fractienaam>
+        <neemtDeelAanStemming>
+            <fractieStemresultaat>Aangenomen</fractieStemresultaat>
+            <gegevenOpStemming>
+                <verwijzingID>RV 23.0081</verwijzingID>
+            </gegevenOpStemming>
+        </neemtDeelAanStemming>
     </fractie>
 
     <dagelijksBestuur>
@@ -470,30 +504,6 @@
                 <voorzitter>true</voorzitter>
                 <verwijzingFractie>
                     <verwijzingID>VVD-gm0546</verwijzingID>
-                </verwijzingFractie>
-            </isLidVanFractie>
-        </isNatuurlijkPersoon>
-        <neemtDeelAanStemming>
-            <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
-                <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
-        </neemtDeelAanStemming>
-    </aanwezigeDeelnemer>
-    <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
-        <isNatuurlijkPersoon>
-            <ID>Persoon-4</ID>
-            <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
-            <naam>
-                <achternaam>Krol</achternaam>
-                <volledigeNaam>Pieter Krol</volledigeNaam>
-            </naam>
-            <isLidVanFractie>
-                <voorzitter>true</voorzitter>
-                <verwijzingFractie>
-                    <verwijzingID>CU-gm0546</verwijzingID>
                 </verwijzingFractie>
             </isLidVanFractie>
         </isNatuurlijkPersoon>
