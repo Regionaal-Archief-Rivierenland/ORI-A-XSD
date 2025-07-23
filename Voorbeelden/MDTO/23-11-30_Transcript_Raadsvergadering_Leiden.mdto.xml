@@ -6,6 +6,16 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>23-11-30 Transcript Raadsvergadering Leiden</naam>
+        <classificatie>
+			<begripLabel>Transcriptie</begripLabel>
+			<begripBegrippenlijst>
+				<verwijzingNaam>ORI-A Mediabron types</verwijzingNaam>
+				<verwijzingIdentificatie>
+					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#mediabron-types</identificatieKenmerk>
+					<identificatieBron>ORI-A</identificatieBron>
+				</verwijzingIdentificatie>
+			</begripBegrippenlijst>
+		</classificatie>
 		<waardering>
 			<begripLabel>Blijvend te bewaren</begripLabel>
 			<begripCode>B</begripCode>
