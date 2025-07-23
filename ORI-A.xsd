@@ -109,6 +109,8 @@
         <xs:union memberTypes="xs:nonNegativeInteger xs:time"/>
     </xs:simpleType>
 
+    <!-- # Domeinspecifieke datatypes -->
+
     <xs:complexType name="vergaderingGegevens">
         <xs:sequence>
             <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
