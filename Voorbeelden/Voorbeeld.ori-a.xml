@@ -128,9 +128,9 @@
         <fractienaam>D66</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Verdeeld</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -138,9 +138,9 @@
         <fractienaam>GL</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -148,9 +148,9 @@
         <fractienaam>VVD</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Verworpen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -158,9 +158,9 @@
         <fractienaam>PvdA</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -168,9 +168,9 @@
         <fractienaam>SP</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -178,9 +178,9 @@
         <fractienaam>PS</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
     <fractie>
@@ -188,9 +188,9 @@
         <fractienaam>CDA</fractienaam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </fractie>
 
@@ -460,9 +460,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:38:52</videoTijdsaanduidingAanvang>
@@ -500,9 +500,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
@@ -530,9 +530,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
@@ -560,9 +560,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
@@ -589,9 +589,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
@@ -623,9 +623,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:00:56</videoTijdsaanduidingAanvang>
@@ -723,9 +723,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Tegen</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:33:55</videoTijdsaanduidingAanvang>
@@ -758,9 +758,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:05:11</videoTijdsaanduidingAanvang>
@@ -799,9 +799,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:06:11</videoTijdsaanduidingAanvang>
@@ -856,9 +856,9 @@
         </isNatuurlijkPersoon>
         <neemtDeelAanStemming>
             <keuzeStemming>Voor</keuzeStemming>
-            <gegevenOpStemming>
+            <verwijzingStemming>
                 <verwijzingID>RV 23.0081</verwijzingID>
-            </gegevenOpStemming>
+            </verwijzingStemming>
         </neemtDeelAanStemming>
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:34:48</videoTijdsaanduidingAanvang>
