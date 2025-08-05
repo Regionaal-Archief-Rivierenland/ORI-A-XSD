@@ -244,6 +244,7 @@
                 </verwijzingDagelijksBestuur>
             </isLidVanDagelijksBestuur>
         </isNatuurlijkPersoon>
+        <!-- todo: provide one complete spreekfragment -->
         <spreektTijdensSpreekfragment>
             <videoTijdsaanduidingAanvang>00:00:00</videoTijdsaanduidingAanvang>
             <spreektTijdensAgendapunt>
