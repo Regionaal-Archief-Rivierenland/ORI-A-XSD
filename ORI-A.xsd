@@ -91,7 +91,7 @@
         <xs:sequence>
             <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt. Bij voorkeur een waarde uit de ORI-A begrippenlijsten 'vergaderstuktypes' of 'mediabron types'.</xs:documentation>
+                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt. Bij voorkeur een waarde uit de begrippenlijsten 'Vergaderstuktypes' of 'Mediabron types'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="verwijzingInformatieobject" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
