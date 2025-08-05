@@ -795,24 +795,10 @@
                     <xs:documentation>Uniek identificatiekenmerk van de deelnemer.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="rolnaam" minOccurs="0" maxOccurs="1">
+            <xs:element name="rolnaam" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was.</xs:documentation>
+                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was. Bij voorkeur een waarde uit de begrippenlijst 'Deelnemerrollen'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voorzitter"/>
-                        <xs:enumeration value="Vice-voorzitter"/>
-                        <xs:enumeration value="Raadslid"/>
-                        <xs:enumeration value="Statenlid"/>
-                        <xs:enumeration value="Dagelijks bestuurslid"/>
-                        <xs:enumeration value="Algemeen bestuurslid"/>
-                        <xs:enumeration value="Inspreker"/>
-                        <xs:enumeration value="Portefeuillehouder"/>
-                        <xs:enumeration value="Griffier"/>
-                        <xs:enumeration value="Overig"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="organisatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>

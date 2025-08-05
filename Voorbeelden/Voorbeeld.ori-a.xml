@@ -228,7 +228,12 @@
     <!-- todo: move voorzitter to bottom of list (or cut the beginning of the meeting) -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
-        <rolnaam>Voorzitter</rolnaam>
+        <rolnaam>
+            <begripLabel>Voorzitter</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-0</ID>
             <functie>Burgemeester</functie>
@@ -427,7 +432,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-1</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -462,7 +472,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-2</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -491,7 +506,12 @@
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-3</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -516,7 +536,12 @@
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-5</ID>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
@@ -541,7 +566,12 @@
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-6</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -565,7 +595,12 @@
         </neemtDeelAanStemming>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-7</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -660,7 +695,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-8</ID>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
@@ -695,7 +735,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-9</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -731,7 +776,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-10</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -761,7 +811,12 @@
         </spreektTijdensSpreekfragment>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Portefeuillehouder</rolnaam>
+        <rolnaam>
+            <begripLabel>Portefeuillehouder</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-11</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
@@ -778,7 +833,12 @@
         </isNatuurlijkPersoon>
     </aanwezigeDeelnemer>
     <aanwezigeDeelnemer>
-        <rolnaam>Raadslid</rolnaam>
+        <rolnaam>
+            <begripLabel>Raadslid</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#deelnemerrollen</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-12</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
