@@ -113,7 +113,7 @@
 
     <xs:complexType name="vergaderingGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de vergadering.</xs:documentation>
                 </xs:annotation>
@@ -233,7 +233,7 @@
     </xs:complexType>
     <xs:complexType name="agendapuntGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het agendapunt.</xs:documentation>
                 </xs:annotation>
@@ -337,7 +337,7 @@
     </xs:complexType>
     <xs:complexType name="spreekfragmentGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het spreekfragment.</xs:documentation>
                 </xs:annotation>
@@ -406,7 +406,7 @@
     </xs:complexType>
     <xs:complexType name="stemmingGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de stemming.</xs:documentation>
                 </xs:annotation>
@@ -481,7 +481,7 @@
     </xs:complexType>
     <xs:complexType name="besluitGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het besluit.</xs:documentation>
                 </xs:annotation>
@@ -515,7 +515,7 @@
     </xs:complexType>
     <xs:complexType name="dagelijksBestuurGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
@@ -546,7 +546,7 @@
     </xs:complexType>
     <xs:complexType name="dagelijksBestuurLidmaatschapGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het dagelijks bestuur lidmaatschap.</xs:documentation>
                 </xs:annotation>
@@ -570,7 +570,7 @@
     </xs:complexType>
     <xs:complexType name="natuurlijkPersoonGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de persoon.</xs:documentation>
                 </xs:annotation>
@@ -711,7 +711,7 @@
     </xs:complexType>
     <xs:complexType name="fractieGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de fractie.</xs:documentation>
                 </xs:annotation>
@@ -735,7 +735,7 @@
     </xs:complexType>
     <xs:complexType name="fractielidmaatschapGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
@@ -764,7 +764,7 @@
     </xs:complexType>
     <xs:complexType name="stemresultaatPerFractieGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het stemresultaat per fractie.</xs:documentation>
                 </xs:annotation>
@@ -790,7 +790,7 @@
     </xs:complexType>
     <xs:complexType name="aanwezigeDeelnemerGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de deelnemer.</xs:documentation>
                 </xs:annotation>
@@ -844,7 +844,7 @@
     </xs:complexType>
     <xs:complexType name="stemGegevens">
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded>
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van de stem.</xs:documentation>
                 </xs:annotation>
