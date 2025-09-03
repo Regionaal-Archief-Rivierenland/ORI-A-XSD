@@ -56,12 +56,12 @@
         <xs:sequence>
             <xs:element name="verwijzingID" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het ID van het entiteit waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Het ID van de entiteit waarnaar verwezen wordt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="verwijzingNaam" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Een voor menselijke lezers bedoelde naam van het entiteit waarnaar verwezen wordt.</xs:documentation>
+                    <xs:documentation>Een voor menselijke lezers bedoelde naam van de entiteit waarnaar verwezen wordt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
