@@ -9,9 +9,9 @@
         <classificatie>
 			<begripLabel>Transcriptie</begripLabel>
 			<begripBegrippenlijst>
-				<verwijzingNaam>ORI-A Mediabron types</verwijzingNaam>
+				<verwijzingNaam>ORI-A Mediabrontypes</verwijzingNaam>
 				<verwijzingIdentificatie>
-					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#mediabron-types</identificatieKenmerk>
+					<identificatieKenmerk>https://ori-a.nl/begrippenlijsten#mediabrontypes</identificatieKenmerk>
 					<identificatieBron>ORI-A</identificatieBron>
 				</verwijzingIdentificatie>
 			</begripBegrippenlijst>
