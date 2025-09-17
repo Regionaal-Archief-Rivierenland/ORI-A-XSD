@@ -438,9 +438,7 @@
             <xs:element name="resultaatStemmingOverPersonen" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <!-- TODO: Deze documentatie moet mogelijk geupdate worden na https://github.com/VNG-Realisatie/ODS-Open-Raadsinformatie/issues/111 -->
-                    <xs:documentation>
-                        Het resultaat van de stemming over een of meerdere personen.
-                    </xs:documentation>
+                    <xs:documentation>Het resultaat van de stemming over een of meerdere personen.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="stemmingOverPersonen" type="stemmingOverPersonenGegevens" minOccurs="0" maxOccurs="unbounded">
