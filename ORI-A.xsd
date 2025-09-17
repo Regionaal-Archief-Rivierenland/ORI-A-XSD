@@ -626,12 +626,12 @@
             </xs:element>
             <xs:element name="isLidVanFractie" type="fractielidmaatschapGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over wanneer iemand lid is geworden van welke fractie.</xs:documentation>
+                    <xs:documentation>Gegevens over wanneer iemand lid is geworden van een bepaalde fractie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isLidVanDagelijksBestuur" type="dagelijksBestuurLidmaatschapGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over wanneer iemand lid is geworden van welk dagelijks bestuur.</xs:documentation>
+                    <xs:documentation>Gegevens over wanneer iemand lid is geworden van een bepaald dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
