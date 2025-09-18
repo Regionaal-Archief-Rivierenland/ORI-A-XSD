@@ -68,6 +68,9 @@
     </xs:complexType>
 
     <xs:complexType name="begripGegevens">
+        <xs:annotation>
+            <xs:documentation>Gegevens over een begrip, zoals de locatie van de begrippenlijst waar het begrip verklaard wordt.</xs:documentation>
+        </xs:annotation>
 		<xs:sequence>
 			<xs:element name="begripLabel" type="xs:string" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
@@ -88,6 +91,9 @@
 	</xs:complexType>
 
     <xs:complexType name="informatieobjectGegevens">
+        <xs:annotation>
+            <xs:documentation>Gegevens die worden gebruikt om te **verwijzen** naar een elders gedefinieerde informatieobject.</xs:documentation>
+        </xs:annotation>
         <xs:sequence>
             <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
