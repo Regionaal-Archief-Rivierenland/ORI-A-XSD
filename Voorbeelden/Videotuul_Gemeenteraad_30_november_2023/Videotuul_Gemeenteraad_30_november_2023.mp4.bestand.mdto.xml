@@ -8,10 +8,10 @@
 		<naam>Videotuul_Gemeenteraad_30_november_2023.mp4</naam>
 		<omvang>58348088</omvang>
 		<bestandsformaat>
-			<begripLabel>MPEG-4 Media File</begripLabel>
-			<begripCode>fmt/199</begripCode>
+			<begripLabel>mp4</begripLabel>
+			<begripCode>video/mp4</begripCode>
 			<begripBegrippenlijst>
-				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+				<verwijzingNaam>IANA Media types</verwijzingNaam>
 			</begripBegrippenlijst>
 		</bestandsformaat>
 		<checksum>

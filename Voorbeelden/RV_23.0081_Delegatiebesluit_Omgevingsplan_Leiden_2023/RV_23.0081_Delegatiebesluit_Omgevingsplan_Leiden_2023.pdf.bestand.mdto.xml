@@ -8,10 +8,10 @@
 		<naam>RV_23.0081_Delegatiebesluit_Omgevingsplan_Leiden_2023.pdf</naam>
 		<omvang>99309</omvang>
 		<bestandsformaat>
-			<begripLabel>Acrobat PDF 1.7 - Portable Document Format</begripLabel>
-			<begripCode>fmt/276</begripCode>
+			<begripLabel>pdf</begripLabel>
+			<begripCode>application/pdf</begripCode>
 			<begripBegrippenlijst>
-				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+				<verwijzingNaam>IANA Media types</verwijzingNaam>
 			</begripBegrippenlijst>
 		</bestandsformaat>
 		<checksum>
