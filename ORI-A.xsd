@@ -139,19 +139,10 @@
                     <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderingstype" minOccurs="0" maxOccurs="1">
+            <xs:element name="vergaderingstype" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort vergadering.</xs:documentation>
+                    <xs:documentation>Het soort vergadering. Bij voorkeur een waarde uit de begrippenlijst 'Vergaderingstypes'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Raadsvergadering"/>
-                        <xs:enumeration value="Commissievergadering"/>
-                        <xs:enumeration value="Statenvergadering"/>
-                        <xs:enumeration value="Algemene bestuursvergadering"/>
-                        <xs:enumeration value="Presidium"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -531,15 +522,8 @@
             </xs:element>
             <xs:element name="dagelijksBestuurType" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
+                    <xs:documentation>Het soort dagelijks bestuur. Bij voorkeur een waarde uit de begrippenlijst 'Dagelijks bestuur types'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="College"/>
-                        <xs:enumeration value="Gedeputeerde Staten"/>
-                        <xs:enumeration value="Dagelijks bestuur"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -592,31 +576,10 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="functie" minOccurs="0" maxOccurs="1">
+            <xs:element name="functie" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De functie of ambt van de persoon.</xs:documentation>
+                    <xs:documentation>De functie of ambt van de persoon. Bij voorkeur een waarde uit de begrippenlijst 'Functies'.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Burgemeester"/>
-                        <xs:enumeration value="Wethouder"/>
-                        <xs:enumeration value="Raadslid"/>
-                        <xs:enumeration value="Burgerlid"/>
-                        <xs:enumeration value="Griffier"/>
-                        <xs:enumeration value="Gemeentesecretaris"/>
-                        <xs:enumeration value="Commissaris van de Koning"/>
-                        <xs:enumeration value="Gedeputeerde"/>
-                        <xs:enumeration value="Statenlid"/>
-                        <xs:enumeration value="Provinciesecretaris"/>
-                        <xs:enumeration value="Dijkgraaf"/>
-                        <xs:enumeration value="Dagelijks bestuurslid"/>
-                        <xs:enumeration value="Algemeen bestuurslid"/>
-                        <xs:enumeration value="Secretarisdirecteur"/>
-                        <xs:enumeration value="Ambtenaar/medewerker"/>
-                        <xs:enumeration value="Adviseur of deskundige"/>
-                        <xs:enumeration value="Overig"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="naam" type="naamGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>

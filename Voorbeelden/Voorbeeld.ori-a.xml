@@ -3,7 +3,12 @@
     <vergadering>
         <ID>20a280a8a8a88220008208822f6b6b02</ID>
         <naam>Gemeenteraad</naam>
-        <vergaderingstype>Raadsvergadering</vergaderingstype>
+        <vergaderingstype>
+            <begripLabel>Raadsvergadering</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderingstypes</verwijzingID>
+            </verwijzingBegrippenlijst>
+        </vergaderingstype>
         <locatie>Raadzaal Stadhuis</locatie>
         <raadpleeglocatieOnline>https://leiden.parlaeus.nl/app/public/agenda/8028228820022a0a0282a0a8814c778c/vod</raadpleeglocatieOnline>
         <status>Gehouden</status>
@@ -236,7 +241,12 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-0</ID>
-            <functie>Burgemeester</functie>
+            <functie>
+                <begripLabel>Burgemeester</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Velden</achternaam>
                 <tussenvoegsel>van der</tussenvoegsel>
@@ -441,7 +451,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-1</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Vos</achternaam>
                 <volledigeNaam>Thijs Vos</volledigeNaam>
@@ -481,7 +496,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-2</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Rowaan</achternaam>
                 <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
@@ -515,7 +535,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-3</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Crom</achternaam>
                 <tussenvoegsel>de</tussenvoegsel>
@@ -545,7 +570,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-5</ID>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Groot</achternaam>
                 <tussenvoegsel>de</tussenvoegsel>
@@ -575,7 +605,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-6</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Theeuwen</achternaam>
                 <volledigeNaam>Antoine Theeuwen</volledigeNaam>
@@ -604,7 +639,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-7</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Spronsen</achternaam>
                 <tussenvoegsel>van</tussenvoegsel>
@@ -704,7 +744,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-8</ID>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Jordan</achternaam>
                 <volledigeNaam>Antje Jordan</volledigeNaam>
@@ -744,7 +789,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-9</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Otten</achternaam>
                 <volledigeNaam>Martijn Otten</volledigeNaam>
@@ -785,7 +835,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-10</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Sandoval Garcia</achternaam>
                 <volledigeNaam>Tobias Sandoval Garcia</volledigeNaam>
@@ -820,7 +875,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-11</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Wethouder</functie>
+            <functie>
+                <begripLabel>Wethouder</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Terpstra</achternaam>
                 <volledigeNaam>Julius Terpstra</volledigeNaam>
@@ -842,7 +902,12 @@
         <isNatuurlijkPersoon>
             <ID>Persoon-12</ID>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
-            <functie>Raadslid</functie>
+            <functie>
+                <begripLabel>Raadslid</begripLabel>
+                <verwijzingBegrippenlijst>
+                    <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
+                </verwijzingBegrippenlijst>
+            </functie>
             <naam>
                 <achternaam>Friso</achternaam>
                 <volledigeNaam>Alex Friso</volledigeNaam>
