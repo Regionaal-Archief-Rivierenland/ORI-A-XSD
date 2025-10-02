@@ -594,7 +594,7 @@
             </xs:element>
             <xs:element name="functie" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De functie van de persoon.</xs:documentation>
+                    <xs:documentation>De functie of ambt van de persoon.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
