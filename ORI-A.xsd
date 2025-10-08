@@ -195,7 +195,7 @@
             </xs:element>
             <xs:element name="geplandeEindeVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het geplande moment (datum en tijdstip) waarop de vergadering beëindigt zou worden.</xs:documentation>
+                    <xs:documentation>Het geplande moment (datum en tijdstip) waarop de vergadering beëindigd zou worden.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="aanvangVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
