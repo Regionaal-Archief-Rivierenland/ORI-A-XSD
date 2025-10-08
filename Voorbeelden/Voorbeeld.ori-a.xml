@@ -63,7 +63,6 @@
             <informatieobjectType>
                 <begripLabel>Voorstel</begripLabel>
                 <verwijzingBegrippenlijst>
-                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
                 </verwijzingBegrippenlijst>
             </informatieobjectType>
@@ -76,7 +75,6 @@
             <informatieobjectType>
                 <begripLabel>Amendement</begripLabel>
                 <verwijzingBegrippenlijst>
-                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
                 </verwijzingBegrippenlijst>
             </informatieobjectType>
@@ -116,7 +114,6 @@
             <informatieobjectType>
                 <begripLabel>Voorstel</begripLabel>
                 <verwijzingBegrippenlijst>
-                    <!-- todo: update naar TOOI als hun begrippenlijst vollediger is -->
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderstuk-types</verwijzingID>
                 </verwijzingBegrippenlijst>
             </informatieobjectType>
@@ -229,8 +226,6 @@
         </isLidVanFractie>
     </persoonBuitenVergadering>
 
-    <!-- todo: add griffier? -->
-    <!-- todo: move voorzitter to bottom of list (or cut the beginning of the meeting) -->
     <!-- Deelnemers -->
     <aanwezigeDeelnemer>
         <rolnaam>
