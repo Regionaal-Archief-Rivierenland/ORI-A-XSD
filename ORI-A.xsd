@@ -499,7 +499,7 @@
             <xs:documentation>Gegevens over een besluit, zoals of het unaniem aangenomen of verworpen is.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het besluit.</xs:documentation>
                 </xs:annotation>
