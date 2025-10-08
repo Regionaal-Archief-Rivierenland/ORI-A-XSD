@@ -491,7 +491,7 @@
     </xs:complexType>
     <xs:complexType name="besluitGegevens">
         <xs:annotation>
-            <xs:documentation>Gegevens over een besluit waartoe een stemming heeft geleid, zoals of het unaniem aangenomen of verworpen is.</xs:documentation>
+            <xs:documentation>Gegevens over een besluit, zoals of het unaniem aangenomen of verworpen is.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="ID" type="xs:string" minOccurs="0" maxOccurs="unbounded">
