@@ -103,8 +103,7 @@
         <ID>RV 23.0081</ID>
         <stemmingstype>Regulier</stemmingstype>
         <leidtTotBesluit>
-            <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
-            <besluitResultaat>Aangenomen</besluitResultaat>
+            <verwijzingID>besluit-4128</verwijzingID>
         </leidtTotBesluit>
         <heeftBetrekkingOpAgendapunt>
             <verwijzingID>2028a00aaa2a8aaa00a2aab6bdaef</verwijzingID>
@@ -123,6 +122,13 @@
             </verwijzingInformatieobject>
         </heeftBetrekkingOpBesluitvormingsstuk>
     </stemming>
+
+    <!-- Besluiten -->
+    <besluit>
+        <ID>besluit-4128</ID>
+        <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
+        <besluitResultaat>Aangenomen</besluitResultaat>
+    </besluit>
 
     <!-- Fracties -->
     <fractie>
