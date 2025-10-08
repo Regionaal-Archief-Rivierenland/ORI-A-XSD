@@ -18,6 +18,11 @@
                         <xs:documentation>Gegevens over een stemming, zoals het agendapunt of de persoon waarover gestemd is. Iemands stemkeuze op een stemming hoort onder `aanwezigeDeelnemer`.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
+                <xs:element name="besluit" type="besluitGegevens" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Gegevens over een besluit, zoals of het unaniem aangenomen of verworpen is. Een besluit volgt in de regel op een `stemming`.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
                 <xs:element name="fractie" type="fractieGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Gegevens over een fractie, zoals de naam en het stemgedrag van de fractie.</xs:documentation>
@@ -455,9 +460,9 @@
                     <xs:documentation>Gegevens die het het resultaat van een stemming over personen beschrijven, zoals het aantal stemmen wat een persoon haalde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="leidtTotBesluit" type="besluitGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="leidtTotBesluit" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het besluit waartoe de stemming heeft geleid, zoals of het unaniem aangenomen of verworpen is.</xs:documentation>
+                    <xs:documentation>Verwijzing naar het besluit waartoe de stemming heeft geleid.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="heeftBetrekkingOpAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
