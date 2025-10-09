@@ -844,7 +844,7 @@
             </xs:element>
             <xs:element name="isNatuurlijkPersoon" type="natuurlijkPersoonGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de persoon die deelnemer als optreedt, zoals diens naam en fractielidmaatschap.</xs:documentation>
+                    <xs:documentation>Gegevens over de persoon die als deelnemer optreedt, zoals diens naam en fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="neemtDeelAanStemming" type="stemGegevens" minOccurs="0" maxOccurs="unbounded">
