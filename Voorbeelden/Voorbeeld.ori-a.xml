@@ -10,7 +10,7 @@
             </verwijzingBegrippenlijst>
         </vergaderingstype>
         <locatie>Raadzaal Stadhuis</locatie>
-        <raadpleeglocatieOnline>https://leiden.parlaeus.nl/app/public/agenda/8028228820022a0a0282a0a8814c778c/vod</raadpleeglocatieOnline>
+        <weblocatie>https://leiden.parlaeus.nl/app/public/agenda/8028228820022a0a0282a0a8814c778c/vod</weblocatie>
         <status>Gehouden</status>
         <vergaderdatum>2023-11-30</vergaderdatum>
         <aanvangVergadering>2023-11-30T20:00:00</aanvangVergadering>
