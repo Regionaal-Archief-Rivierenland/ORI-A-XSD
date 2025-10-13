@@ -157,7 +157,7 @@
                     <xs:documentation>Locatie (bijvoorbeeld gebouw of stad) waar de vergadering gehouden is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="raadpleeglocatieOnline" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="weblocatie" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Actuele link naar een online raadpleeglocatie waar de vergadering in zijn geheel wordt getoond, zoals de publicatieomgeving van een e-depot of raadsinformatiesysteem.</xs:documentation>
                 </xs:annotation>
