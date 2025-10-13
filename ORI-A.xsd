@@ -226,7 +226,7 @@
             </xs:element>
             <xs:element name="heeftAlsBijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over een informatieobject dat als bijlage bij de vergadering diende.</xs:documentation>
+                    <xs:documentation>Gegevens over een informatieobject dat als bijlage bij de algehele (deel)vergadering diende.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="heeftAlsDeelvergadering" type="vergaderingGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -333,7 +333,7 @@
             </xs:element>
             <xs:element name="heeftAlsBijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over een informatieobject dat als bijlage bij het agendapunt diende.</xs:documentation>
+                    <xs:documentation>Gegevens over een informatieobject dat als bijlage bij dit agendapunt diende.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="heeftAlsSubagendapunt" type="agendapuntGegevens" minOccurs="0" maxOccurs="unbounded">
