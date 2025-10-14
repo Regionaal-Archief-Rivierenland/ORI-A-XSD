@@ -617,7 +617,7 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag waarbinnen dit dagelijks bestuur opereert.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
