@@ -24,5 +24,4 @@ Bovendien bestaat er een [grafische representatie van het informatiemodel.](http
 * Provincie Zeeland
 * Regionaal Archief Rivierenland
 * Regionaal Archief Tilburg
-* Regionaal Archief Zutphen
 * Zeeuws Archief
