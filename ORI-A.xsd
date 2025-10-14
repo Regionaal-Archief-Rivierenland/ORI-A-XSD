@@ -570,12 +570,12 @@
             </xs:element>
             <xs:element name="datumBeginDagelijksBestuurLidmaatschap" type="xs:date" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Datum waarop iemands lidmaatschap van het dagelijkse bestuur begon.</xs:documentation>
+                    <xs:documentation>Datum waarop iemands lidmaatschap van het dagelijks bestuur begon.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="datumEindeDagelijksBestuurLidmaatschap" type="xs:date" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Datum waarop iemands lidmaatschap van het dagelijkse bestuur eindigde.</xs:documentation>
+                    <xs:documentation>Datum waarop iemands lidmaatschap van het dagelijks bestuur eindigde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="verwijzingDagelijksBestuur" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
