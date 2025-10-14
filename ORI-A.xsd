@@ -613,6 +613,12 @@
             <xs:element name="dagelijksBestuurType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>Dagelijks bestuur types</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
