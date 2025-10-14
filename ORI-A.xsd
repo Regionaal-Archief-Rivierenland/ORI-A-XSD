@@ -610,7 +610,7 @@
                     <xs:documentation>Naam van het dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="dagelijksBestuurType" minOccurs="0" maxOccurs="1">
+            <xs:element name="dagelijksBestuurType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
