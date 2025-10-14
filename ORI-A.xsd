@@ -102,7 +102,21 @@
         <xs:sequence>
             <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt. Bij voorkeur een waarde uit de begrippenlijsten 'Vergaderstuktypes' of 'Mediabrontypes'.</xs:documentation>
+                    <xs:documentation>Het soort informatieobject waarnaar verwezen wordt.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>ORI-A mediabrontypes</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#mediabrontypes</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>ORI-A vergaderstuktypes</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#vergaderstuktypes</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>PLOOI documentsoorten</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/ccw_plooi_documentsoorten</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="verwijzingInformatieobject" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
@@ -149,7 +163,13 @@
             </xs:element>
             <xs:element name="vergaderingstype" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort vergadering. Bij voorkeur een waarde uit de begrippenlijst 'Vergaderingstypes'.</xs:documentation>
+                    <xs:documentation>Het soort vergadering.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>ORI-A vergaderingstypes</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#vergaderingstypes</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
@@ -211,7 +231,29 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden. Bij voorkeur een waarde uit een TOOI waardenlijst, zoals 'Register gemeenten compleet'.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register gemeenten compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register provincies compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register waterschappen compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register samenwerkingsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_samenwerkingsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register overheidsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_overige_overheidsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isVastgelegdMiddels" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -318,7 +360,29 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld. Bij voorkeur een waarde uit een TOOI waardenlijst, zoals 'Register gemeenten compleet'.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register gemeenten compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register provincies compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register waterschappen compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register samenwerkingsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_samenwerkingsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register overheidsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_overige_overheidsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="wordtBehandeldTijdens" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
@@ -553,7 +617,30 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur. Bij voorkeur een waarde uit een TOOI waardenlijst, zoals 'Register gemeenten compleet'.</xs:documentation>
+                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur.
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register gemeenten compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register provincies compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register waterschappen compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register samenwerkingsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_samenwerkingsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register overheidsorganisaties compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_overige_overheidsorganisaties_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
+                    </xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
