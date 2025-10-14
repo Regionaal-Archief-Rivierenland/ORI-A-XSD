@@ -617,7 +617,7 @@
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur.
+                    <xs:documentation>Gegevens over de bestuurslaag die verantwoordelijk is voor de taken van dit dagelijks bestuur.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -640,7 +640,6 @@
                             <URL>https://identifier.overheid.nl/tooi/set/rwc_overige_overheidsorganisaties_compleet</URL>
                         </aangeradenBegrippenlijst>
                     </xs:appinfo>
-                    </xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
