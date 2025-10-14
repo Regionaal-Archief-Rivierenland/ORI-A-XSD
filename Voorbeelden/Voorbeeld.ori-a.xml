@@ -206,7 +206,13 @@
     <dagelijksBestuur>
         <ID>College van B&amp;W-gm0546</ID>
         <dagelijksBestuurNaam>College van B&amp;W</dagelijksBestuurNaam>
-        <dagelijksBestuurType>College</dagelijksBestuurType>
+        <dagelijksBestuurType>
+            <begripLabel>College</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</verwijzingID>
+                <verwijzingNaam>ORI-A dagelijks bestuur types</verwijzingNaam>
+            </verwijzingBegrippenlijst>
+        </dagelijksBestuurType>
         <bestuurslaag>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
