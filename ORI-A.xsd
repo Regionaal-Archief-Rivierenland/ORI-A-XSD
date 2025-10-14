@@ -612,7 +612,7 @@
             </xs:element>
             <xs:element name="dagelijksBestuurType" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het soort dagelijks bestuur. Bij voorkeur een waarde uit de begrippenlijst 'Dagelijks bestuur types'.</xs:documentation>
+                    <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
@@ -696,7 +696,13 @@
             </xs:element>
             <xs:element name="functie" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De functie of ambt van de persoon. Bij voorkeur een waarde uit de begrippenlijst 'Functies'.</xs:documentation>
+                    <xs:documentation>De functie of ambt van de persoon.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>ORI-A functies</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#functies</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="naam" type="naamGegevens" minOccurs="1" maxOccurs="1">
@@ -818,6 +824,20 @@
             <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De bestuurslaag waarop de fractie functioneert.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register gemeenten compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register provincies compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_provincies_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                        <aangeradenBegrippenlijst>
+                            <naam>Register waterschappen compleet</naam>
+                            <URL>https://identifier.overheid.nl/tooi/set/rwc_waterschappen_compleet</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="neemtDeelAanStemming" type="stemresultaatPerFractieGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -900,7 +920,13 @@
             </xs:element>
             <xs:element name="rolnaam" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was. Bij voorkeur een waarde uit de begrippenlijst 'Deelnemerrollen'.</xs:documentation>
+                    <xs:documentation>De rol waarin iemand bij de vergadering aanwezig was.</xs:documentation>
+                    <xs:appinfo>
+                        <aangeradenBegrippenlijst>
+                            <naam>ORI-A deelnemerrollen</naam>
+                            <URL>https://ori-a.nl/begrippenlijsten#deelnemerrollen</URL>
+                        </aangeradenBegrippenlijst>
+                    </xs:appinfo>
                 </xs:annotation>
             </xs:element>
             <xs:element name="organisatie" type="xs:string" minOccurs="0" maxOccurs="1">
