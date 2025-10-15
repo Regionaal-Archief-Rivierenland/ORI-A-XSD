@@ -615,7 +615,7 @@
                     <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
-                            <naam>Dagelijks bestuur types</naam>
+                            <naam>ORI-A Dagelijks bestuur types</naam>
                             <URL>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</URL>
                         </aangeradenBegrippenlijst>
                     </xs:appinfo>
