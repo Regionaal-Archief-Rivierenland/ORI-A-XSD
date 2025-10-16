@@ -587,7 +587,7 @@
     </xs:complexType>
     <xs:complexType name="natuurlijkPersoonGegevens">
         <xs:annotation>
-            <xs:documentation>Gegevens over een natuurlijk persoon. Dit datatype komt voor onder de top-level elementen `aanwezigeDeelnemer` en `persoonBuitenVergadering`.</xs:documentation>
+            <xs:documentation>Gegevens over een natuurlijk persoon. Dit datatype komt voor onder de top-level elementen `&lt;aanwezigeDeelnemer&gt;` en `&lt;persoonBuitenVergadering&gt;`.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="ID" type="xs:string" minOccurs="1" maxOccurs="unbounded">
