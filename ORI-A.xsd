@@ -674,7 +674,7 @@
         <xs:sequence>
             <xs:element name="omschrijving" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Omschrijving van iemands nevenfunctie.</xs:documentation>
+                     <xs:documentation>Informatie over de inhoud van iemands nevenfunctie, zoals de officiële functietitel of een korte beschrijving.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="naamOrganisatie" type="xs:string" minOccurs="0" maxOccurs="1">
