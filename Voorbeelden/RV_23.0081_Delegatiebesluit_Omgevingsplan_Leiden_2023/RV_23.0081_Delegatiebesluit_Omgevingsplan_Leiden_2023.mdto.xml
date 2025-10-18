@@ -6,6 +6,12 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</naam>
+        <aggregatieniveau>
+            <begripLabel>Archiefstuk</begripLabel>
+            <begripBegrippenlijst>
+                <verwijzingNaam>Begrippenlijst Aggregatieniveaus MDTO</verwijzingNaam>
+            </begripBegrippenlijst>
+        </aggregatieniveau>
 		<classificatie>
 			<begripLabel>Voorstel</begripLabel>
 			<begripBegrippenlijst>
