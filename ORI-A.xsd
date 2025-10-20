@@ -467,7 +467,7 @@
                     <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de video-opname het spreekfragment eindigt. Dit kan óf een tijdcode zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment eindigt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isVastgelegdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="isVastgelegdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over het informatieobject waarin het spreekfragment is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
