@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MDTO xmlns="https://www.nationaalarchief.nl/mdto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.nationaalarchief.nl/mdto https://www.nationaalarchief.nl/mdto/MDTO-XML1.0.1.xsd">
+	<bestand>
+		<identificatie>
+			<identificatieKenmerk>b544cbb1-6541-4df9-a8fb-90ee2df3e17f</identificatieKenmerk>
+			<identificatieBron>UUID4 via mdto.py</identificatieBron>
+		</identificatie>
+		<naam>Voorbeeld.ori-a.xml</naam>
+		<omvang>42170</omvang>
+		<bestandsformaat>
+			<begripLabel>Extensible Markup Language</begripLabel>
+			<begripCode>fmt/101</begripCode>
+			<begripBegrippenlijst>
+				<verwijzingNaam>PRONOM-register</verwijzingNaam>
+			</begripBegrippenlijst>
+		</bestandsformaat>
+		<checksum>
+			<checksumAlgoritme>
+				<begripLabel>SHA-256</begripLabel>
+				<begripBegrippenlijst>
+					<verwijzingNaam>Begrippenlijst ChecksumAlgoritme MDTO</verwijzingNaam>
+				</begripBegrippenlijst>
+			</checksumAlgoritme>
+			<checksumWaarde>41cfa4b9abdbfaf447338b5c055140a6a2816054f8795c564bd7d10612949f91</checksumWaarde>
+			<checksumDatum>2025-10-20T08:35:22</checksumDatum>
+		</checksum>
+		<isRepresentatieVan>
+			<verwijzingNaam>Gemeenteraad</verwijzingNaam>
+			<verwijzingIdentificatie>
+				<identificatieKenmerk>20a280a8a8a88220008208822f6b6b02</identificatieKenmerk>
+				<identificatieBron>Qualigraf</identificatieBron>
+			</verwijzingIdentificatie>
+		</isRepresentatieVan>
+	</bestand>
+</MDTO>
