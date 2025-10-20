@@ -186,7 +186,7 @@
                 <xs:annotation>
                     <xs:documentation>De status van de vergadering.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="status">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Gepland"/>
                         <xs:enumeration value="Gehouden"/>
@@ -297,7 +297,7 @@
                 <xs:annotation>
                     <xs:documentation>Het geplande agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="geplandVolgnummer">
                     <xs:restriction base="xs:string">
                         <xs:pattern value="\d+.*"/>
                     </xs:restriction>
@@ -307,7 +307,7 @@
                 <xs:annotation>
                     <xs:documentation>Het agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="volgnummer">
                     <xs:restriction base="xs:string">
                         <xs:pattern value="\d+.*"/>
                     </xs:restriction>
@@ -493,7 +493,7 @@
                 <xs:annotation>
                     <xs:documentation>De wijze waarop gestemd is.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="stemmingstype">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Hoofdelijk"/>
                         <xs:enumeration value="Regulier"/>
@@ -505,7 +505,7 @@
                 <xs:annotation>
                     <xs:documentation>Het resultaat van de mondelinge stemming.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="resultaatMondelingeStemming">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Voor"/>
                         <xs:enumeration value="Tegen"/>
@@ -582,7 +582,7 @@
                 <xs:annotation>
                     <xs:documentation>Het resultaat van het besluit.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="besluitResultaat">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Unaniem aangenomen"/>
                         <xs:enumeration value="Aangenomen"/>
@@ -691,7 +691,7 @@
                 <xs:annotation>
                     <xs:documentation>Geslachtaanduiding van de persoon.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="geslachtsaanduiding">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Man"/>
                         <xs:enumeration value="Vrouw"/>
@@ -899,7 +899,7 @@
                 <xs:annotation>
                     <xs:documentation>Geeft aan hoe de fractie als geheel tegenover een stemming stond.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="fractieStemresultaat">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Aangenomen"/>
                         <xs:enumeration value="Verworpen"/>
@@ -991,7 +991,7 @@
                 <xs:annotation>
                     <xs:documentation>De keuze op de stemming.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
+                <xs:simpleType name="keuzeStemming">
                     <xs:restriction base="xs:string">
                         <xs:enumeration value="Voor"/>
                         <xs:enumeration value="Tegen"/>
