@@ -229,9 +229,9 @@
                     <xs:documentation>Datum en tijdstip waarop de vergadering voor het laatst gepubliceerd of gewijzigd is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die de vergadering heeft gehouden.</xs:documentation>
+                    <xs:documentation>Gegevens over het overheidsorgaan dat de vergadering heeft gehouden.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -358,9 +358,9 @@
                     <xs:documentation>Geeft aan of het agendapunt besloten werd behandeld.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag die het agendapunt heeft behandeld.</xs:documentation>
+                    <xs:documentation>Gegevens over het overheidsorgaan dat het agendapunt heeft behandeld.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -621,9 +621,9 @@
                     </xs:appinfo>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de bestuurslaag waarbinnen dit dagelijks bestuur opereert.</xs:documentation>
+                    <xs:documentation>Gegevens over het overheidsorgaan waarbinnen dit dagelijks bestuur opereert.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -827,9 +827,9 @@
                     <xs:documentation>De naam van de fractie, zoals `D66` of `VVD`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bestuurslaag" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De bestuurslaag waarop de fractie functioneert.</xs:documentation>
+                    <xs:documentation>Het overheidsorgaan waarvoor de fractie functioneert.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
