@@ -6,6 +6,12 @@
 			<identificatieBron>Parlaeus</identificatieBron>
 		</identificatie>
 		<naam>Videotuul Gemeenteraad 30 november 2023</naam>
+        <aggregatieniveau>
+            <begripLabel>Archiefstuk</begripLabel>
+            <begripBegrippenlijst>
+                <verwijzingNaam>Begrippenlijst Aggregatieniveaus MDTO</verwijzingNaam>
+            </begripBegrippenlijst>
+        </aggregatieniveau>
 		<classificatie>
 			<begripLabel>Videotuul</begripLabel>
 			<begripBegrippenlijst>
