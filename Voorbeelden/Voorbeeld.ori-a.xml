@@ -16,14 +16,14 @@
         <aanvangVergadering>2023-11-30T20:00:00</aanvangVergadering>
         <eindeVergadering>2023-11-30T23:00:00</eindeVergadering>
         <publicatiedatum>2023-12-15T14:12:15</publicatiedatum>
-        <bestuurslaag>
+        <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
             <verwijzingBegrippenlijst>
                 <verwijzingID>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4</verwijzingID>
                 <verwijzingNaam>Register gemeenten compleet</verwijzingNaam>
             </verwijzingBegrippenlijst>
-        </bestuurslaag>
+        </overheidsorgaan>
         <isVastgelegdMiddels>
             <informatieobjectType>
                 <begripLabel>Video</begripLabel>
@@ -213,14 +213,14 @@
                 <verwijzingNaam>ORI-A dagelijks bestuur types</verwijzingNaam>
             </verwijzingBegrippenlijst>
         </dagelijksBestuurType>
-        <bestuurslaag>
+        <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
             <verwijzingBegrippenlijst>
                 <verwijzingID>https://identifier.overheid.nl/tooi/set/rwc_gemeenten_compleet/4</verwijzingID>
                 <verwijzingNaam>TOOI Register gemeenten compleet</verwijzingNaam>
             </verwijzingBegrippenlijst>
-        </bestuurslaag>
+        </overheidsorgaan>
     </dagelijksBestuur>
 
     <!-- Afwezig raadslid  -->
