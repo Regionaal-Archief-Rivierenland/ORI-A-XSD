@@ -134,6 +134,29 @@
         <xs:union memberTypes="xs:nonNegativeInteger xs:time"/>
     </xs:simpleType>
 
+    <xs:complexType name="tijdsaanduidingGegevens">
+        <xs:annotation>
+            <xs:documentation>Gegevens om het begin- en eindpunt van een gebeurtenis in een mediabron aan te geven, zoals de aanvang van een spreekfragment in een video-opname.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="aanvang" type="integerOfTijdcode" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Het beginpunt van de gebeurtenis in de mediabron, vanaf het begin van de mediabron gerekend. Dit is óf een tijdcode (hh:mm:ss), óf een positief getal dat het aantal seconden aangeeft waarna de gebeurtenis begint.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="einde" type="integerOfTijdcode" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Het eindpunt van de gebeurtenis in de mediabron, vanaf het begin van de mediabron gerekend. Dit is óf een tijdcode (hh:mm:ss), óf een positief getal dat het aantal seconden aangeeft waarna de gebeurtenis eindigt.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="isRelatiefTot" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Gegevens over de mediabron waar deze tijdsaanduiding betrekking op heef, zoals het identificatiekenmerk van een video-opname. Wanneer dit element ontbreekt, moet de bedoelde mediabron eenduidig zijn vastgelegd onder het top-level element `vergadering`.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
     <!-- # Domeinspecifieke datatypes -->
 
     <xs:complexType name="vergaderingGegevens">
@@ -333,6 +356,11 @@
                     <xs:documentation>Datum en tijdstip waarop het agendapunt daadwerkelijk werd afgesloten.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="tijdsaanduidingMediabron" type="tijdsaanduidingGegevens" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Gegevens over wanneer het agendapunt begint en eindigt in een bepaalde mediabron, zoals een video- of audio-opname van de vergadering.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="kenmerk" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De weergave van het agendapuntvolgnummer op de agenda.</xs:documentation>
@@ -447,29 +475,9 @@
                     <xs:documentation>De positie van het spreekfragment in de notulen, bijvoorbeeld `pagina 8`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="audioTijdsaanduidingAanvang" type="integerOfTijdcode" minOccurs="0" maxOccurs="1">
+            <xs:element name="tijdsaanduidingMediabron" type="tijdsaanduidingGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de audio-opname het spreekfragment begint. Dit kan óf een tijdcode zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment begint.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="audioTijdsaanduidingEinde" type="integerOfTijdcode" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de audio-opname het spreekfragment eindigt. Dit kan óf een tijdcode zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment eindigt.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="videoTijdsaanduidingAanvang" type="integerOfTijdcode" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de video-opname het spreekfragment begint. Dit kan óf een tijdcode zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment begint.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="videoTijdsaanduidingEinde" type="integerOfTijdcode" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Tijdsaanduiding die aangeeft na hoeveel tijd in de video-opname het spreekfragment eindigt. Dit kan óf een tijdcode zijn (hh:mm:ss), óf een positief getal dat aangeeft na hoeveel seconden het fragment eindigt.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="isVastgelegdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                    <xs:documentation>Gegevens over het informatieobject waarin het spreekfragment is opgenomen. Dit kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over wanneer het spreekfragment begint en eindigt in een bepaalde mediabron, zoals een video- of audio-opname van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="spreektTijdensAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
