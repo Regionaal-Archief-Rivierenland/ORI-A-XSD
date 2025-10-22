@@ -151,7 +151,7 @@
             </xs:element>
             <xs:element name="isRelatiefTot" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over de mediabron waar deze tijdsaanduiding betrekking op heef, zoals het identificatiekenmerk van een video-opname. Wanneer dit element ontbreekt, moet de bedoelde mediabron eenduidig zijn vastgelegd onder het top-level element `vergadering`.</xs:documentation>
+                    <xs:documentation>Gegevens over de mediabron waar deze tijdsaanduiding betrekking op heeft, zoals het identificatiekenmerk van een video-opname. Dit element is alleen nodig wanneer er meer dan een mediabron aan een vergadering is gerelateerd. Als dit element is weggelaten, wordt veronderstelt dat de tijdsaanduiding relatief is tot de mediabron die is vastgegelgd onder het top-level element `vergadering`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
