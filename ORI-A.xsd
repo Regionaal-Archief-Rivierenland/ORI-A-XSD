@@ -371,6 +371,11 @@
                     <xs:documentation>Titel of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Locatie (bijvoorbeeld gebouw of stad) waar het agendapunt werd behandeld.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="hamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt een hamerstuk was.</xs:documentation>
