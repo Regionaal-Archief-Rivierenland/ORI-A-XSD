@@ -361,9 +361,9 @@
                     <xs:documentation>Gegevens over wanneer het agendapunt begint en eindigt in een bepaalde mediabron, zoals een video- of audio-opname van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="kenmerk" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="volgnummerWeergave" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De weergave van het agendapuntvolgnummer op de agenda.</xs:documentation>
+                    <xs:documentation>De naar buiten gepresenteerde weergave van het volgnummer op de agenda, zoals `10a.`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="titel" type="xs:string" minOccurs="1" maxOccurs="1">
