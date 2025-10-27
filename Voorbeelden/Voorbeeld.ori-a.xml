@@ -3,18 +3,18 @@
     <vergadering>
         <ID>20a280a8a8a88220008208822f6b6b02</ID>
         <naam>Gemeenteraad</naam>
-        <vergaderingstype>
+        <type>
             <begripLabel>Raadsvergadering</begripLabel>
             <verwijzingBegrippenlijst>
                 <verwijzingID>https://ori-a.nl/begrippenlijsten#vergaderingstypes</verwijzingID>
             </verwijzingBegrippenlijst>
-        </vergaderingstype>
+        </type>
         <locatie>Raadzaal Stadhuis</locatie>
         <weblocatie>https://leiden.parlaeus.nl/app/public/agenda/8028228820022a0a0282a0a8814c778c/vod</weblocatie>
         <status>Gehouden</status>
-        <vergaderdatum>2023-11-30</vergaderdatum>
-        <aanvangVergadering>2023-11-30T20:00:00</aanvangVergadering>
-        <eindeVergadering>2023-11-30T23:00:00</eindeVergadering>
+        <datum>2023-11-30</datum>
+        <aanvang>2023-11-30T20:00:00</aanvang>
+        <einde>2023-11-30T23:00:00</einde>
         <publicatiedatum>2023-12-15T14:12:15</publicatiedatum>
         <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
@@ -69,10 +69,10 @@
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
-        <titel>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</titel>
-        <hamerstuk>false</hamerstuk>
-        <behandeld>true</behandeld>
-        <besloten>false</besloten>
+        <naam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</naam>
+        <indicatieHamerstuk>false</indicatieHamerstuk>
+        <indicatieBehandeld>true</indicatieBehandeld>
+        <indicatieBesloten>false</indicatieBesloten>
         <heeftAlsBijlage>
             <informatieobjectType>
                 <begripLabel>Voorstel</begripLabel>
@@ -116,10 +116,10 @@
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
-        <titel>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</titel>
-        <hamerstuk>false</hamerstuk>
-        <behandeld>true</behandeld>
-        <besloten>false</besloten>
+        <naam>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</naam>
+        <indicatieHamerstuk>false</indicatieHamerstuk>
+        <indicatieBehandeld>true</indicatieBehandeld>
+        <indicatieBesloten>false</indicatieBesloten>
         <heeftBehandelendAmbtenaar>
             <verwijzingID>Persoon-11</verwijzingID>
             <verwijzingNaam>Julius Terpstra</verwijzingNaam>
@@ -129,7 +129,7 @@
     <!-- Stemmingen -->
     <stemming>
         <ID>RV 23.0081</ID>
-        <stemmingstype>Regulier</stemmingstype>
+        <type>Regulier</type>
         <leidtTotBesluit>
             <verwijzingID>besluit-4128</verwijzingID>
         </leidtTotBesluit>
@@ -155,13 +155,13 @@
     <besluit>
         <ID>besluit-4128</ID>
         <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
-        <besluitResultaat>Aangenomen</besluitResultaat>
+        <resultaat>Aangenomen</resultaat>
     </besluit>
 
     <!-- Fracties -->
     <fractie>
         <ID>D66-gm0546</ID>
-        <fractienaam>D66</fractienaam>
+        <naam>D66</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Verdeeld</fractieStemresultaat>
             <verwijzingStemming>
@@ -171,7 +171,7 @@
     </fractie>
     <fractie>
         <ID>GL-gm0546</ID>
-        <fractienaam>GL</fractienaam>
+        <naam>GL</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
             <verwijzingStemming>
@@ -181,7 +181,7 @@
     </fractie>
     <fractie>
         <ID>VVD-gm0546</ID>
-        <fractienaam>VVD</fractienaam>
+        <naam>VVD</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Verworpen</fractieStemresultaat>
             <verwijzingStemming>
@@ -191,7 +191,7 @@
     </fractie>
     <fractie>
         <ID>PvdA-gm0546</ID>
-        <fractienaam>PvdA</fractienaam>
+        <naam>PvdA</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
             <verwijzingStemming>
@@ -201,7 +201,7 @@
     </fractie>
     <fractie>
         <ID>SP-gm0546</ID>
-        <fractienaam>SP</fractienaam>
+        <naam>SP</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
             <verwijzingStemming>
@@ -211,7 +211,7 @@
     </fractie>
     <fractie>
         <ID>PS-gm0546</ID>
-        <fractienaam>PS</fractienaam>
+        <naam>PS</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
             <verwijzingStemming>
@@ -221,7 +221,7 @@
     </fractie>
     <fractie>
         <ID>CDA-gm0546</ID>
-        <fractienaam>CDA</fractienaam>
+        <naam>CDA</naam>
         <neemtDeelAanStemming>
             <fractieStemresultaat>Aangenomen</fractieStemresultaat>
             <verwijzingStemming>
@@ -233,14 +233,14 @@
     <!-- Dagelijks bestuur -->
     <dagelijksBestuur>
         <ID>College van B&amp;W-gm0546</ID>
-        <dagelijksBestuurNaam>College van B&amp;W</dagelijksBestuurNaam>
-        <dagelijksBestuurType>
+        <naam>College van B&amp;W</naam>
+        <type>
             <begripLabel>College</begripLabel>
             <verwijzingBegrippenlijst>
                 <verwijzingID>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</verwijzingID>
                 <verwijzingNaam>ORI-A dagelijks bestuur types</verwijzingNaam>
             </verwijzingBegrippenlijst>
-        </dagelijksBestuurType>
+        </type>
         <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
@@ -260,7 +260,7 @@
             <volledigeNaam>Maaike van Vliet</volledigeNaam>
         </naam>
         <isLidVanFractie>
-            <voorzitter>false</voorzitter>
+            <indicatieVoorzitter>false</indicatieVoorzitter>
             <verwijzingFractie>
                 <verwijzingID>VVD-gm0546</verwijzingID>
             </verwijzingFractie>
@@ -563,7 +563,7 @@
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
-                <voorzitter>true</voorzitter>
+                <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>PS-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -610,7 +610,7 @@
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
-                <voorzitter>true</voorzitter>
+                <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>GL-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -645,7 +645,7 @@
                 <volledigeNaam>Maarten de Crom</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>true</voorzitter>
+                <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>VVD-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -680,7 +680,7 @@
                 <volledigeNaam>Julia de Groot</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>D66-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -714,7 +714,7 @@
                 <volledigeNaam>Antoine Theeuwen</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>true</voorzitter>
+                <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>SP-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -753,7 +753,7 @@
                 <bezoldigd>false</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>GL-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -880,7 +880,7 @@
                 <bezoldigd>true</bezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>D66-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -922,7 +922,7 @@
                 <volledigeNaam>Martijn Otten</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>PvdA-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -972,7 +972,7 @@
                 <volledigeNaam>Tobias Sandoval Garcia</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>CDA-gm0546</verwijzingID>
                 </verwijzingFractie>
@@ -1041,7 +1041,7 @@
                 <volledigeNaam>Alex Friso</volledigeNaam>
             </naam>
             <isLidVanFractie>
-                <voorzitter>false</voorzitter>
+                <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
                     <verwijzingID>GL-gm0546</verwijzingID>
                 </verwijzingFractie>
