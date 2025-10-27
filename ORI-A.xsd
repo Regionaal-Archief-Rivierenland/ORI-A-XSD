@@ -803,7 +803,7 @@
                     <xs:documentation>Geeft aan of de nevenfunctie wordt uitgevoerd tegen betaling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="functieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indcatieFunctieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of de nevenfunctie wordt vervuld vanwege een lidmaatschap van de Raad of de Staten.</xs:documentation>
                 </xs:annotation>
