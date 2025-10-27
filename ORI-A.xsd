@@ -100,7 +100,7 @@
             <xs:documentation>Gegevens die worden gebruikt om te **verwijzen** naar een elders gedefinieerd informatieobject.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <xs:element name="type" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort informatieobject waarnaar verwezen wordt.</xs:documentation>
                     <xs:appinfo>
