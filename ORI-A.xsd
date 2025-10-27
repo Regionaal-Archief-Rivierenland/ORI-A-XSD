@@ -798,7 +798,7 @@
                     <xs:documentation>Aantal uren per maand dat besteed wordt aan de nevenfunctie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="bezoldigd" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indicatieBezoldigd" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of de nevenfunctie wordt uitgevoerd tegen betaling.</xs:documentation>
                 </xs:annotation>
