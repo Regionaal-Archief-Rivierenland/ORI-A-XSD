@@ -100,7 +100,7 @@
             <xs:documentation>Gegevens die worden gebruikt om te **verwijzen** naar een elders gedefinieerd informatieobject.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <xs:element name="informatieobjectType" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="type" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort informatieobject waarnaar verwezen wordt.</xs:documentation>
                     <xs:appinfo>
@@ -174,7 +174,7 @@
                     <xs:documentation>De naam van de vergadering, zoals 'Commissie Onderwijs en Samenleving'.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderToelichting" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="toelichting" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Toelichting of nadere omschrijving van de vergadering.</xs:documentation>
                 </xs:annotation>
@@ -184,7 +184,7 @@
                     <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderingstype" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="type" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort vergadering.</xs:documentation>
                     <xs:appinfo>
@@ -217,32 +217,32 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="geplandeVergaderdatum" type="xs:date" minOccurs="0" maxOccurs="1">
+            <xs:element name="geplandeDatum" type="xs:date" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geplande aanvangsdatum van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="vergaderdatum" type="xs:date" minOccurs="1" maxOccurs="1">
+            <xs:element name="datum" type="xs:date" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De datum waarop de vergadering daadwerkelijk gehouden werd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="geplandeAanvangVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+            <xs:element name="geplandeAanvang" type="xs:dateTime" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het geplande moment (datum en tijdstip) waarop de vergadering zou beginnen.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="geplandeEindeVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+            <xs:element name="geplandEinde" type="xs:dateTime" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het geplande moment (datum en tijdstip) waarop de vergadering beëindigd zou worden.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="aanvangVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+            <xs:element name="aanvang" type="xs:dateTime" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Daadwerkelijk datum en tijdstip waarop de vergadering begon.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="eindeVergadering" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+            <xs:element name="einde" type="xs:dateTime" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Daadwerkelijke datum en tijdstip waarop de vergadering eindigde.</xs:documentation>
                 </xs:annotation>
@@ -376,17 +376,17 @@
                     <xs:documentation>Locatie (bijvoorbeeld gebouw of stad) waar het agendapunt werd behandeld.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="hamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indicatieHamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt een hamerstuk was.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="behandeld" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indicatieBehandeld" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt is behandeld tijdens de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="besloten" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indicatieBesloten" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of het agendapunt besloten werd behandeld.</xs:documentation>
                 </xs:annotation>
@@ -502,7 +502,7 @@
                     <xs:documentation>Uniek identificatiekenmerk van de stemming.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="stemmingstype" minOccurs="0" maxOccurs="1">
+            <xs:element name="type" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De wijze waarop gestemd is.</xs:documentation>
                 </xs:annotation>
@@ -581,7 +581,7 @@
                     <xs:documentation>Uniek identificatiekenmerk van het besluit.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="besluitToelichting" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="toelichting" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Een toelichting op het besluit.</xs:documentation>
                 </xs:annotation>
@@ -591,7 +591,7 @@
                     <xs:documentation>Een toezegging die bij het besluit gedaan is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="besluitResultaat" minOccurs="1" maxOccurs="1">
+            <xs:element name="resultaat" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het resultaat van het besluit.</xs:documentation>
                 </xs:annotation>
@@ -618,12 +618,12 @@
                     <xs:documentation>Uniek identificatiekenmerk van het dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="dagelijksBestuurNaam" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Naam van het dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="dagelijksBestuurType" type="begripGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="type" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
                     <xs:appinfo>
@@ -835,7 +835,7 @@
                     <xs:documentation>Uniek identificatiekenmerk van de fractie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="fractienaam" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De naam van de fractie, zoals `D66` of `VVD`.</xs:documentation>
                 </xs:annotation>
@@ -886,7 +886,7 @@
                     <xs:documentation>Datum waarop iemands fractielidmaatschap eindigde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="voorzitter" type="xs:boolean" minOccurs="0" maxOccurs="1">
+            <xs:element name="indicatieVoorzitter" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan of iemand fractievoorzitter is.</xs:documentation>
                 </xs:annotation>
@@ -908,7 +908,7 @@
                     <xs:documentation>Uniek identificatiekenmerk van het stemresultaat per fractie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="fractieStemresultaat" minOccurs="1" maxOccurs="1">
+            <xs:element name="fractietemresultaat" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan hoe de fractie als geheel tegenover een stemming stond.</xs:documentation>
                 </xs:annotation>
@@ -1025,12 +1025,12 @@
             <xs:documentation>Gegevens over een gremium.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <xs:element name="gremiumIdentificatie" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="identificatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Uniek identificatiekenmerk van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="gremiumNaam" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Naam van het gremium, zoals 'Commissie Samenleving'.</xs:documentation>
                 </xs:annotation>
