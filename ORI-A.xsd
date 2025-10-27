@@ -366,9 +366,9 @@
                     <xs:documentation>De naar buiten gepresenteerde weergave van het volgnummer op de agenda, zoals `10a.`.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="titel" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Titel of onderwerp van het agendapunt.</xs:documentation>
+                    <xs:documentation>Naam of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
@@ -470,9 +470,9 @@
                     <xs:documentation>De uitgeschreven tekst van het spreekfragment.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="titel" type="xs:string" minOccurs="0" maxOccurs="1">
+            <xs:element name="naam" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>De titel van het spreekfragment, of een benaming voor de discussie die tijdens dit fragment plaatsvindt.</xs:documentation>
+                    <xs:documentation>De naam van het spreekfragment, of een benaming voor de discussie die tijdens dit fragment plaatsvindt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="positieNotulen" type="xs:string" minOccurs="0" maxOccurs="1">
