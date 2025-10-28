@@ -560,7 +560,7 @@
             <nevenfunctie>
                 <omschrijving>Promovendus</omschrijving>
                 <naamOrganisatie>Universiteit Leiden</naamOrganisatie>
-                <bezoldigd>true</bezoldigd>
+                <indicatieBezoldigd>true</indicatieBezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
                 <indicatieVoorzitter>true</indicatieVoorzitter>
@@ -607,7 +607,7 @@
             <nevenfunctie>
                 <omschrijving>Projectmanager Sociale Zaken en Werkgelegenheid</omschrijving>
                 <naamOrganisatie>Gemeente Den Haag</naamOrganisatie>
-                <bezoldigd>true</bezoldigd>
+                <indicatieBezoldigd>true</indicatieBezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
                 <indicatieVoorzitter>true</indicatieVoorzitter>
@@ -750,7 +750,7 @@
             </naam>
             <nevenfunctie>
                 <omschrijving>Voorzitter RozeLinks</omschrijving>
-                <bezoldigd>false</bezoldigd>
+                <indicatieBezoldigd>false</indicatieBezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
@@ -877,7 +877,7 @@
             <nevenfunctie>
                 <omschrijving>Transitiemanager</omschrijving>
                 <naamOrganisatie>Provincie Zuid-Holland</naamOrganisatie>
-                <bezoldigd>true</bezoldigd>
+                <indicatieBezoldigd>true</indicatieBezoldigd>
             </nevenfunctie>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
