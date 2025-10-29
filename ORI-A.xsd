@@ -316,11 +316,6 @@
                     <xs:documentation>Naam of onderwerp van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="omschrijving" type="xs:string" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Toelichting of nadere omschrijving van het agendapunt.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="geplandVolgnummer" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het geplande agendapunt volgnummer. Begint met een of meer cijfers, maar mag gevolgd worden door andere karakters.</xs:documentation>
@@ -344,6 +339,11 @@
             <xs:element name="volgnummerWeergave" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De naar buiten gepresenteerde weergave van het volgnummer op de agenda, zoals `10a.`.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="omschrijving" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Toelichting of nadere omschrijving van het agendapunt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="geplandeStarttijd" type="xs:dateTime" minOccurs="0" maxOccurs="1">
