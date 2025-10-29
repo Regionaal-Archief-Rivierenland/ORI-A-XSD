@@ -3,6 +3,10 @@
     <vergadering>
         <ID>20a280a8a8a88220008208822f6b6b02</ID>
         <naam>Gemeenteraad</naam>
+        <datum>2023-11-30</datum>
+        <aanvang>2023-11-30T20:00:00</aanvang>
+        <einde>2023-11-30T23:00:00</einde>
+        <publicatiedatum>2023-12-15T14:12:15</publicatiedatum>
         <type>
             <begripLabel>Raadsvergadering</begripLabel>
             <verwijzingBegrippenlijst>
@@ -12,10 +16,6 @@
         <locatie>Raadzaal Stadhuis</locatie>
         <weblocatie>https://leiden.parlaeus.nl/app/public/agenda/8028228820022a0a0282a0a8814c778c/vod</weblocatie>
         <status>Gehouden</status>
-        <datum>2023-11-30</datum>
-        <aanvang>2023-11-30T20:00:00</aanvang>
-        <einde>2023-11-30T23:00:00</einde>
-        <publicatiedatum>2023-12-15T14:12:15</publicatiedatum>
         <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
@@ -53,6 +53,7 @@
     <!-- Agendapunten -->
     <agendapunt>
         <ID>2028a00aaa2a8aaa00a2aab6bdaef</ID>
+        <naam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</naam>
         <volgnummer>22</volgnummer>
         <starttijd>2023-11-30T20:22:26</starttijd>
         <tijdsaanduidingMediabron>
@@ -69,7 +70,6 @@
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
-        <naam>RV 23.0081 Delegatiebesluit Omgevingsplan Leiden 2023</naam>
         <indicatieHamerstuk>false</indicatieHamerstuk>
         <indicatieBehandeld>true</indicatieBehandeld>
         <indicatieBesloten>false</indicatieBesloten>
@@ -100,6 +100,7 @@
     </agendapunt>
     <agendapunt>
         <ID>202282aa200aa08200a2821eb50cf</ID>
+        <naam>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</naam>
         <volgnummer>23</volgnummer>
         <starttijd>2023-11-30T20:59:40</starttijd>
         <tijdsaanduidingMediabron>
@@ -116,7 +117,6 @@
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
-        <naam>RV 23.0082 Aanscherping adviesrecht onder de Omgevingswet</naam>
         <indicatieHamerstuk>false</indicatieHamerstuk>
         <indicatieBehandeld>true</indicatieBehandeld>
         <indicatieBesloten>false</indicatieBesloten>
@@ -154,8 +154,8 @@
     <!-- Besluiten -->
     <besluit>
         <ID>besluit-4128</ID>
-        <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
         <resultaat>Aangenomen</resultaat>
+        <toezegging>De wethouder belooft een preciezere schatting van de verwachte CO² uitstoot.</toezegging>
     </besluit>
 
     <!-- Fracties -->
@@ -234,13 +234,6 @@
     <dagelijksBestuur>
         <ID>College van B&amp;W-gm0546</ID>
         <naam>College van B&amp;W</naam>
-        <type>
-            <begripLabel>College</begripLabel>
-            <verwijzingBegrippenlijst>
-                <verwijzingID>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</verwijzingID>
-                <verwijzingNaam>ORI-A dagelijks bestuur types</verwijzingNaam>
-            </verwijzingBegrippenlijst>
-        </type>
         <overheidsorgaan>
             <begripLabel>Gemeente Leiden</begripLabel>
             <begripCode>gm0546</begripCode>
@@ -249,6 +242,13 @@
                 <verwijzingNaam>TOOI Register gemeenten compleet</verwijzingNaam>
             </verwijzingBegrippenlijst>
         </overheidsorgaan>
+        <type>
+            <begripLabel>College</begripLabel>
+            <verwijzingBegrippenlijst>
+                <verwijzingID>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</verwijzingID>
+                <verwijzingNaam>ORI-A dagelijks bestuur types</verwijzingNaam>
+            </verwijzingBegrippenlijst>
+        </type>
     </dagelijksBestuur>
 
     <!-- Afwezig raadslid  -->
@@ -277,17 +277,17 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-0</ID>
+            <naam>
+                <achternaam>Velden</achternaam>
+                <tussenvoegsel>van der</tussenvoegsel>
+                <volledigeNaam>Peter van der Velden</volledigeNaam>
+            </naam>
             <functie>
                 <begripLabel>Burgemeester</begripLabel>
                 <verwijzingBegrippenlijst>
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Velden</achternaam>
-                <tussenvoegsel>van der</tussenvoegsel>
-                <volledigeNaam>Peter van der Velden</volledigeNaam>
-            </naam>
             <isLidVanDagelijksBestuur>
                 <datumBeginDagelijksBestuurLidmaatschap>2023-09-01</datumBeginDagelijksBestuurLidmaatschap>
                 <verwijzingDagelijksBestuur>
@@ -546,6 +546,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-1</ID>
+            <naam>
+                <achternaam>Vos</achternaam>
+                <volledigeNaam>Thijs Vos</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -553,10 +557,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Vos</achternaam>
-                <volledigeNaam>Thijs Vos</volledigeNaam>
-            </naam>
             <nevenfunctie>
                 <omschrijving>Promovendus</omschrijving>
                 <naamOrganisatie>Universiteit Leiden</naamOrganisatie>
@@ -593,6 +593,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-2</ID>
+            <naam>
+                <achternaam>Rowaan</achternaam>
+                <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -600,10 +604,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Rowaan</achternaam>
-                <volledigeNaam>Rembrandt Rowaan</volledigeNaam>
-            </naam>
             <nevenfunctie>
                 <omschrijving>Projectmanager Sociale Zaken en Werkgelegenheid</omschrijving>
                 <naamOrganisatie>Gemeente Den Haag</naamOrganisatie>
@@ -632,6 +632,11 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-3</ID>
+            <naam>
+                <achternaam>Crom</achternaam>
+                <tussenvoegsel>de</tussenvoegsel>
+                <volledigeNaam>Maarten de Crom</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -639,11 +644,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Crom</achternaam>
-                <tussenvoegsel>de</tussenvoegsel>
-                <volledigeNaam>Maarten de Crom</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
@@ -667,6 +667,11 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-5</ID>
+            <naam>
+                <achternaam>Groot</achternaam>
+                <tussenvoegsel>de</tussenvoegsel>
+                <volledigeNaam>Julia de Groot</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -674,11 +679,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Groot</achternaam>
-                <tussenvoegsel>de</tussenvoegsel>
-                <volledigeNaam>Julia de Groot</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
@@ -702,6 +702,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-6</ID>
+            <naam>
+                <achternaam>Theeuwen</achternaam>
+                <volledigeNaam>Antoine Theeuwen</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -709,10 +713,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Theeuwen</achternaam>
-                <volledigeNaam>Antoine Theeuwen</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>true</indicatieVoorzitter>
                 <verwijzingFractie>
@@ -736,6 +736,11 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-7</ID>
+            <naam>
+                <achternaam>Spronsen</achternaam>
+                <tussenvoegsel>van</tussenvoegsel>
+                <volledigeNaam>Ivo van Spronsen</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -743,11 +748,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Spronsen</achternaam>
-                <tussenvoegsel>van</tussenvoegsel>
-                <volledigeNaam>Ivo van Spronsen</volledigeNaam>
-            </naam>
             <nevenfunctie>
                 <omschrijving>Voorzitter RozeLinks</omschrijving>
                 <indicatieBezoldigd>false</indicatieBezoldigd>
@@ -863,6 +863,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-8</ID>
+            <naam>
+                <achternaam>Jordan</achternaam>
+                <volledigeNaam>Antje Jordan</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Vrouw</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -870,10 +874,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Jordan</achternaam>
-                <volledigeNaam>Antje Jordan</volledigeNaam>
-            </naam>
             <nevenfunctie>
                 <omschrijving>Transitiemanager</omschrijving>
                 <naamOrganisatie>Provincie Zuid-Holland</naamOrganisatie>
@@ -910,6 +910,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-9</ID>
+            <naam>
+                <achternaam>Otten</achternaam>
+                <volledigeNaam>Martijn Otten</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -917,10 +921,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Otten</achternaam>
-                <volledigeNaam>Martijn Otten</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
@@ -960,6 +960,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-10</ID>
+            <naam>
+                <achternaam>Sandoval Garcia</achternaam>
+                <volledigeNaam>Tobias Sandoval Garcia</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -967,10 +971,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Sandoval Garcia</achternaam>
-                <volledigeNaam>Tobias Sandoval Garcia</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
@@ -1002,6 +1002,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-11</ID>
+            <naam>
+                <achternaam>Terpstra</achternaam>
+                <volledigeNaam>Julius Terpstra</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Wethouder</begripLabel>
@@ -1009,10 +1013,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Terpstra</achternaam>
-                <volledigeNaam>Julius Terpstra</volledigeNaam>
-            </naam>
             <isLidVanDagelijksBestuur>
                 <verwijzingDagelijksBestuur>
                     <verwijzingID>College van B&amp;W-gm0546</verwijzingID>
@@ -1029,6 +1029,10 @@
         </rolnaam>
         <isNatuurlijkPersoon>
             <ID>Persoon-12</ID>
+            <naam>
+                <achternaam>Friso</achternaam>
+                <volledigeNaam>Alex Friso</volledigeNaam>
+            </naam>
             <geslachtsaanduiding>Man</geslachtsaanduiding>
             <functie>
                 <begripLabel>Raadslid</begripLabel>
@@ -1036,10 +1040,6 @@
                     <verwijzingID>https://ori-a.nl/begrippenlijsten#functies</verwijzingID>
                 </verwijzingBegrippenlijst>
             </functie>
-            <naam>
-                <achternaam>Friso</achternaam>
-                <volledigeNaam>Alex Friso</volledigeNaam>
-            </naam>
             <isLidVanFractie>
                 <indicatieVoorzitter>false</indicatieVoorzitter>
                 <verwijzingFractie>
