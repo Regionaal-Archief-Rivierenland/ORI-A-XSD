@@ -485,7 +485,7 @@
                     <xs:documentation>Gegevens over wanneer het spreekfragment begint en eindigt in een bepaalde mediabron, zoals een video- of audio-opname van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="spreektTijdensAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="gedurendeAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar het agendapunt waar tijdens gesproken wordt.</xs:documentation>
                 </xs:annotation>
