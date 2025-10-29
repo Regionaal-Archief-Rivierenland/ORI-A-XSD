@@ -736,7 +736,7 @@
             </xs:element>
             <xs:element name="isLidVanFractie" type="fractielidmaatschapGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over iemands betrekking tot een fractie.</xs:documentation>
+                    <xs:documentation>Gegevens over iemands fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isLidVanDagelijksBestuur" type="dagelijksBestuurLidmaatschapGegevens" minOccurs="0" maxOccurs="1">
