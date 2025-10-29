@@ -59,14 +59,9 @@
         <tijdsaanduidingMediabron>
             <aanvang>00:00:00</aanvang>
             <isRelatiefTot>
-                <informatieobjectType>
-                    <begripLabel>Video</begripLabel>
-                    <verwijzingBegrippenlijst>
-                        <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
-                    </verwijzingBegrippenlijst>
-                </informatieobjectType>
                 <verwijzingInformatieobject>
                     <verwijzingID>8088a20808a0280002a000280b25219e</verwijzingID>
+                    <verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
@@ -106,14 +101,9 @@
         <tijdsaanduidingMediabron>
             <aanvang>00:26:23</aanvang>
             <isRelatiefTot>
-                <informatieobjectType>
-                    <begripLabel>Video</begripLabel>
-                    <verwijzingBegrippenlijst>
-                        <verwijzingID>https://ori-a.nl/begrippenlijsten#mediabron-types</verwijzingID>
-                    </verwijzingBegrippenlijst>
-                </informatieobjectType>
                 <verwijzingInformatieobject>
                     <verwijzingID>8088a20808a0280002a000280b25219e</verwijzingID>
+                    <verwijzingNaam>Videotuul Gemeenteraad 30 november 2023</verwijzingNaam>
                 </verwijzingInformatieobject>
             </isRelatiefTot>
         </tijdsaanduidingMediabron>
