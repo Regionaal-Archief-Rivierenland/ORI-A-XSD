@@ -805,7 +805,7 @@
             </xs:element>
             <xs:element name="indcatieFunctieVanwegeLidmaatschap" type="xs:boolean" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Geeft aan of de nevenfunctie wordt vervuld vanwege een lidmaatschap van de Raad of de Staten.</xs:documentation>
+                    <xs:documentation>Geeft aan of de nevenfunctie wordt vervuld vanwege een lidmaatschap van de Raad van Staten.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="datumMelding" type="xs:date" minOccurs="0" maxOccurs="1">
