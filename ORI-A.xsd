@@ -232,7 +232,7 @@
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Locatie (bijvoorbeeld gebouw of stad) waar de vergadering gehouden is.</xs:documentation>
+                    <xs:documentation>Locatie (bijvoorbeeld gebouw of plaats) waar de vergadering gehouden is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="weblocatie" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded">
@@ -286,7 +286,7 @@
             </xs:element>
             <xs:element name="isGenotuleerdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het informatieobject waarin de notulen van de vergadering zijn opgenomen.</xs:documentation>
+                    <xs:documentation>Gegevens over het informatieobject waarin de notulen van de vergadering zijn vastgelegd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="heeftAlsBijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
@@ -373,7 +373,7 @@
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Locatie (bijvoorbeeld gebouw of stad) waar het agendapunt werd behandeld.</xs:documentation>
+                    <xs:documentation>Locatie (bijvoorbeeld gebouw of plaats) waar het agendapunt werd behandeld.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="indicatieHamerstuk" type="xs:boolean" minOccurs="0" maxOccurs="1">
