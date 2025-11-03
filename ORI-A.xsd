@@ -301,6 +301,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="agendapuntGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een agendapunt, zoals het volgnummer en bijbehorende stukken. Bij het ontbreken van volgnummers, moet de volgorde van agendapunt-elementen aangeven in welke volgorde ze behandeld zijn.</xs:documentation>
@@ -440,6 +441,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="spreekfragmentGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een spreekfragment waarin een deelnemer sprak, zoals het moment waarop dit fragment begon en eindigde.</xs:documentation>
@@ -492,6 +494,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="stemmingGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een stemming, zoals het agendapunt of de persoon waarover gestemd is. Iemands stemkeuze op een stemming hoort onder `aanwezigeDeelnemer`.</xs:documentation>
@@ -554,6 +557,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="stemmingOverPersonenGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens die het resultaat van een stemming over personen beschrijven, zoals het aantal stemmen dat een persoon haalde.</xs:documentation>
@@ -571,6 +575,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="besluitGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een besluit, zoals of het unaniem aangenomen of verworpen is. Een besluit volgt in de regel op een `stemming`.</xs:documentation>
@@ -608,6 +613,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="dagelijksBestuurGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een dagelijks bestuur, zoals de naam van het bestuur.</xs:documentation>
@@ -663,6 +669,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="dagelijksBestuurLidmaatschapGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over wanneer iemand lid is geworden van een bepaald dagelijks bestuur.</xs:documentation>
@@ -690,6 +697,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="natuurlijkPersoonGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een natuurlijk persoon. Dit datatype komt voor onder de top-level elementen `&lt;aanwezigeDeelnemer&gt;` en `&lt;persoonBuitenVergadering&gt;`.</xs:documentation>
@@ -746,6 +754,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="naamGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over de naam van een persoon, zoals diens voor- en achternaam.</xs:documentation>
@@ -778,6 +787,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="nevenfunctieGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over de nevenfuncties van een persoon, zoals of het om een betaalde functie gaat.</xs:documentation>
@@ -825,6 +835,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="fractieGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een fractie, zoals de naam en het stemgedrag van de fractie.</xs:documentation>
@@ -866,6 +877,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="fractielidmaatschapGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over iemands fractielidmaatschap.</xs:documentation>
@@ -898,6 +910,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="stemresultaatPerFractieGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over hoe een fractie als geheel tegenover een stemming stond, zoals of de aanwezigen leden unaniem voor, unaniem tegen, of juist verdeeld hebben gestemd.</xs:documentation>
@@ -927,6 +940,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="aanwezigeDeelnemerGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een persoon die bij de vergadering aanwezig was, zoals diens stemgedrag, inspreekmomenten, en meer algemene persoonsgegevens.</xs:documentation>
@@ -990,6 +1004,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="stemGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een stem die iemand heeft uitgebracht, zoals diens stemkeuze en de stemming waarop deze keuze betrekking heeft.</xs:documentation>
@@ -1020,6 +1035,7 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+
     <xs:complexType name="gremiumGegevens">
         <xs:annotation>
             <xs:documentation>Gegevens over een gremium.</xs:documentation>
