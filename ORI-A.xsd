@@ -984,7 +984,7 @@
             </xs:element>
             <xs:element name="neemtDeelAanVergadering" type="verwijzingGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Verwijzing naar de (deel)vergaderingen waar de deelnemer aanwezig was.</xs:documentation>
+                    <xs:documentation>Verwijzing naar de vergadering of deelvergaderingen waar de deelnemer aanwezig was.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="isNatuurlijkPersoon" type="natuurlijkPersoonGegevens" minOccurs="1" maxOccurs="1">
