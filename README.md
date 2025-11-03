@@ -4,7 +4,7 @@ De Open Raadsinformatie Archiefstandaard (ORI-A) beschrijft de regels voor het d
 
 ## Documentatie & downloads
 
-Documentatie van de XSD is te vinden op <https://ori-a.nl>. De XSD kun je [downloaden vanaf de ORI-A website]( https://ori-a.nl/downloads), of via de [ Github Release pagina](https://github.com/Regionaal-Archief-Rivierenland/ORI-A-XSD/releases).
+Documentatie van de XSD is te vinden op <https://ori-a.nl>. De XSD kun je [downloaden vanaf de ORI-A website]( https://ori-a.nl/downloads), of via de [Github Release pagina](https://github.com/Regionaal-Archief-Rivierenland/ORI-A-XSD/releases).
 
 ## Achtergrond
 
