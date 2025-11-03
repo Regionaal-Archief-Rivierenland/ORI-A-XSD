@@ -10,7 +10,7 @@
                 </xs:element>
                 <xs:element name="agendapunt" type="agendapuntGegevens" minOccurs="1" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een agendapunt, zoals het volgnummer en bijbehorende stukken. Bij het ontbreken van volgnummers, moet de volgorde van agendapunt-elementen aangeven in welke volgorde ze behandeld zijn.</xs:documentation>
+                        <xs:documentation>Gegevens over een agendapunt, zoals het volgnummer en bijbehorende stukken. Bij het ontbreken van volgnummers moet de volgorde van agendapunt-elementen aangeven in welke volgorde ze behandeld zijn.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="stemming" type="stemmingGegevens" minOccurs="0" maxOccurs="unbounded">
