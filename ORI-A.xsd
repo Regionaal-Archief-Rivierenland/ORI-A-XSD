@@ -35,7 +35,7 @@
                 </xs:element>
                 <xs:element name="persoonBuitenVergadering" type="natuurlijkPersoonGegevens" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
-                        <xs:documentation>Gegevens over een persoon die een relatie heeft met de vergadering, maar niet zelf aanwezig was. Dit kan bijvoorbeeld een portefeuillehouder, indiender of afwezig raadslid zijn. Persoonsgegevens over aanwezigen komen onder `aanwezigeDeelnemer`.</xs:documentation>
+                        <xs:documentation>Gegevens over een persoon die een relatie heeft met de vergadering, maar _niet_ zelf aanwezig was. Dit kan bijvoorbeeld een portefeuillehouder, indiender of afwezig raadslid zijn. Persoonsgegevens over aanwezigen komen onder `aanwezigeDeelnemer`.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
                 <xs:element name="aanwezigeDeelnemer" type="aanwezigeDeelnemerGegevens" minOccurs="0" maxOccurs="unbounded">
