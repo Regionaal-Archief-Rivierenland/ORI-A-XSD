@@ -285,7 +285,6 @@
                 </verwijzingDagelijksBestuur>
             </isLidVanDagelijksBestuur>
         </isNatuurlijkPersoon>
-        <!-- todo: provide one complete spreekfragment -->
         <spreektTijdensSpreekfragment>
             <tijdsaanduidingMediabron>
                 <aanvang>00:00:00</aanvang>
