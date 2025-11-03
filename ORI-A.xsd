@@ -532,12 +532,12 @@
             <xs:element name="resultaatStemmingOverPersonen" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <!-- TODO: Deze documentatie moet mogelijk geupdate worden na https://github.com/VNG-Realisatie/ODS-Open-Raadsinformatie/issues/111 -->
-                    <xs:documentation>Het resultaat van de stemming over een of meerdere personen.</xs:documentation>
+                    <xs:documentation>Beschrijving van het resultaat van een stemming over een of meerdere personen.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="stemmingOverPersonen" type="stemmingOverPersonenGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Gegevens die het resultaat van een stemming over personen beschrijven, zoals het aantal stemmen dat een persoon haalde.</xs:documentation>
+                    <xs:documentation>Gegevens die een stemming over personen beschrijven, zoals het aantal stemmen dat een kandidaat haalde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="leidtTotBesluit" type="verwijzingGegevens" minOccurs="0" maxOccurs="1">
@@ -560,7 +560,7 @@
 
     <xs:complexType name="stemmingOverPersonenGegevens">
         <xs:annotation>
-            <xs:documentation>Gegevens die het resultaat van een stemming over personen beschrijven, zoals het aantal stemmen dat een persoon haalde.</xs:documentation>
+            <xs:documentation>Gegevens die een stemming over personen beschrijven, zoals het aantal stemmen dat iedere kandidaat haalde.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="naamKandidaat" type="xs:string" minOccurs="1" maxOccurs="1">
