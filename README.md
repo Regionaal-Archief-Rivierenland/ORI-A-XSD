@@ -1,14 +1,10 @@
 # Open Raadsinformatie Archiefstandaard (ORI-A)
 
-De Open Raadsinformatie Archiefstandaard (ORI-A) beschrijft de regels voor het duurzaam bewaren van raadsinformatie in XML-formaat. Het is gebaseerd op het informatiemodel onder de [Open Raadsinformatie (ORI) API specificatie](https://github.com/VNG-Realisatie/ODS-Open-Raadsinformatie). 
+De Open Raadsinformatie Archiefstandaard (ORI-A) beschrijft de regels voor het duurzaam bewaren van raadsinformatie in XML-formaat.  ORI-A is gebaseerd op het informatiemodel dat de VNG heeft ontworpen voor de [Open Raadsinformatie (ORI) API specificatie](https://github.com/VNG-Realisatie/ODS-Open-Raadsinformatie). 
 
-## Documentatie
+## Documentatie & downloads
 
-Documentatie van de XSD is te vinden op <https://ori-a.nl>.
-
-## Status
-
-De ORI-A XSD is momenteel in bèta, en [kan hier gedownload worden](https://github.com/Regionaal-Archief-Rivierenland/ORI-XSD/releases). De standaard wordt de komende tijd getest aan enkele praktijkcases en op basis daarvan aangepast.
+Documentatie van de XSD is te vinden op <https://ori-a.nl>. De XSD kun je [downloaden vanaf de ORI-A website]( https://ori-a.nl/downloads), of via de [ Github Release pagina](https://github.com/Regionaal-Archief-Rivierenland/ORI-A-XSD/releases).
 
 ## Achtergrond
 
