@@ -519,7 +519,7 @@
             </xs:element>
             <xs:element name="resultaatMondelingeStemming" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het resultaat van de mondelinge stemming.</xs:documentation>
+                    <xs:documentation>Het resultaat van een mondelinge stemming.</xs:documentation>
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
