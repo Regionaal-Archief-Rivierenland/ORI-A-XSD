@@ -209,16 +209,6 @@
                     <xs:documentation>Datum en tijdstip waarop de vergadering voor het laatst gepubliceerd of gewijzigd is.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="toelichting" type="xs:string" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Toelichting of nadere omschrijving van de vergadering.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="georganiseerdDoorGremium" type="gremiumGegevens" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="type" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het soort vergadering.</xs:documentation>
@@ -228,6 +218,16 @@
                             <URL>https://ori-a.nl/begrippenlijsten#vergaderingstypes</URL>
                         </aangeradenBegrippenlijst>
                     </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="toelichting" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Toelichting of nadere omschrijving van de vergadering.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="georganiseerdDoorGremium" type="gremiumGegevens" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Gegevens over het gremium dat de vergadering georganiseerd heeft, zoals de naam van het gremium.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="locatie" type="xs:string" minOccurs="0" maxOccurs="1">
