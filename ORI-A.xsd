@@ -853,7 +853,7 @@
             </xs:element>
             <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Het overheidsorgaan waarvoor de fractie functioneert.</xs:documentation>
+                    <xs:documentation>Het overheidsorgaan waarbinnen de fractie opereert.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
