@@ -560,7 +560,7 @@
 
     <xs:complexType name="stemmingOverPersonenGegevens">
         <xs:annotation>
-            <xs:documentation>Gegevens die een stemming over personen beschrijven, zoals het aantal stemmen dat iedere kandidaat haalde.</xs:documentation>
+            <xs:documentation>Gegevens die een stemming over personen beschrijven, zoals het aantal stemmen dat een kandidaat haalde.xg</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="naamKandidaat" type="xs:string" minOccurs="1" maxOccurs="1">
