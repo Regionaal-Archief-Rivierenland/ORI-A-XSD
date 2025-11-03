@@ -254,7 +254,7 @@
             </xs:element>
             <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het overheidsorgaan dat de vergadering heeft gehouden.</xs:documentation>
+                    <xs:documentation>Het overheidsorgaan dat de vergadering heeft gehouden.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -394,7 +394,7 @@
             </xs:element>
             <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het overheidsorgaan dat het agendapunt heeft behandeld.</xs:documentation>
+                    <xs:documentation>Het overheidsorgaan dat het agendapunt heeft behandeld.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
@@ -631,7 +631,7 @@
             </xs:element>
             <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het overheidsorgaan waarbinnen dit dagelijks bestuur opereert.</xs:documentation>
+                    <xs:documentation>Het overheidsorgaan waarbinnen dit dagelijks bestuur opereert.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
                             <naam>Register gemeenten compleet</naam>
