@@ -89,7 +89,7 @@
 			</xs:element>
 			<xs:element name="verwijzingBegrippenlijst" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
 				<xs:annotation>
-					<xs:documentation>Een verwijzing naar de begrippenlijst waarin het begrip beschreven wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is meestal een URL, en de gewenste naam de titel van de begrippenlijst (bijvoorbeeld 'ORI-A Vergaderstuktypes').</xs:documentation>
+					<xs:documentation>Een verwijzing naar de begrippenlijst waarin het begrip beschreven wordt. Het ID van de begrippenlijst waarnaar verwezen wordt is meestal een URL, en de gewenste naam de titel van de begrippenlijst (bijvoorbeeld 'ORI-A vergaderstuktypes').</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 		</xs:sequence>
@@ -661,7 +661,7 @@
                     <xs:documentation>Het soort dagelijks bestuur.</xs:documentation>
                     <xs:appinfo>
                         <aangeradenBegrippenlijst>
-                            <naam>ORI-A Dagelijks bestuur types</naam>
+                            <naam>ORI-A dagelijks bestuur types</naam>
                             <URL>https://ori-a.nl/begrippenlijsten#dagelijks-bestuur-types</URL>
                         </aangeradenBegrippenlijst>
                     </xs:appinfo>
