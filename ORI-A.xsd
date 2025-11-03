@@ -552,7 +552,7 @@
             </xs:element>
             <xs:element name="heeftBetrekkingOpBesluitvormingsstuk" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
-                    <xs:documentation>Gegevens over het besluitvormingsstuk waarover gestemd werd. Dit besluitvormingsstuk kan bijvoorbeeld een motie, voorstel, of (sub)amendement zijn.</xs:documentation>
+                    <xs:documentation>Gegevens over een besluitvormingsstuk waarover gestemd werd. Dit besluitvormingsstuk kan bijvoorbeeld een motie, voorstel, of (sub)amendement zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
