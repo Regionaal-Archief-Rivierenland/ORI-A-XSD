@@ -8,6 +8,6 @@ Documentatie van de XSD is te vinden op <https://ori-a.nl>. De XSD kun je [downl
 
 ## Achtergrond
 
-Vanuit enkele archiefdiensten bleek er behoefte aan een standaard voor het uitwisselen van raadsinformatie naar een voorziening voor digitale duurzaamheid (e-depot). Deze archiefdiensten hebben zich verenigd in de [Werkgroep Archivering Raadsinformatie](https://ori-a.nl/colofon#werkgroep-archivering-raadsinformatie). 
+Verschillende archiefdiensten bleken behoefte te hebben aan een standaard voor het uitwisselen van raadsinformatie naar een voorziening voor digitale duurzaamheid (e-depot). Deze archiefdiensten hebben zich verenigd in de [Werkgroep Archivering Raadsinformatie](https://ori-a.nl/colofon#werkgroep-archivering-raadsinformatie).
 
 Het doel van de werkgroep is tweeledig: enerzijds het ontwikkelen, testen en borgen van een ORI-A XSD, anderzijds het schrijven van implementatiescenario's en het gebruik van de standaard aanmoedigen.
