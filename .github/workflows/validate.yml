@@ -9,7 +9,7 @@ on:
 
 jobs:
   xmllint:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     container:
       image: registry.gitlab.com/pipeline-components/xmllint:latest
 
