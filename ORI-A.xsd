@@ -279,22 +279,22 @@
                     </xs:appinfo>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isVastgelegdMiddels" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="mediabron" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een informatieobject waarin de (deel)vergadering is opgenomen. Deze opname kan een audiotuul, videotuul of transcriptie zijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isGenotuleerdIn" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="notulen" type="informatieobjectGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Gegevens over het informatieobject waarin de notulen van de vergadering zijn vastgelegd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="heeftAlsBijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="bijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een informatieobject dat als bijlage bij de algehele (deel)vergadering diende.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="heeftAlsDeelvergadering" type="vergaderingGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="deelvergadering" type="vergaderingGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een vergadering die als afzonderlijk onderdeel functioneert binnen een grotere vergadering.</xs:documentation>
                 </xs:annotation>
@@ -429,12 +429,12 @@
                     <xs:documentation>Verwijzing naar een natuurlijk persoon die de behandelend ambtenaar van het agendapunt was.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="heeftAlsBijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="bijlage" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een informatieobject dat als bijlage bij dit agendapunt diende.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="heeftAlsSubagendapunt" type="agendapuntGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="subagendapunt" type="agendapuntGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een agendapunt dat als afzonderlijk onderdeel functioneert binnen een groter agendapunt.</xs:documentation>
                 </xs:annotation>
@@ -487,7 +487,7 @@
                     <xs:documentation>Gegevens over wanneer het spreekfragment begint en eindigt in een bepaalde mediabron, zoals een video- of audio-opname van de vergadering.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="gedurendeAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="verwijzingAgendapunt" type="verwijzingGegevens" minOccurs="1" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar het agendapunt waar tijdens gesproken wordt.</xs:documentation>
                 </xs:annotation>
@@ -550,7 +550,7 @@
                     <xs:documentation>Verwijzing naar het agendapunt waarover gestemd werd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="heeftBetrekkingOpBesluitvormingsstuk" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="besluitvormingsstuk" type="informatieobjectGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een besluitvormingsstuk waarover gestemd werd. Dit besluitvormingsstuk kan bijvoorbeeld een motie, voorstel, of (sub)amendement zijn.</xs:documentation>
                 </xs:annotation>
@@ -742,12 +742,12 @@
                     <xs:documentation>Gegevens over een nevenfunctie van de persoon, zoals of het om een betaalde functie gaat.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isLidVanFractie" type="fractielidmaatschapGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="fractielidmaatschap" type="fractielidmaatschapGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Gegevens over iemands fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="isLidVanDagelijksBestuur" type="dagelijksBestuurLidmaatschapGegevens" minOccurs="0" maxOccurs="1">
+            <xs:element name="dagelijksBestuurLidmaatschap" type="dagelijksBestuurLidmaatschapGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Gegevens over iemands lidmaatschap van een dagelijks bestuur.</xs:documentation>
                 </xs:annotation>
@@ -992,12 +992,12 @@
                     <xs:documentation>Gegevens over de persoon die als deelnemer optreedt, zoals diens naam en fractielidmaatschap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="neemtDeelAanStemming" type="stemGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="stem" type="stemGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een stem die de deelnemer heeft uitbracht, zoals de stemkeuze en de stemming waarop deze keuze betrekking heeft.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="spreektTijdensSpreekfragment" type="spreekfragmentGegevens" minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="spreekfragment" type="spreekfragmentGegevens" minOccurs="0" maxOccurs="unbounded">
                 <xs:annotation>
                     <xs:documentation>Gegevens over een spreekfragment waarin de deelnemer sprak, zoals het moment waarop dit fragment begon en eindigde.</xs:documentation>
                 </xs:annotation>
@@ -1028,7 +1028,7 @@
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
-            <xs:element name="gegevenOpStemming" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
+            <xs:element name="stemming" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Verwijzing naar de stemming waar de stem betrekking op heeft.</xs:documentation>
                 </xs:annotation>
