@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://ori-a.nl" targetNamespace="https://ori-a.nl" xmlns:ori-a="https://ori-a.nl" elementFormDefault="qualified" version="v1.0.0">
-    <xs:element name="ORI-A">
+
+    <!-- root-element -->
+    <xs:element name="ORI-A" type="ORI-A">
+        <!-- Specificeer dat alle IDs in de XML-boom uniek moeten zijn -->
+        <xs:unique name="uniqueID">
+            <xs:selector xpath=".//ori-a:ID"/>
+            <xs:field xpath="."/>
+        </xs:unique>
+    </xs:element>
+
+    <!-- datatype van root-element -->
+    <xs:complexType name="ORI-A">
         <xs:annotation>
-            <xs:documentation>Het _root_-element. Bevat alle ORI-A gegevens.</xs:documentation>
+            <xs:documentation>Gegevens die onder het _root_-element `&lt;ORI-A&gt;` komen.</xs:documentation>
         </xs:annotation>
-        <xs:complexType>
             <xs:sequence>
                 <xs:element name="vergadering" type="vergaderingGegevens" minOccurs="1" maxOccurs="1">
                     <xs:annotation>
@@ -48,12 +58,6 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
-        <!-- Specificeer dat alle IDs in de XML-boom uniek moeten zijn -->
-        <xs:unique name="uniqueID">
-            <xs:selector xpath=".//ori-a:ID"/>
-            <xs:field xpath="."/>
-        </xs:unique>
-    </xs:element>
 
     <!-- # Algemene datatypes -->
 
