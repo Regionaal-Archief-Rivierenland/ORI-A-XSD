@@ -247,7 +247,7 @@
                     <xs:documentation>Actuele link naar een online raadpleeglocatie waar de vergadering in zijn geheel wordt getoond, zoals de publicatieomgeving van een e-depot of raadsinformatiesysteem.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="status" type="status" minOccurs="0" maxOccurs="1">
+            <xs:element name="status" type="vergaderingStatus" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De status van de vergadering.</xs:documentation>
                 </xs:annotation>
@@ -1053,7 +1053,7 @@
             <xs:enumeration value="Onthouden"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="status">
+    <xs:simpleType name="vergaderingStatus">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Gepland"/>
             <xs:enumeration value="Gehouden"/>
