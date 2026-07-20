@@ -247,17 +247,10 @@
                     <xs:documentation>Actuele link naar een online raadpleeglocatie waar de vergadering in zijn geheel wordt getoond, zoals de publicatieomgeving van een e-depot of raadsinformatiesysteem.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="status" minOccurs="0" maxOccurs="1">
+            <xs:element name="status" type="status" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De status van de vergadering.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Gepland"/>
-                        <xs:enumeration value="Gehouden"/>
-                        <xs:enumeration value="Geannuleerd"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="overheidsorgaan" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -512,29 +505,15 @@
                     <xs:documentation>Uniek identificatiekenmerk van de stemming.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="type" minOccurs="0" maxOccurs="1">
+            <xs:element name="type" type="stemmingstype" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De wijze waarop gestemd is.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Hoofdelijk"/>
-                        <xs:enumeration value="Regulier"/>
-                        <xs:enumeration value="Schriftelijk"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
-            <xs:element name="resultaatMondelingeStemming" minOccurs="0" maxOccurs="1">
+            <xs:element name="resultaatMondelingeStemming" type="resultaatMondelingeStemming" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het resultaat van een mondelinge stemming.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voor"/>
-                        <xs:enumeration value="Tegen"/>
-                        <xs:enumeration value="Gelijk"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="resultaatStemmingOverPersonen" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -593,20 +572,10 @@
                     <xs:documentation>Uniek identificatiekenmerk van het besluit.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="resultaat" minOccurs="1" maxOccurs="1">
+            <xs:element name="resultaat" type="besluitResultaat" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Het resultaat van het besluit.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Unaniem aangenomen"/>
-                        <xs:enumeration value="Aangenomen"/>
-                        <xs:enumeration value="Geamendeerd aangenomen"/>
-                        <xs:enumeration value="Onder voorbehoud aangenomen"/>
-                        <xs:enumeration value="Verworpen"/>
-                        <xs:enumeration value="Aangehouden"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="toelichting" type="xs:string" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -720,18 +689,10 @@
                     <xs:documentation>Gegevens over de naam van de persoon, zoals diens voor- en achternaam.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="geslachtsaanduiding" minOccurs="0" maxOccurs="1">
+            <xs:element name="geslachtsaanduiding" type="geslachtsaanduiding" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geslachtsaanduiding van de persoon.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Man"/>
-                        <xs:enumeration value="Vrouw"/>
-                        <xs:enumeration value="Anders"/>
-                        <xs:enumeration value="Onbekend"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="functie" type="begripGegevens" minOccurs="0" maxOccurs="1">
                 <xs:annotation>
@@ -928,17 +889,10 @@
                     <xs:documentation>Uniek identificatiekenmerk van het stemresultaat per fractie.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="fractieStemresultaat" minOccurs="1" maxOccurs="1">
+            <xs:element name="fractieStemresultaat" type="fractieStemresultaat" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>Geeft aan hoe de fractie als geheel tegenover een stemming stond.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Aangenomen"/>
-                        <xs:enumeration value="Verworpen"/>
-                        <xs:enumeration value="Verdeeld"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="verwijzingStemming" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -1022,18 +976,10 @@
                     <xs:documentation>Uniek identificatiekenmerk van de stem.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="keuzeStemming" minOccurs="1" maxOccurs="1">
+            <xs:element name="keuzeStemming" type="keuzeStemming" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
                     <xs:documentation>De keuze op de stemming.</xs:documentation>
                 </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Voor"/>
-                        <xs:enumeration value="Tegen"/>
-                        <xs:enumeration value="Afwezig"/>
-                        <xs:enumeration value="Onthouden"/>
-                    </xs:restriction>
-                </xs:simpleType>
             </xs:element>
             <xs:element name="gegevenOpStemming" type="verwijzingGegevens" minOccurs="1" maxOccurs="1">
                 <xs:annotation>
@@ -1060,4 +1006,58 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
+    <xs:simpleType name="stemmingstype">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Hoofdelijk"/>
+            <xs:enumeration value="Regulier"/>
+            <xs:enumeration value="Schriftelijk"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="resultaatMondelingeStemming">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Voor"/>
+            <xs:enumeration value="Tegen"/>
+            <xs:enumeration value="Gelijk"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="besluitResultaat">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Unaniem aangenomen"/>
+            <xs:enumeration value="Aangenomen"/>
+            <xs:enumeration value="Geamendeerd aangenomen"/>
+            <xs:enumeration value="Onder voorbehoud aangenomen"/>
+            <xs:enumeration value="Verworpen"/>
+            <xs:enumeration value="Aangehouden"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="geslachtsaanduiding">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Man"/>
+            <xs:enumeration value="Vrouw"/>
+            <xs:enumeration value="Anders"/>
+            <xs:enumeration value="Onbekend"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="fractieStemresultaat">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Aangenomen"/>
+            <xs:enumeration value="Verworpen"/>
+            <xs:enumeration value="Verdeeld"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="keuzeStemming">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Voor"/>
+            <xs:enumeration value="Tegen"/>
+            <xs:enumeration value="Afwezig"/>
+            <xs:enumeration value="Onthouden"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="status">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Gepland"/>
+            <xs:enumeration value="Gehouden"/>
+            <xs:enumeration value="Geannuleerd"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
